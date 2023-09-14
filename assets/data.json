@@ -1,0 +1,4948 @@
+[
+  {
+    "aid": 363004766,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 49
+        },
+        {
+          "minutes": 1,
+          "seconds": 31
+        },
+        {
+          "minutes": 2,
+          "seconds": 4
+        },
+        {
+          "minutes": 2,
+          "seconds": 40
+        },
+        {
+          "minutes": 3,
+          "seconds": 15
+        },
+        {
+          "minutes": 3,
+          "seconds": 56
+        },
+        {
+          "minutes": 4,
+          "seconds": 20
+        }
+      ],
+      "introduces": [
+        "Lightning CSS｜CSS 解析转换打包压缩工具",
+        "SQLedge｜基于 PostgreSQL 逻辑复制的边缘计算数据库",
+        "Compress｜将打字工作量减少一半的工具",
+        "n8n｜开源工作流自动化工具",
+        "dataherald｜结构化数据查询引擎",
+        "在 Excel 中使用 Python",
+        "Meta 发布了 Code Llama",
+        "OpenAI 开放 GPT-3.5 Turbo 模型微调功能"
+      ],
+      "links": [
+        "https://lightningcss.dev/",
+        "https://github.com/zknill/sqledge",
+        "https://github.com/eschluntz/compress",
+        "https://n8n.io/",
+        "https://github.com/Dataherald/dataherald",
+        "https://www.theverge.com/2023/8/22/23841167/microsoft-excel-python-integration-support",
+        "https://about.fb.com/news/2023/08/code-llama-ai-for-coding/",
+        "https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates"
+      ]
+    },
+    "cover": 667,
+    "bid": "BV1o94y1471e"
+  },
+  {
+    "aid": 574943888,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 32
+        },
+        {
+          "minutes": 1,
+          "seconds": 5
+        },
+        {
+          "minutes": 1,
+          "seconds": 34
+        },
+        {
+          "minutes": 2,
+          "seconds": 0
+        },
+        {
+          "minutes": 2,
+          "seconds": 33
+        }
+      ],
+      "introduces": [
+        "LottieLab｜ 协同 Lottie 动画创作工具",
+        "servicer｜ 轻量级 systemd 服务管理工具",
+        "gRPCurl｜和 gRPC 服务器进行交互的 CLI 工具",
+        "Opendream｜像使用 Photoshop 一样使用 Diffusion AI",
+        "Retake｜PostgreSQL 向量数据库解决方案",
+        "Logto｜Auth0 的开源替代品"
+      ],
+      "links": [
+        "https://www.lottielab.com/",
+        "https://servicer.dev/",
+        "https://github.com/fullstorydev/grpcurl",
+        "https://github.com/varunshenoy/opendream",
+        "https://www.getretake.com/",
+        "https://github.com/logto-io/logto"
+      ]
+    },
+    "cover": 665,
+    "bid": "BV1Tz4y1u7VR"
+  },
+  {
+    "aid": 957239753,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 10
+        },
+        {
+          "minutes": 0,
+          "seconds": 58
+        },
+        {
+          "minutes": 1,
+          "seconds": 28
+        },
+        {
+          "minutes": 2,
+          "seconds": 10
+        },
+        {
+          "minutes": 2,
+          "seconds": 48
+        },
+        {
+          "minutes": 3,
+          "seconds": 23
+        },
+        {
+          "minutes": 4,
+          "seconds": 3
+        }
+      ],
+      "introduces": [
+        "deno_python｜Deno 中调用 Python 模块",
+        "Postgres Language Server｜为 Postgres 数据库提供语言服务协议支持",
+        "Pigsty｜开源 RDS 替代方案",
+        "Applite｜ Mac 应用管理工具",
+        "Dioxus｜Rust 编写的跨平台 GUI 框架",
+        "katana｜ Go 编写的内容抓取框架",
+        "缅怀 Vim 之父"
+      ],
+      "links": [
+        "https://github.com/denosaurs/deno_python",
+        "https://github.com/supabase/postgres_lsp",
+        "https://github.com/Vonng/pigsty",
+        "https://github.com/milanvarady/applite",
+        "https://github.com/DioxusLabs/dioxus",
+        "https://github.com/projectdiscovery/katana",
+        ""
+      ]
+    },
+    "cover": 664,
+    "bid": "BV1hp4y1g7mh"
+  },
+  {
+    "aid": 999399370,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 37
+        },
+        {
+          "minutes": 1,
+          "seconds": 22
+        },
+        {
+          "minutes": 1,
+          "seconds": 44
+        },
+        {
+          "minutes": 2,
+          "seconds": 13
+        },
+        {
+          "minutes": 2,
+          "seconds": 54
+        }
+      ],
+      "introduces": [
+        "Bloomberg 开源高性能消息队列 BlazingMQ",
+        "开源列式数据库 Hydra 发布 1.0 版本",
+        "PythonMonkey｜实现 Python 与 JavaScript 的互操作性",
+        "gonew｜Go 语言新工具",
+        "一篇介绍内存泄漏的文章",
+        "一周 AI 小结"
+      ],
+      "links": [
+        "?",
+        "?",
+        "?",
+        "?",
+        "?",
+        "?"
+      ]
+    },
+    "cover": 662.1,
+    "bid": "BV1m44y1w7DU"
+  },
+  {
+    "aid": 446594335,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 36
+        },
+        {
+          "minutes": 1,
+          "seconds": 6
+        },
+        {
+          "minutes": 1,
+          "seconds": 40
+        },
+        {
+          "minutes": 2,
+          "seconds": 10
+        },
+        {
+          "minutes": 2,
+          "seconds": 38
+        }
+      ],
+      "introduces": [
+        "Vegeta｜ HTTP API 性能测试工具",
+        "PgCat｜PostgreSQL 连接池管理器",
+        "Hono｜面向边缘场景设计的 Web 框架",
+        "Risor｜用于 Go 项目的的嵌入式脚本语言",
+        "Croner｜基于 JavaScript 编写的定时编排工具",
+        "一周 AI 小结"
+      ],
+      "links": [
+        "https://github.com/tsenart/vegeta",
+        "https://github.com/postgresml/pgcat",
+        "https://hono.dev/",
+        "https://risor.io/",
+        "https://github.com/Hexagon/croner",
+        [
+          "https://stability.ai/blog/stable-diffusion-sdxl-1-announcement",
+          "https://stability.ai/blog/stable-beluga-large-instruction-fine-tuned-models",
+          "https://github.com/continuedev/continue",
+          "https://the-decoder.com/ai-researcher-geoffrey-hinton-thinks-ai-has-or-will-have-emotions"
+        ]
+      ]
+    },
+    "cover": 662,
+    "bid": "BV1bj41197vF"
+  },
+  {
+    "aid": 956331314,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 35
+        },
+        {
+          "minutes": 0,
+          "seconds": 56
+        },
+        {
+          "minutes": 1,
+          "seconds": 23
+        },
+        {
+          "minutes": 1,
+          "seconds": 54
+        },
+        {
+          "minutes": 2,
+          "seconds": 26
+        }
+      ],
+      "introduces": [
+        "TUI Grid｜ 一个功能强大的数据表格库",
+        "Eruda｜浏览器调试工具模拟器",
+        "Docuseal｜电子签名 DocuSign 的开源替代品",
+        "Wordpress 发布 Wordpress Playground",
+        "OrioleDB｜ 新的 PostgreSQL 存储引擎",
+        "一周 AI 小结"
+      ],
+      "links": [
+        "https://ui.toast.com/tui-grid",
+        "https://github.com/liriliri/eruda",
+        "https://github.com/docusealco/docuseal",
+        "https://wordpress.github.io/wordpress-playground/",
+        "https://www.orioledata.com/blog/no-more-vacuum-in-postgresql/",
+        [
+          "https://ai.meta.com/llama/",
+          "https://openai.com/blog/custom-instructions-for-chatgpt",
+          "https://arxiv.org/pdf/2307.09009.pdf",
+          "https://microsoft.github.io/TypeChat/blog/introducing-typechat/"
+        ]
+      ]
+    },
+    "cover": 661,
+    "bid": "BV1Rp4y1V7UT"
+  },
+  {
+    "aid": 913407064,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 33
+        },
+        {
+          "minutes": 0,
+          "seconds": 59
+        },
+        {
+          "minutes": 1,
+          "seconds": 23
+        },
+        {
+          "minutes": 1,
+          "seconds": 45
+        },
+        {
+          "minutes": 2,
+          "seconds": 12
+        }
+      ],
+      "introduces": [
+        "Vizzu｜开源的数据可视化动画库",
+        "Workout｜开源健身小程序",
+        "Immich｜基于 Flutter 的在线相册应用",
+        "OpenCost｜K8s 成本测量工具",
+        "Digger｜Terraform Cloud 的开源替代品",
+        "一周 AI 小结"
+      ],
+      "links": [
+        [
+          "https://lib.vizzuhq.com/",
+          "https://lib.vizzuhq.com/latest/showcases/"
+        ],
+        "https://workout.lol/",
+        "https://github.com/immich-app/immich",
+        "https://www.opencost.io/",
+        "https://digger.dev/",
+        [
+          "https://www.anthropic.com/index/claude-2",
+          "https://stability.ai/blog/clipdrop-launches-stable-doodle",
+          "https://www.foxbusiness.com/technology/google-ceo-sounds-alarm-ai-deepfake-videos-can-cause-lot-harm",
+          "https://www.wired.co.uk/article/mission-impossible-dead-reckoning-ai-villain",
+          "https://x.ai/"
+        ]
+      ]
+    },
+    "cover": 660,
+    "bid": "BV1bM4y1x78f"
+  },
+  {
+    "aid": 573242140,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 10
+        },
+        {
+          "minutes": 0,
+          "seconds": 34
+        },
+        {
+          "minutes": 1,
+          "seconds": 6
+        },
+        {
+          "minutes": 1,
+          "seconds": 32
+        },
+        {
+          "minutes": 2,
+          "seconds": 0
+        },
+        {
+          "minutes": 2,
+          "seconds": 11
+        }
+      ],
+      "introduces": [
+        "Watermill｜Go 的事件驱动开发框架",
+        "BlockSuite｜通用协同编辑器",
+        "Columnar｜高性能列式存储引擎",
+        "Kine｜使用 SQL 数据库运行 k8s",
+        "基于 Three.js 的 3D 解密小游戏",
+        "一周 AI 小结"
+      ],
+      "links": [
+        "https://github.com/ThreeDotsLabs/watermill",
+        "https://blocksuite.affine.pro/",
+        "https://github.com/kelindar/column",
+        "https://github.com/k3s-io/kine",
+        "https://www.thomasfriday.com/cuboid/",
+        [
+          "https://twitter.com/OpenAI/status/1677029947544838144",
+          "https://twitter.com/OpenAI/status/1676072388436594688",
+          "https://twitter.com/openai/status/1677015057316872192",
+          "https://wccftech.com/inflection-ai-develops-supercomputer-equipped-with-22000-nvidia-h100-ai-gpus",
+          "https://github.com/AntonOsika/gpt-engineer"
+        ]
+      ]
+    },
+    "cover": 659,
+    "bid": "BV13z4y1J73N"
+  },
+  {
+    "aid": 912910501,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 49
+        },
+        {
+          "minutes": 1,
+          "seconds": 32
+        },
+        {
+          "minutes": 2,
+          "seconds": 5
+        },
+        {
+          "minutes": 2,
+          "seconds": 29
+        },
+        {
+          "minutes": 2,
+          "seconds": 47
+        }
+      ],
+      "introduces": [
+        "Tabserve｜ 一个反向代理工具",
+        "ReadySet｜轻量级数据库缓存",
+        "Refine｜更好的 React 开发框架",
+        "1-Panel｜开源 Linux 服务器运维管理面板",
+        "在 Go 程序中实现插件系统",
+        "本周 AI 小结"
+      ],
+      "links": [
+        "https://tabserve.dev/",
+        "https://github.com/readysettech/readyset",
+        "https://github.com/refinedev/refine",
+        "https://github.com/1Panel-dev/1Panel",
+        "https://www.youtube.com/watch?v=pRT36VqpljA",
+        [
+          "https://about.sourcegraph.com/cody",
+          "https://github.com/ChaoningZhang/MobileSAM",
+          "https://github.com/imgly/background-removal-js"
+        ]
+      ]
+    },
+    "cover": 658,
+    "bid": "BV1eM4y1772Y"
+  },
+  {
+    "aid": 402729235,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 10
+        },
+        {
+          "minutes": 0,
+          "seconds": 37
+        },
+        {
+          "minutes": 1,
+          "seconds": 6
+        },
+        {
+          "minutes": 1,
+          "seconds": 24
+        },
+        {
+          "minutes": 1,
+          "seconds": 49
+        },
+        {
+          "minutes": 2,
+          "seconds": 11
+        }
+      ],
+      "introduces": [
+        "DevPod｜开源 codespaces 替代品",
+        "Sketch Systems｜UI 原型工具创新",
+        "GoAWK｜Go 的 AWK 语言解释器",
+        "Selecto.js｜一个区域选择的 UI 组件",
+        "Svelte 发布了 v4 版本",
+        "本周 AI 小结"
+      ],
+      "links": [
+        "https://devpod.sh/",
+        "https://sketch.systems/",
+        "https://benhoyt.com/writings/goawk/",
+        [
+          "https://daybrush.com/selecto/",
+          "https://github.com/daybrush"
+        ],
+        "https://svelte.dev/blog/svelte-4",
+        [
+          "https://vercel.com/blog/introducing-the-vercel-ai-sdk",
+          "https://github.com/steven-tey/novel",
+          "https://github.com/bentoml/OpenLLM"
+        ]
+      ]
+    },
+    "cover": 657,
+    "bid": "BV19V411u7dP"
+  },
+  {
+    "aid": 487482397,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 10
+        },
+        {
+          "minutes": 0,
+          "seconds": 43
+        },
+        {
+          "minutes": 1,
+          "seconds": 14
+        },
+        {
+          "minutes": 1,
+          "seconds": 34
+        },
+        {
+          "minutes": 2,
+          "seconds": 3
+        },
+        {
+          "minutes": 2,
+          "seconds": 24
+        }
+      ],
+      "introduces": [
+        "OpenObserve｜轻量级可观测性工具",
+        "Arroyo｜云原生流处理引擎",
+        "Kera｜基于 Web 的桌面端扩展框架",
+        "SeaweedFS｜分布式文件系统",
+        "codespelunker｜命令行代码搜索工具",
+        "本周 AI 小结"
+      ],
+      "links": [
+        "https://github.com/openobserve/openobserve",
+        "https://www.arroyo.dev/",
+        "https://desktop.kerahq.com/",
+        "https://github.com/seaweedfs/seaweedfs",
+        "https://github.com/boyter/cs",
+        [
+          "https://github.com/ggerganov/llama.cpp/pull/1827",
+          "https://techcrunch.com/2023/06/12/meta-open-sources-an-ai-powered-music-generator",
+          "https://github.com/baichuan-inc/baichuan-7B",
+          "https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier"
+        ]
+      ]
+    },
+    "cover": 656,
+    "bid": "BV13N411r7eS"
+  },
+  {
+    "aid": 402219859,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 39
+        },
+        {
+          "minutes": 1,
+          "seconds": 0
+        },
+        {
+          "minutes": 1,
+          "seconds": 33
+        },
+        {
+          "minutes": 1,
+          "seconds": 56
+        },
+        {
+          "minutes": 2,
+          "seconds": 12
+        }
+      ],
+      "introduces": [
+        "Mercury｜Jupyter notebook 快速变为 web app",
+        "Autocomplete｜Algolia 开源前端 UI 组件",
+        "polywasm｜前 Figma CTO、esbuild 发起者开源的新研究项目",
+        "Dufs｜ 一个轻量级文件服务器",
+        "Apple 发布头显设备 Apple Vision Pro",
+        "一周 AI 小结"
+      ],
+      "links": [
+        "https://runmercury.com/",
+        "https://github.com/algolia/autocomplete",
+        "https://github.com/evanw/polywasm",
+        "https://github.com/sigoden/dufs",
+        "https://www.apple.com/newsroom/2023/06/introducing-apple-vision-pro",
+        [
+          "https://platform.openai.com/docs/guides/gpt-best-practices/strategy-provide-reference-text",
+          "https://www.deepmind.com/blog/alphadev-discovers-faster-sorting-algorithms",
+          "https://supabase.com/vector",
+          "https://maketafi.com/ai"
+        ]
+      ]
+    },
+    "cover": 655,
+    "bid": "BV1Wo4y1N7ZP"
+  },
+  {
+    "aid": 741985027,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 42
+        },
+        {
+          "minutes": 1,
+          "seconds": 16
+        },
+        {
+          "minutes": 1,
+          "seconds": 49
+        },
+        {
+          "minutes": 2,
+          "seconds": 23
+        },
+        {
+          "minutes": 2,
+          "seconds": 42
+        }
+      ],
+      "introduces": [
+        "Lance｜面向机器学习设计的列式数据结构",
+        "Trogan｜Textualize 社区的新项目",
+        "Plane｜ 开源 Jira 替代品",
+        "CSS Pro｜CSS 编辑解决方案",
+        "Logicboard｜ 一个在线编程工具",
+        "AI 小结"
+      ],
+      "links": [
+        "https://github.com/lancedb/lance",
+        "https://github.com/Textualize/trogon",
+        "https://github.com/makeplane/plane",
+        "https://csspro.com/",
+        [
+          "https://logicboard.com/demo",
+          "https://logicboard.com/demo/:replay"
+        ],
+        [
+          "https://www.tii.ae/news/uaes-falcon-40b-now-royalty-free",
+          "https://technomancers.ai/japan-goes-all-in-copyright-doesnt-apply-to-ai-training",
+          "https://www.theverge.com/2023/5/30/23742123/nvidia-stock-ai-gpu-1-trillion-market-cap-price-value",
+          "https://www.opera.com/zh-cn/one"
+        ]
+      ]
+    },
+    "cover": 654,
+    "bid": "BV1Mk4y1p7Jg"
+  },
+  {
+    "aid": 741704043,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 41
+        },
+        {
+          "minutes": 1,
+          "seconds": 4
+        },
+        {
+          "minutes": 1,
+          "seconds": 34
+        },
+        {
+          "minutes": 2,
+          "seconds": 2
+        },
+        {
+          "minutes": 2,
+          "seconds": 23
+        }
+      ],
+      "introduces": [
+        "DeviceScript｜微软开源 IoT 设备开发框架",
+        "ls-lint｜基于 Go 的文件目录与文件名 lint 工具",
+        "DB-GPT｜SQLChat 的开源替代品",
+        "progress｜查看 Linux 命令执行进度",
+        "Paypal 开源数据库 JunoDB 并发表介绍博客",
+        "本周 AI 小结"
+      ],
+      "links": [
+        "https://microsoft.github.io/devicescript/",
+        "https://github.com/loeffel-io/ls-lint",
+        "https://github.com/csunny/DB-GPT",
+        "https://github.com/Xfennec/progress ",
+        "https://medium.com/paypal-tech/unlocking-the-power-of-junodb-paypals-key-value-store-goes-open-source-ee85f935bdc1",
+        [
+          "https://github.com/paypal/junodb",
+          "https://twitter.com/rowancheung/status/1661356887651020802"
+        ]
+      ]
+    },
+    "cover": 653,
+    "bid": "BV1ek4y1W7eg"
+  },
+  {
+    "aid": 953920150,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 42
+        },
+        {
+          "minutes": 1,
+          "seconds": 13
+        },
+        {
+          "minutes": 1,
+          "seconds": 33
+        },
+        {
+          "minutes": 2,
+          "seconds": 11
+        },
+        {
+          "minutes": 2,
+          "seconds": 43
+        }
+      ],
+      "introduces": [
+        "Windmill｜低代码 + serverless = ?",
+        "Supabase 为文档/集成与 ChatGPT 类似的问答搜索体验",
+        "Bytebase 发布了 2.0 版本",
+        "Bun /本周发布新版本 v0.6",
+        "pprof｜WebAssembly 性能分析工具",
+        "AI 一周概述"
+      ],
+      "links": [
+        "https://github.com/windmill-labs/windmill",
+        "https://supabase.com/blog/openai-embeddings-postgres-vector",
+        "https://www.bytebase.com/blog/bytebase-2-0/",
+        "https://bun.sh/blog/bun-bundler",
+        "https://blog.stealthrocket.tech/performance-in-the-spotlight-webassembly-profiling-for-everyone/",
+        "https://twitter.com/rowancheung/status/1659650892071616512"
+      ]
+    },
+    "cover": 652,
+    "bid": "BV1Js4y1u7J3"
+  },
+  {
+    "aid": 826197972,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 49
+        },
+        {
+          "minutes": 1,
+          "seconds": 24
+        },
+        {
+          "minutes": 1,
+          "seconds": 58
+        },
+        {
+          "minutes": 2,
+          "seconds": 25
+        },
+        {
+          "minutes": 2,
+          "seconds": 50
+        }
+      ],
+      "introduces": [
+        "Claude｜支持十万 token 的 AI 对话模型",
+        "Dolt｜包含版本控制功能的 SQL 数据库",
+        "Qdrant｜基于 Rust 的向量数据库",
+        "Syncthing｜文件持续同步工具",
+        "Fir｜ 为 Go 开发者设计的 Web UI 开发框架",
+        "Tamagui｜React Native 优化编译器"
+      ],
+      "links": [
+        "https://www.anthropic.com/index/100k-context-windows",
+        "https://www.dolthub.com/blog/2023-05-05-dolt-1-dot-0/",
+        [
+          "https://github.com/qdrant/qdrant",
+          "https://www.pinecone.io/learn/vector-database"
+        ],
+        "https://github.com/syncthing/syncthing",
+        "https://livefir.fly.dev/",
+        "https://tamagui.dev/blog/version-one"
+      ]
+    },
+    "cover": 651,
+    "bid": "BV1Wg4y1V7GJ"
+  },
+  {
+    "aid": 783301696,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 51
+        },
+        {
+          "minutes": 1,
+          "seconds": 15
+        },
+        {
+          "minutes": 1,
+          "seconds": 52
+        },
+        {
+          "minutes": 2,
+          "seconds": 39
+        },
+        {
+          "minutes": 3,
+          "seconds": 7
+        }
+      ],
+      "introduces": [
+        "Mojo｜面向 AI 的编程语言",
+        "Replit 发布大语言模型 replit-code-v1-3b",
+        "Fakespot｜Mozilla 收购新动向",
+        "lagon｜基于 V8 的开源 serverless 平台",
+        "Qwik 发布 v1.0 版本",
+        "Frogmouth｜开源命令行 Markdown 浏览器"
+      ],
+      "links": [
+        "https://www.modular.com/mojo",
+        [
+          "https://www.latent.space/p/reza-shabani#details",
+          "https://huggingface.co/spaces/replit/replit-code-v1-3b-demo"
+        ],
+        "https://www.fakespot.com/",
+        "https://lagon.app/",
+        "https://www.builder.io/blog/qwik-v1",
+        "https://github.com/Textualize/frogmouth"
+      ]
+    },
+    "cover": 650,
+    "bid": "BV1x24y1T7Tf"
+  },
+  {
+    "aid": 313106255,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 44
+        },
+        {
+          "minutes": 1,
+          "seconds": 10
+        },
+        {
+          "minutes": 1,
+          "seconds": 48
+        },
+        {
+          "minutes": 2,
+          "seconds": 13
+        },
+        {
+          "minutes": 2,
+          "seconds": 46
+        }
+      ],
+      "introduces": [
+        "Encore｜端到端后端开发平台",
+        "Databerry｜无代码训练自己的 ChatGPT 机器人",
+        "Babylon.JS 6.0 发布超强物理引擎",
+        "Linen｜将 Slack 和 Discord 对话转换为 Web 页",
+        "Bullet Train｜为 SaaS 开发者提供开箱即用开发框架",
+        "一篇关于 PostgreSQL 的博客"
+      ],
+      "links": [
+        "https://encore.dev/",
+        "https://www.databerry.ai/",
+        "https://babylonjs.medium.com/announcing-babylon-js-6-0-dcb5f1662e3a",
+        "https://www.linen.dev/",
+        "https://bullettrain.co/",
+        "https://philbooth.me/blog/nine-ways-to-shoot-yourself-in-the-foot-with-postgresql"
+      ]
+    },
+    "cover": 649,
+    "bid": "BV16P41127ZY"
+  },
+  {
+    "aid": 825312999,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 36
+        },
+        {
+          "minutes": 1,
+          "seconds": 9
+        },
+        {
+          "minutes": 1,
+          "seconds": 33
+        },
+        {
+          "minutes": 2,
+          "seconds": 2
+        },
+        {
+          "minutes": 2,
+          "seconds": 34
+        }
+      ],
+      "introduces": [
+        "Evidence｜轻量灵活的 BI 工具",
+        "Uptrace｜ 一个开源的 APM 服务",
+        "Supavisor｜高性能数据库连接池",
+        "Edge Runtime｜开源函数服务框架",
+        "SQL Chat｜AI 数据库查询工具",
+        "一篇介绍负载均衡基本概念和实现方法的博客"
+      ],
+      "links": [
+        "https://evidence.dev/",
+        "https://github.com/uptrace/uptrace",
+        "https://github.com/supabase/supavisor",
+        "https://supabase.com/blog/edge-runtime-self-hosted-deno-functions",
+        "https://www.sqlchat.ai/",
+        "https://samwho.dev/load-balancing"
+      ]
+    },
+    "cover": 648,
+    "bid": "BV1Rg4y1j7rZ"
+  },
+  {
+    "aid": 227523967,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 10
+        },
+        {
+          "minutes": 0,
+          "seconds": 38
+        },
+        {
+          "minutes": 1,
+          "seconds": 5
+        },
+        {
+          "minutes": 1,
+          "seconds": 27
+        },
+        {
+          "minutes": 2,
+          "seconds": 2
+        },
+        {
+          "minutes": 2,
+          "seconds": 26
+        }
+      ],
+      "introduces": [
+        "Phind｜面向开发者的 AI 搜索引擎",
+        "Sniffnet｜跨平台网络监测工具",
+        "Code Hike｜交互式代码文档",
+        "Auto-GPT｜ 让 AI 产出提示语",
+        "FUTUREPEDIA｜ AI 工具目录",
+        "有趣的人体键盘"
+      ],
+      "links": [
+        "https://www.phind.com/",
+        "https://github.com/GyulyVGC/sniffnet",
+        "https://github.com/code-hike/codehike",
+        "https://github.com/Significant-Gravitas/Auto-GPT",
+        "https://www.futurepedia.io/",
+        "https://github.com/everythingishacked/Semaphore"
+      ]
+    },
+    "cover": 647,
+    "bid": "BV1vh411u78w"
+  },
+  {
+    "aid": 484672088,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 10
+        },
+        {
+          "minutes": 0,
+          "seconds": 41
+        },
+        {
+          "minutes": 1,
+          "seconds": 6
+        },
+        {
+          "minutes": 1,
+          "seconds": 38
+        },
+        {
+          "minutes": 2,
+          "seconds": 0
+        },
+        {
+          "minutes": 2,
+          "seconds": 23
+        }
+      ],
+      "introduces": [
+        "Meta 发布图像识别新模型",
+        "Twitter 开源推荐算法",
+        "Arroyo｜Rust 编写流式计算引擎",
+        "openplayground｜Github CEO 发起的 AI playground 项目",
+        "Quadratic｜一个有创意的数据工具",
+        "Midjourney 与 Adobe Firefly 对比引发对版权关注"
+      ],
+      "links": [
+        "https://github.com/facebookresearch/segment-anything",
+        "https://blog.twitter.com/engineering/en_us/topics/open-source/2023/twitter-recommendation-algorithm",
+        "https://github.com/ArroyoSystems/arroyo",
+        "https://github.com/nat/openplayground",
+        "https://www.quadratichq.com/",
+        "https://twitter.com/DrJimFan/status/1642921475849203712"
+      ]
+    },
+    "cover": 646,
+    "bid": "BV1hT411x7Mi"
+  },
+  {
+    "aid": 354428596,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 39
+        },
+        {
+          "minutes": 1,
+          "seconds": 9
+        },
+        {
+          "minutes": 1,
+          "seconds": 37
+        },
+        {
+          "minutes": 2,
+          "seconds": 8
+        },
+        {
+          "minutes": 2,
+          "seconds": 29
+        }
+      ],
+      "introduces": [
+        "Cursor｜在编辑器中和 AI 结对编程",
+        "SwissTable｜高性能 Go 哈希表",
+        "Sidekick｜训练自己的数据 AI 模型",
+        "Convoy｜聚焦 Webhook Gateway 的服务端中间件",
+        "Notesnook｜专注于隐私和易用性的笔记软件",
+        "React 团队介绍 React Lab 研究进展"
+      ],
+      "links": [
+        "https://github.com/getcursor/cursor",
+        "https://www.dolthub.com/blog/2023-03-28-swiss-map/",
+        "https://www.getsidekick.ai/",
+        "https://getconvoy.io/",
+        "https://github.com/streetwriters/notesnook",
+        "https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023"
+      ]
+    },
+    "cover": 645,
+    "bid": "BV1fX4y1r7CW"
+  },
+  {
+    "aid": 866597183,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 43
+        },
+        {
+          "minutes": 1,
+          "seconds": 12
+        },
+        {
+          "minutes": 1,
+          "seconds": 34
+        },
+        {
+          "minutes": 1,
+          "seconds": 59
+        },
+        {
+          "minutes": 2,
+          "seconds": 22
+        }
+      ],
+      "introduces": [
+        "ChatGPT 发布插件能力",
+        "Adobe 推出 AI 创意工具",
+        "DataPane｜数据科学家和分析师的平台",
+        "pg_activity｜交互式命令行工具",
+        "PlayWright 推出新的 UI 模式",
+        "Typst｜功能强大使用便捷的排版系统"
+      ],
+      "links": [
+        "https://openai.com/blog/chatgpt-plugins",
+        "https://www.adobe.com/sensei/generative-ai/firefly.html",
+        "https://datapane.com/",
+        "https://github.com/dalibo/pg_activity",
+        "https://github.com/microsoft/playwright/releases/tag/v1.32.0",
+        "https://github.com/typst/typst"
+      ]
+    },
+    "cover": 644,
+    "bid": "BV1fV4y1X7x5"
+  },
+  {
+    "aid": 611243164,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 43
+        },
+        {
+          "minutes": 1,
+          "seconds": 9
+        },
+        {
+          "minutes": 1,
+          "seconds": 35
+        },
+        {
+          "minutes": 1,
+          "seconds": 55
+        },
+        {
+          "minutes": 2,
+          "seconds": 16
+        },
+        {
+          "minutes": 2,
+          "seconds": 41
+        },
+        {
+          "minutes": 2,
+          "seconds": 57
+        }
+      ],
+      "introduces": [
+        "GPT-4 发布",
+        "Transformer.js｜在浏览器中运行 Transformer 模型",
+        "FlameScope｜Netflix 开源的性能可视化分析工具",
+        "Miller｜命令行重度使用者的瑞士军刀",
+        "Scale｜Wasm 跨语言运行时",
+        "代码编辑器 Zed 进入 Beta 阶段",
+        "tremor｜开发概览类视图的 React UI 库",
+        "React 新官网上线"
+      ],
+      "links": [
+        "https://openai.com/research/gpt-4",
+        "https://xenova.github.io/transformers.js/",
+        [
+          "https://github.com/Netflix/flamescope",
+          "https://blog.felixge.de/flamescope-for-go/"
+        ],
+        "https://github.com/johnkerl/miller",
+        "https://scale.sh/",
+        "https://zed.dev/",
+        "https://www.tremor.so/",
+        "https://react.dev/"
+      ]
+    },
+    "cover": 643,
+    "bid": "BV1p84y1w7n6"
+  },
+  {
+    "aid": 568373000,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 10
+        },
+        {
+          "minutes": 0,
+          "seconds": 31
+        },
+        {
+          "minutes": 0,
+          "seconds": 57
+        },
+        {
+          "minutes": 1,
+          "seconds": 20
+        },
+        {
+          "minutes": 1,
+          "seconds": 36
+        },
+        {
+          "minutes": 1,
+          "seconds": 55
+        }
+      ],
+      "introduces": [
+        "FormKit｜Vue 全功能表单框架",
+        "PgTyped｜从 SQL 语句中推断 Typescript 类型",
+        "Flux｜软件定义键盘",
+        "lightdash｜轻量级的 BI 工具",
+        "OpenDAL｜开源通用数据接入层",
+        "ZincSearch｜ElasticSearch 的轻量级替代品"
+      ],
+      "links": [
+        "https://formkit.com/",
+        "https://github.com/adelsz/pgtyped",
+        "https://fluxkeyboard.com/",
+        "https://github.com/lightdash/lightdash",
+        "https://github.com/datafuselabs/opendal",
+        "https://github.com/zinclabs/zincsearch"
+      ]
+    },
+    "cover": 642,
+    "bid": "BV1mv4y1j7WB"
+  },
+  {
+    "aid": 525565712,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 10
+        },
+        {
+          "minutes": 0,
+          "seconds": 44
+        },
+        {
+          "minutes": 1,
+          "seconds": 16
+        },
+        {
+          "minutes": 1,
+          "seconds": 38
+        },
+        {
+          "minutes": 2,
+          "seconds": 4
+        },
+        {
+          "minutes": 2,
+          "seconds": 24
+        }
+      ],
+      "introduces": [
+        "Google 发布新编程框架 Service Weaver",
+        "Remult｜快速 CRUD 框架",
+        "Typescript 发布 5.0 候选版本",
+        "ChatGPT 官方 API 出炉",
+        "Mathesar｜ 开源 Postgres 数据库 GUI 管理工具",
+        "Unfolder｜将3D 模型生成折纸零件图纸的工具"
+      ],
+      "links": [
+        "https://opensource.googleblog.com/2023/03/introducing-service-weaver-framework-for-writing-distributed-applications.html",
+        "https://github.com/remult/remult",
+        "https://devblogs.microsoft.com/typescript/announcing-typescript-5-0-rc/",
+        "https://openai.com/blog/introducing-chatgpt-and-whisper-apis",
+        "https://github.com/centerofci/mathesar",
+        "https://www.unfolder.app/"
+      ]
+    },
+    "cover": 641,
+    "bid": "BV1xM41147Te"
+  },
+  {
+    "aid": 652536608,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 10
+        },
+        {
+          "minutes": 0,
+          "seconds": 40
+        },
+        {
+          "minutes": 1,
+          "seconds": 1
+        },
+        {
+          "minutes": 1,
+          "seconds": 23
+        },
+        {
+          "minutes": 1,
+          "seconds": 43
+        },
+        {
+          "minutes": 2,
+          "seconds": 10
+        }
+      ],
+      "introduces": [
+        "Noya｜新一代设计工具",
+        "Highlight｜开源 Web 应用监控方案",
+        "Faro｜ Grafana 开源的 Web 前端可观测性工具",
+        "Laudspeaker｜开源的客户旅程自动化平台",
+        "Infinite Storage Glitch｜将视频网站变为免费网盘",
+        "AI Commits｜自动生成 commit message 工具"
+      ],
+      "links": [
+        "https://www.noya.io/",
+        "https://www.highlight.io/",
+        "https://grafana.com/oss/faro/",
+        "https://laudspeaker.com/",
+        "https://github.com/DvorakDwarf/Infinite-Storage-Glitch",
+        "https://github.com/Nutlope/aicommits"
+      ]
+    },
+    "cover": 640,
+    "bid": "BV1pY4y127Bx"
+  },
+  {
+    "aid": 609553518,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 31
+        },
+        {
+          "minutes": 0,
+          "seconds": 51
+        },
+        {
+          "minutes": 1,
+          "seconds": 12
+        },
+        {
+          "minutes": 1,
+          "seconds": 35
+        },
+        {
+          "minutes": 2,
+          "seconds": 4
+        }
+      ],
+      "introduces": [
+        "Alist｜一个开源的文件管理程序",
+        "Helm Dashboard｜可视化应用管理工具",
+        "Rerun｜ 记录计算机视觉执行过程的 SDK",
+        "Sloth｜ Mac GUI 应用",
+        "Bright ｜代码片段展示工具",
+        "著名作者讲解 xxxxxxx工作原理"
+      ],
+      "links": [
+        "https://alist.nn.ci/",
+        "https://github.com/komodorio/helm-dashboard",
+        "https://www.rerun.io/",
+        "https://github.com/sveinbjornt/Sloth",
+        "https://bright.codehike.org/",
+        "https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/"
+      ]
+    },
+    "cover": 639,
+    "bid": "BV1y84y1n7gH"
+  },
+  {
+    "aid": 651723868,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 32
+        },
+        {
+          "minutes": 0,
+          "seconds": 53
+        },
+        {
+          "minutes": 1,
+          "seconds": 14
+        },
+        {
+          "minutes": 1,
+          "seconds": 32
+        },
+        {
+          "minutes": 1,
+          "seconds": 52
+        },
+        {
+          "minutes": 2,
+          "seconds": 13
+        },
+        {
+          "minutes": 2,
+          "seconds": 37
+        }
+      ],
+      "introduces": [
+        "Nango｜开箱即用 OAuth 解决方案",
+        "yq｜多种文件格式解析器",
+        "PhotoPrism｜一款照片管理程序",
+        "grep app｜ 一个代码搜索平台",
+        "enrolla｜开源 feature flag 管理平台",
+        "Notion 风格的富文本编辑器",
+        "Universal Summarizer｜搜索引擎 Kagi 推出新技术",
+        "React.JS 纪录片"
+      ],
+      "links": [
+        "https://www.nango.dev/",
+        "https://github.com/mikefarah/yq",
+        "https://www.photoprism.app/",
+        "https://grep.app/",
+        "https://www.enrolla.io/",
+        "https://github.com/YousefED/BlockNote",
+        "https://labs.kagi.com/ai/sum",
+        "https://www.youtube.com/watch?v=8pDqJVdNa44"
+      ]
+    },
+    "cover": 638,
+    "bid": "BV1Ge4y1w7EA"
+  },
+  {
+    "aid": 393866597,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 41
+        },
+        {
+          "minutes": 1,
+          "seconds": 13
+        },
+        {
+          "minutes": 1,
+          "seconds": 52
+        },
+        {
+          "minutes": 2,
+          "seconds": 7
+        },
+        {
+          "minutes": 2,
+          "seconds": 31
+        }
+      ],
+      "introduces": [
+        "CRDT 协同算法库 Automerge 发布 2.0 版本",
+        "Carbonyl｜终端中运行浏览器",
+        "Netlify 收购 Gatsby",
+        "Same Energy｜视觉搜索引擎",
+        "DIY 空气质量检测仪",
+        "Hashicorp 开源文档管理系统 Hermes"
+      ],
+      "links": [
+        "https://automerge.org/blog/automerge-2",
+        "https://fathy.fr/carbonyl",
+        "https://www.netlify.com/press/netlify-acquires-gatsby-inc-to-accelerate-adoption-of-composable-web-architectures/#main",
+        "https://same.energy/search?i=xmCt",
+        "https://www.airgradient.com/open-airgradient/instructions/diy-pro-v37/",
+        "https://www.hashicorp.com/blog/introducing-hermes-an-open-source-document-management-system"
+      ]
+    },
+    "cover": 637,
+    "bid": "BV1ed4y1n7cF"
+  },
+  {
+    "aid": 223440610,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 10
+        },
+        {
+          "minutes": 0,
+          "seconds": 49
+        },
+        {
+          "minutes": 1,
+          "seconds": 18
+        },
+        {
+          "minutes": 1,
+          "seconds": 51
+        },
+        {
+          "minutes": 2,
+          "seconds": 22
+        },
+        {
+          "minutes": 3,
+          "seconds": 2
+        }
+      ],
+      "introduces": [
+        "一组可复用的 UI 组件",
+        "WebTTY｜基于 WebRTC 分享终端会话",
+        "bob｜面向微服务场景的打包工具",
+        "Automatisch｜自动化工作流工具",
+        "libSQL 博客介绍通过网络访问 SQLite",
+        "轻松一刻时间：小游戏 Summer Afternoon"
+      ],
+      "links": [
+        "https://github.com/shadcn/ui",
+        "https://github.com/maxmcd/webtty",
+        "https://bob.build/",
+        "https://automatisch.io/",
+        "https://blog.chiselstrike.com/sqlite-based-databases-on-the-postgres-protocol-yes-we-can-358e61171d65",
+        "https://summer-afternoon.vlucendo.com/"
+      ]
+    },
+    "cover": 636,
+    "bid": "BV1Y8411371f"
+  },
+  {
+    "aid": 693361650,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 43
+        },
+        {
+          "minutes": 1,
+          "seconds": 20
+        },
+        {
+          "minutes": 1,
+          "seconds": 42
+        },
+        {
+          "minutes": 2,
+          "seconds": 10
+        },
+        {
+          "minutes": 2,
+          "seconds": 36
+        },
+        {
+          "minutes": 2,
+          "seconds": 53
+        }
+      ],
+      "introduces": [
+        "Temporal｜持久化工作流平台",
+        "AirByte｜数据 ETL 工具",
+        "Rough Notation｜",
+        "barba.js｜页面间动效库",
+        "Vento｜可纠错的录屏工具",
+        "Cal.com｜日程管理工具",
+        "2小时开发 GPT 模型"
+      ],
+      "links": [
+        "https://temporal.io/",
+        "https://airbyte.com/",
+        "https://roughnotation.com/",
+        "https://barba.js.org/",
+        "https://vento.so/",
+        "https://cal.com/",
+        "https://www.youtube.com/watch?v=kCc8FmEb1nY"
+      ]
+    },
+    "cover": 635,
+    "bid": "BV1C24y1r7yJ"
+  },
+  {
+    "aid": 607779129,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 10
+        },
+        {
+          "minutes": 0,
+          "seconds": 43
+        },
+        {
+          "minutes": 1,
+          "seconds": 13
+        },
+        {
+          "minutes": 1,
+          "seconds": 37
+        },
+        {
+          "minutes": 2,
+          "seconds": 8
+        },
+        {
+          "minutes": 2,
+          "seconds": 33
+        }
+      ],
+      "introduces": [
+        "val.town｜简单有趣的 serverless 平台",
+        "CDC File Transfer｜ Google 开源文件同步工具",
+        "just｜ 使用 Rust 开发的命令行工具",
+        "Rath｜自动化数据探索工具",
+        "pinggy｜将本地的服务对公网提供访问工具",
+        "State of JS 发布年度开发者问卷结果"
+      ],
+      "links": [
+        "https://www.val.town/",
+        "https://github.com/google/cdc-file-transfer",
+        "https://github.com/casey/just",
+        [
+          "https://github.com/Kanaries/rath",
+          "https://github.com/Kanaries/graphic-walker"
+        ],
+        "https://pinggy.io/",
+        "https://2022.stateofjs.com/"
+      ]
+    },
+    "cover": 634,
+    "bid": "BV1784y1h7eq"
+  },
+  {
+    "aid": 392417581,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 51
+        },
+        {
+          "minutes": 1,
+          "seconds": 25
+        },
+        {
+          "minutes": 1,
+          "seconds": 52
+        },
+        {
+          "minutes": 2,
+          "seconds": 48
+        },
+        {
+          "minutes": 3,
+          "seconds": 29
+        }
+      ],
+      "introduces": [
+        "clickhouse 发布数据分析工具 clickhouse-local",
+        "ov｜ 一个通用终端分页器",
+        "Vim online editor｜使用 WebAssembly 运行 Vim",
+        "使用 HTTP/3 连接 MySQL",
+        "polars｜ 高性能 Rust DataFrame 库",
+        "uiverse｜UI 组件库"
+      ],
+      "links": [
+        "https://clickhouse.com/blog/extracting-converting-querying-local-files-with-sql-clickhouse-local",
+        "https://github.com/noborus/ov",
+        "https://www.vimonlineeditor.com/",
+        "https://planetscale.com/blog/faster-mysql-with-http3",
+        "https://github.com/pola-rs/polars",
+        "https://uiverse.io/"
+      ]
+    },
+    "cover": 633,
+    "bid": "BV1ad4y1E7SC"
+  },
+  {
+    "aid": 522059106,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 11
+        },
+        {
+          "minutes": 0,
+          "seconds": 40
+        },
+        {
+          "minutes": 1,
+          "seconds": 13
+        },
+        {
+          "minutes": 1,
+          "seconds": 41
+        },
+        {
+          "minutes": 2,
+          "seconds": 9
+        },
+        {
+          "minutes": 2,
+          "seconds": 29
+        }
+      ],
+      "introduces": [
+        "APITable｜新开源的 Airtable 替代品",
+        "CDN Up and Running｜从零学习开发 CDN",
+        "Comprehensive Rust｜Google 内部 Rust 教程",
+        "OSV-Scanner｜查找代码依赖中的安全漏洞",
+        "Hubble｜Github star 管理工具",
+        "一篇 serverless 数据库对比的博客"
+      ],
+      "links": [
+        "https://github.com/apitable/apitable",
+        "https://github.com/leandromoreira/cdn-up-and-running",
+        "https://github.com/google/comprehensive-rust",
+        "https://github.com/google/osv-scanner",
+        "https://hubble.monsterx.xyz/",
+        "https://fauna.com/blog/comparison-of-serverless-databases"
+      ]
+    },
+    "cover": 632.1,
+    "bid": "BV1pM411y72o"
+  },
+  {
+    "aid": 776719511,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 11
+        },
+        {
+          "minutes": 0,
+          "seconds": 35
+        },
+        {
+          "minutes": 0,
+          "seconds": 59
+        },
+        {
+          "minutes": 1,
+          "seconds": 23
+        },
+        {
+          "minutes": 1,
+          "seconds": 56
+        },
+        {
+          "minutes": 2,
+          "seconds": 21
+        }
+      ],
+      "introduces": [
+        "Obsidian Canvas 发布",
+        "Jitsi｜开源免费的视频会议服务",
+        "Infisical ｜安全地传递密钥等隐私数据的工具",
+        "一周末复刻赛伯朋克中的语音识别",
+        "Winglang ｜面向云计算的开发语言",
+        "一篇文章介绍如何在 1 毫秒内搜索37 GB 文本的文章"
+      ],
+      "links": [
+        "https://obsidian.md/canvas",
+        "https://jitsi.org/",
+        "https://github.com/Infisical/infisical",
+        "https://github.com/elanmart/cbp-translate",
+        "https://www.winglang.io/",
+        "https://death.andgravity.com/pwned"
+      ]
+    },
+    "cover": 632,
+    "bid": "BV1z14y1P7uC"
+  },
+  {
+    "aid": 306398153,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 11
+        },
+        {
+          "minutes": 0,
+          "seconds": 38
+        },
+        {
+          "minutes": 0,
+          "seconds": 58
+        },
+        {
+          "minutes": 1,
+          "seconds": 16
+        },
+        {
+          "minutes": 1,
+          "seconds": 39
+        },
+        {
+          "minutes": 2,
+          "seconds": 4
+        },
+        {
+          "minutes": 2,
+          "seconds": 24
+        }
+      ],
+      "introduces": [
+        "Codon｜高性能 Python 编译器",
+        "CLI Exercises｜Linux 文本处理技巧",
+        "关于 ChatGPT 是如何工作的讨论和解读",
+        "Reader｜集多种信息源于一体的阅读工具",
+        "在命令行中渲染 Markdown",
+        "一篇关于Query Planner 工作方式的博客",
+        "类似 Wordle 的中文字谜小游戏"
+      ],
+      "links": [
+        "https://github.com/exaloop/codon",
+        "https://github.com/learnbyexample/TUI-apps/tree/main/CLI-Exercises",
+        [
+          "https://news.ycombinator.com/item?id=33939805",
+          "https://openai.com/blog/chatgpt/"
+        ],
+        "https://readwise.io/read",
+        "https://github.com/charmbracelet/glow",
+        "https://planetscale.com/blog/what-is-a-query-planner",
+        "https://hanzi.gg/"
+      ]
+    },
+    "cover": 631,
+    "bid": "BV1wA411R72Y"
+  },
+  {
+    "aid": 563747625,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 41
+        },
+        {
+          "minutes": 1,
+          "seconds": 2
+        },
+        {
+          "minutes": 1,
+          "seconds": 28
+        },
+        {
+          "minutes": 1,
+          "seconds": 57
+        },
+        {
+          "minutes": 2,
+          "seconds": 31
+        }
+      ],
+      "introduces": [
+        "Pynecone｜Python 全栈 Web 开发方案",
+        "daedalOS｜浏览器中运行桌面环境",
+        "Uptime Kuma｜轻量级网站监控方案",
+        "Codux｜可视化 React 组件 IDE",
+        "Vite 发布 4.0 大版本",
+        "Blockbench｜创建 low-poly 视觉风格的3D 模型编辑器"
+      ],
+      "links": [
+        "https://github.com/pynecone-io/pynecone",
+        "https://github.com/DustinBrett/daedalOS",
+        "https://github.com/louislam/uptime-kuma",
+        "https://www.codux.com/",
+        "https://vitejs.dev/blog/announcing-vite4.html",
+        "https://github.com/JannisX11/blockbench"
+      ]
+    },
+    "cover": 630,
+    "bid": "BV1Gv4y197md"
+  },
+  {
+    "aid": 903386514,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 39
+        },
+        {
+          "minutes": 1,
+          "seconds": 3
+        },
+        {
+          "minutes": 1,
+          "seconds": 28
+        },
+        {
+          "minutes": 1,
+          "seconds": 50
+        },
+        {
+          "minutes": 2,
+          "seconds": 9
+        },
+        {
+          "minutes": 2,
+          "seconds": 25
+        }
+      ],
+      "introduces": [
+        "OpenAI 开放 ChatGPT 模型",
+        "Google 推出安全编程语言 Rune",
+        "Kubeshark｜k8s 流量观测工具",
+        "cheat.sh｜技术小抄集合",
+        "go-coffeeshop｜GO 的微服务示例",
+        "NLP 在线课程",
+        "《Sql for Devs》｜数据库详解电子书"
+      ],
+      "links": [
+        "https://openai.com/blog/chatgpt/",
+        "https://github.com/google/rune",
+        "https://github.com/kubeshark/kubeshark",
+        "https://github.com/chubin/cheat.sh",
+        "https://github.com/thangchung/go-coffeeshop",
+        "https://www.nlpdemystified.org/",
+        "https://sqlfordevs.com/ebook"
+      ]
+    },
+    "cover": 629.1,
+    "bid": "BV1tP4y1Q7Vt"
+  },
+  {
+    "aid": 690620840,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 27
+        },
+        {
+          "minutes": 0,
+          "seconds": 51
+        },
+        {
+          "minutes": 1,
+          "seconds": 10
+        },
+        {
+          "minutes": 1,
+          "seconds": 39
+        },
+        {
+          "minutes": 1,
+          "seconds": 58
+        },
+        {
+          "minutes": 2,
+          "seconds": 20
+        }
+      ],
+      "introduces": [
+        "Script Kit｜面向开发者的自动化工具，",
+        "D2｜开源声明式绘图语言",
+        "Superset｜开源数据可视化平台",
+        "Stable Diffusion 发布2.0版本",
+        "蚂蚁 UI 组件库 Ant Design 发布 V5 版本",
+        "《命令行的艺术》项目",
+        "Diátaxis｜帮助创作技术文档的写作框架"
+      ],
+      "links": [
+        "https://www.scriptkit.com/",
+        "https://d2lang.com/",
+        "https://superset.apache.org/",
+        "https://stability.ai/blog/stable-diffusion-v2-release",
+        "https://github.com/ant-design/ant-design/issues/38671",
+        "https://github.com/jlevy/the-art-of-command-line",
+        "https://diataxis.fr/"
+      ]
+    },
+    "cover": 629,
+    "bid": "BV1Z24y1C793"
+  },
+  {
+    "aid": 902826595,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 10
+        },
+        {
+          "minutes": 0,
+          "seconds": 39
+        },
+        {
+          "minutes": 1,
+          "seconds": 3
+        },
+        {
+          "minutes": 1,
+          "seconds": 28
+        },
+        {
+          "minutes": 2,
+          "seconds": 1
+        },
+        {
+          "minutes": 2,
+          "seconds": 25
+        }
+      ],
+      "introduces": [
+        "Redpanda｜与 Kafka PAI 兼容的流式数据平台",
+        "Autocut｜通过字幕剪切视频的工具",
+        "Sapling｜Meta 大规模代码管理方案",
+        "Greptime｜分布式时序数据库",
+        "COZO｜事务型关系嵌入式数据库",
+        "Mathics｜Mathematica 开源替代品"
+      ],
+      "links": [
+        "https://redpanda.com/",
+        "https://github.com/mli/autocut",
+        "https://engineering.fb.com/2022/11/15/open-source/sapling-source-control-scalable",
+        "https://github.com/GreptimeTeam/greptimedb",
+        "https://github.com/cozodb/cozo",
+        "https://mathics.org/"
+      ]
+    },
+    "cover": 628.1,
+    "bid": "BV1oP4y197dF"
+  },
+  {
+    "aid": 262544844,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 35
+        },
+        {
+          "minutes": 0,
+          "seconds": 55
+        },
+        {
+          "minutes": 1,
+          "seconds": 22
+        },
+        {
+          "minutes": 1,
+          "seconds": 45
+        },
+        {
+          "minutes": 2,
+          "seconds": 8
+        },
+        {
+          "minutes": 2,
+          "seconds": 30
+        }
+      ],
+      "introduces": [
+        "Github Next｜ GitHub 下一代功能",
+        "podman desktop｜可视化容器与 K8s 管理工具",
+        "Docker 支持 Webassembly",
+        "Rome 发布第一个稳定版本 Rome v10",
+        "Blessed｜Rust 教程",
+        "Pickcode｜新式代码教学工具",
+        ".Net 发布了新版本 .Net7"
+      ],
+      "links": [
+        "https://blocks.githubnext.com/",
+        "https://podman-desktop.io/",
+        "https://www.docker.com/blog/docker-wasm-technical-preview/",
+        "https://rome.tools/blog/2022/11/08/rome-10/",
+        "https://blessed.rs/crates",
+        "https://app.pickcode.io/course/hoc-ad-libs-chatbot",
+        "https://devblogs.microsoft.com/dotnet/announcing-dotnet-7/"
+      ]
+    },
+    "cover": 628,
+    "bid": "BV1oY411Z7mU"
+  },
+  {
+    "aid": 774867810,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 38
+        },
+        {
+          "minutes": 0,
+          "seconds": 56
+        },
+        {
+          "minutes": 1,
+          "seconds": 35
+        },
+        {
+          "minutes": 1,
+          "seconds": 56
+        },
+        {
+          "minutes": 2,
+          "seconds": 14
+        },
+        {
+          "minutes": 2,
+          "seconds": 41
+        }
+      ],
+      "introduces": [
+        "phlare｜GrafanaLabs推出持续性能分析平台Phlare",
+        "PostgreSQL提供图查询能力插件ApacheAGE",
+        "JC｜命令结果转JSON工具JC",
+        "shell中history命令全新实现(多设备共享历史命令)",
+        "ffmpeg｜过滤器图形化工具",
+        "turbopack速度10倍于vite?尤雨溪发文反击",
+        "Heroku免费替代品"
+      ],
+      "links": [
+        "https://github.com/grafana/phlare",
+        "https://age.apache.org/",
+        "https://github.com/kellyjonbrazil/jc",
+        "https://github.com/ddworken/hishtory",
+        "https://ffmpeg.guide/",
+        "https://github.com/yyx990803/vite-vs-next-turbo-hmr/discussions/8",
+        "https://github.com/Engagespot/heroku-free-alternatives"
+      ]
+    },
+    "cover": 627,
+    "bid": "BV1u14y157NA"
+  },
+  {
+    "aid": 732078145,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 50
+        },
+        {
+          "minutes": 1,
+          "seconds": 4
+        },
+        {
+          "minutes": 1,
+          "seconds": 30
+        },
+        {
+          "minutes": 1,
+          "seconds": 51
+        },
+        {
+          "minutes": 2,
+          "seconds": 7
+        },
+        {
+          "minutes": 2,
+          "seconds": 33
+        }
+      ],
+      "introduces": [
+        "Vercel 推出 webpack 替代品",
+        "Python 发布新版本",
+        "轻量级搜索引擎 Sonic",
+        "Answer｜SegmentFault 开源的知识类库",
+        "openvim｜ 交互式的 Vim 教程",
+        "Bolt.css｜ HTML 的样式表",
+        "Starter Tab｜自定义主页工具"
+      ],
+      "links": [
+        "https://vercel.com/blog/turbopack",
+        "https://discuss.python.org/t/python-3-11-0-final-is-now-available/20291",
+        "https://github.com/valeriansaliou/sonic",
+        "https://answer.dev/",
+        "https://www.openvim.com/",
+        "https://boltcss.com/",
+        "https://startertab.com/"
+      ]
+    },
+    "cover": 626,
+    "bid": "BV1DD4y1b76j"
+  },
+  {
+    "aid": 816812753,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 41
+        },
+        {
+          "minutes": 1,
+          "seconds": 15
+        },
+        {
+          "minutes": 1,
+          "seconds": 54
+        },
+        {
+          "minutes": 2,
+          "seconds": 30
+        },
+        {
+          "minutes": 2,
+          "seconds": 56
+        },
+        {
+          "minutes": 3,
+          "seconds": 27
+        }
+      ],
+      "introduces": [
+        "Tabby｜用 web 开发的现代化终端",
+        "用 Github Page 部署 SQLite 数据库",
+        "stlite｜Streamlit 的 serverless 版本",
+        "TypeRunner｜ 高性能 TypeScript 编译器",
+        "Linen｜ Slack 替代品",
+        "Replit Mobile App｜ 手机编程 App",
+        "Koala 频道观众贡献的2个 Hacker News 周报检索项目"
+      ],
+      "links": [
+        "https://github.com/Eugeny/tabby",
+        "https://phiresky.github.io/blog/2021/hosting-sqlite-databases-on-github-pages/",
+        "https://edit.share.stlite.net/",
+        "https://github.com/marcj/TypeRunner",
+        "https://github.com/Linen-dev/linen.dev",
+        "https://blog.replit.com/mobile-app",
+        [
+          "https://github.com/ZutJoe/Koala_hacker_news",
+          "https://tmmap.lipanpanx.com/public/others/Koala%E8%81%8A%E5%BC%80%E6%BA%90.html",
+          "https://mmap.lipanpanx.com/public/others/Koala%E8%81%8A%E5%BC%80%E6%BA%90.html"
+        ]
+      ]
+    },
+    "cover": 625,
+    "bid": "BV14G4y1H7VM"
+  },
+  {
+    "aid": 261620356,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 10
+        },
+        {
+          "minutes": 0,
+          "seconds": 28
+        },
+        {
+          "minutes": 0,
+          "seconds": 47
+        },
+        {
+          "minutes": 1,
+          "seconds": 10
+        },
+        {
+          "minutes": 1,
+          "seconds": 37
+        },
+        {
+          "minutes": 1,
+          "seconds": 54
+        },
+        {
+          "minutes": 2,
+          "seconds": 18
+        }
+      ],
+      "introduces": [
+        "Obsidian 发布 1.0",
+        "NocoDB｜ Airtable 开源替代品",
+        "通过代码编辑视频",
+        "Satori｜ 从 HTML 生成 SVG",
+        "aerc｜在命令行中编辑视频与收发邮件",
+        "Fleet｜Jet Brains 新一代 IDE",
+        "Go 语言设计讨论"
+      ],
+      "links": [
+        "https://obsidian.md/1.0",
+        "https://github.com/nocodb/nocodb",
+        "https://github.com/mifi",
+        "https://github.com/vercel/satori",
+        "https://aerc-mail.org/",
+        "https://www.jetbrains.com/fleet/",
+        "https://github.com/golang/go/discussions/56010"
+      ]
+    },
+    "cover": 624,
+    "bid": "BV1Ae411V7UR"
+  },
+  {
+    "aid": 346450481,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 31
+        },
+        {
+          "minutes": 0,
+          "seconds": 54
+        },
+        {
+          "minutes": 1,
+          "seconds": 16
+        },
+        {
+          "minutes": 1,
+          "seconds": 50
+        },
+        {
+          "minutes": 2,
+          "seconds": 6
+        },
+        {
+          "minutes": 2,
+          "seconds": 38
+        }
+      ],
+      "introduces": [
+        "sharing｜将电脑中的文件通过二维码分享给手机",
+        "Steampipe｜ 浏览云服务资产的交互式命令行工具",
+        "Horizon UI｜ 基于 Chakra UI 的管理后台模版",
+        "Postgres WASM｜ 开源 WASM 运行 PostgresSQL 方案",
+        "v86｜ 通过 WebAssembly 运行 x86 兼容的虚拟机",
+        "libSQL｜ SQLite 下游版本",
+        "TypeScript  10 years anniversary"
+      ],
+      "links": [
+        "https://github.com/parvardegr/sharing",
+        "https://steampipe.io/",
+        "https://horizon-ui.com/",
+        "https://supabase.com/blog/postgres-wasm",
+        "https://github.com/copy/v86",
+        [
+          "https://github.com/libsql/libsql",
+          "https://itnext.io/sqlite-qemu-all-over-again-aedad19c9a1c"
+        ],
+        "https://devblogs.microsoft.com/typescript/ten-years-of-typescript/"
+      ]
+    },
+    "cover": 623,
+    "bid": "BV1GR4y1R7Yw"
+  },
+  {
+    "aid": 388741659,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 35
+        },
+        {
+          "minutes": 0,
+          "seconds": 58
+        },
+        {
+          "minutes": 1,
+          "seconds": 33
+        },
+        {
+          "minutes": 2,
+          "seconds": 2
+        },
+        {
+          "minutes": 2,
+          "seconds": 16
+        },
+        {
+          "minutes": 2,
+          "seconds": 31
+        }
+      ],
+      "introduces": [
+        "SigNoz｜开源的 APM 系统",
+        "Wails｜使用 Go 和 Web 技术开发桌面端应用",
+        "CloudFlare 开源 serverless 运行时 workerd",
+        "Qwik｜builder.io 开源的前端框架",
+        "pdfgrep｜命令行搜索工具",
+        "Liqe｜轻量级搜索引擎",
+        "Google 计划关停云游戏服务 Stadia"
+      ],
+      "links": [
+        "https://github.com/SigNoz/signoz",
+        "https://wails.io/",
+        "https://github.com/cloudflare/workerd",
+        "https://qwik.builder.io/",
+        "https://pdfgrep.org/",
+        "https://github.com/gajus/liqe",
+        "https://www.theverge.com/2022/9/29/23378713/google-stadia-shutting-down-game-streaming-january-2023"
+      ]
+    },
+    "cover": 622,
+    "bid": "BV1td4y1B7Y1"
+  },
+  {
+    "aid": 558499331,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 35
+        },
+        {
+          "minutes": 0,
+          "seconds": 58
+        },
+        {
+          "minutes": 1,
+          "seconds": 17
+        },
+        {
+          "minutes": 1,
+          "seconds": 33
+        },
+        {
+          "minutes": 1,
+          "seconds": 55
+        },
+        {
+          "minutes": 2,
+          "seconds": 15
+        },
+        {
+          "minutes": 2,
+          "seconds": 51
+        }
+      ],
+      "introduces": [
+        "GitUI｜Git 终端 UI",
+        "Dub｜开源短链接服务",
+        "WunderBase｜ serverless GraphQL 数据库",
+        "Rocketry｜现代化的 Python 调度框架",
+        "KREA｜AI 作画图库",
+        "Whisper｜ OpenAI 开源的语音识别系统",
+        "fly.io 开源新项目 LiteFS",
+        "Azure CTO Mark Russinovich 发推引发热议"
+      ],
+      "links": [
+        "https://github.com/extrawurst/gitui",
+        "https://dub.sh/",
+        "https://github.com/wundergraph/wunderbase",
+        "https://github.com/Miksus/rocketry",
+        "https://www.krea.ai/",
+        "https://openai.com/blog/whisper",
+        "https://fly.io/blog/introducing-litefs",
+        "https://twitter.com/markrussinovich/status/1571995117233504257"
+      ]
+    },
+    "cover": 621,
+    "bid": "BV1Je4y1r7B4"
+  },
+  {
+    "aid": 303210611,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 31
+        },
+        {
+          "minutes": 0,
+          "seconds": 46
+        },
+        {
+          "minutes": 1,
+          "seconds": 8
+        },
+        {
+          "minutes": 1,
+          "seconds": 25
+        },
+        {
+          "minutes": 1,
+          "seconds": 37
+        },
+        {
+          "minutes": 1,
+          "seconds": 59
+        },
+        {
+          "minutes": 2,
+          "seconds": 14
+        }
+      ],
+      "introduces": [
+        "Figma 被收购引发在线设计工具新动向",
+        "penpot｜开源设计工具因 Figma 变热",
+        "Theatre.js｜开源在线动效编辑器",
+        "Markdoc｜交互式 Markdown",
+        "Meta 将 PyTorch 捐赠给 Linux 基金会",
+        "Meta 发布了网页内存泄漏检测工具 MemLab",
+        "SafeQL｜ 校验 SQL 的 ESLint 插件",
+        "Diffusion Bee｜在 M1 Mac 上运行 Stable Diffusion 的桌面端应用"
+      ],
+      "links": [
+        "https://www.bloomberg.com/news/articles/2022-09-15/adobe-is-said-to-near-deal-to-buy-online-design-startup-figma",
+        "https://penpot.app/",
+        "https://www.theatrejs.com/",
+        "https://markdoc.dev/",
+        "https://www.linuxfoundation.org/blog/blog/welcoming-pytorch-to-the-linux-foundation",
+        "https://engineering.fb.com/2022/09/12/open-source/memlab/",
+        "https://safeql.dev/",
+        "https://github.com/divamgupta/diffusionbee-stable-diffusion-ui"
+      ]
+    },
+    "cover": 620,
+    "bid": "BV1QP411H7rM"
+  },
+  {
+    "aid": 560499744,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 11
+        },
+        {
+          "minutes": 0,
+          "seconds": 46
+        },
+        {
+          "minutes": 1,
+          "seconds": 12
+        },
+        {
+          "minutes": 1,
+          "seconds": 36
+        },
+        {
+          "minutes": 2,
+          "seconds": 3
+        },
+        {
+          "minutes": 2,
+          "seconds": 24
+        },
+        {
+          "minutes": 2,
+          "seconds": 37
+        }
+      ],
+      "introduces": [
+        "Difftastic｜结构化 diff 工具",
+        "ruff｜百倍快的 Python linter",
+        "DataEase｜数据可视化分析工具",
+        "MATHLIVE｜展示和编辑数学公式的 Web Component",
+        "VSCheatsheet｜VS Code 快捷键合集",
+        "Modern for Hacker News｜ 美化 Hacker News 界面的浏览器插件",
+        "signals｜PREACT 状态管理新方案"
+      ],
+      "links": [
+        "https://www.wilfred.me.uk/blog/2022/09/06/difftastic-the-fantastic-diff/",
+        "https://github.com/charliermarsh/ruff",
+        "https://github.com/dataease/dataease",
+        "https://cortexjs.io/mathlive",
+        "https://www.vscheatsheet.com/",
+        "https://www.modernhn.com/",
+        "https://preactjs.com/blog/introducing-signals/"
+      ]
+    },
+    "cover": 619,
+    "bid": "BV1Pe4y187LV"
+  },
+  {
+    "aid": 260156898,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 38
+        },
+        {
+          "minutes": 0,
+          "seconds": 52
+        },
+        {
+          "minutes": 1,
+          "seconds": 20
+        },
+        {
+          "minutes": 1,
+          "seconds": 42
+        },
+        {
+          "minutes": 2,
+          "seconds": 2
+        },
+        {
+          "minutes": 2,
+          "seconds": 37
+        },
+        {
+          "minutes": 3,
+          "seconds": 1
+        }
+      ],
+      "introduces": [
+        "Devbox｜快速启动隔离开发环境",
+        "绘图语言 D2",
+        "YAO｜开发应用引擎",
+        "JSON Crack｜JSON 可视化工具",
+        "Motionity｜动效编辑器",
+        "mvSQLite｜分布式 SQLite",
+        "Heroku 即将停止免费额度",
+        "GitHub 开发者关系副总裁回复移除 Trending"
+      ],
+      "links": [
+        "https://github.com/jetpack-io/devbox",
+        "https://d2-lang.com/tour/intro",
+        "https://yaoapps.com/",
+        "https://jsoncrack.com/",
+        "https://github.com/alyssaxuu/motionity",
+        "https://univalence.me/posts/mvsqlite",
+        "https://dev.to/lorenzojkrl/bye-bye-heroku-2npi",
+        "https://github.com/community/community/discussions/31644"
+      ]
+    },
+    "cover": 618,
+    "bid": "BV19e411g7qe"
+  },
+  {
+    "aid": 217441979,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 38
+        },
+        {
+          "minutes": 0,
+          "seconds": 59
+        },
+        {
+          "minutes": 1,
+          "seconds": 24
+        },
+        {
+          "minutes": 1,
+          "seconds": 43
+        },
+        {
+          "minutes": 2,
+          "seconds": 4
+        },
+        {
+          "minutes": 2,
+          "seconds": 26
+        }
+      ],
+      "introduces": [
+        "｜野心勃勃的数据库 SurrealDB",
+        "Stable Diffusion｜开源的 AI 图片生成模型",
+        "react-design-editor｜ Canva 的开源替代品",
+        "Weylus｜将触屏设备变为触摸板",
+        "eInk-VNC｜将 VMC 输出到墨水屏",
+        "SQLite 并发读取性能详解",
+        "80 岁计算机科学家仍在优化开源代码"
+      ],
+      "links": [
+        "https://surrealdb.com/",
+        "https://github.com/CompVis/stable-diffusion",
+        "https://github.com/layerhub-io/react-design-editor",
+        "https://github.com/H-M-H/Weylus",
+        "https://zmarshall.nl/static/eink-vnc.html",
+        "https://fly.io/blog/sqlite-internals-wal",
+        "https://news.ycombinator.com/item?id=32534173"
+      ]
+    },
+    "cover": 617,
+    "bid": "BV1qa411G7kd"
+  },
+  {
+    "aid": 514731265,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 10
+        },
+        {
+          "minutes": 0,
+          "seconds": 34
+        },
+        {
+          "minutes": 0,
+          "seconds": 57
+        },
+        {
+          "minutes": 1,
+          "seconds": 22
+        },
+        {
+          "minutes": 1,
+          "seconds": 33
+        },
+        {
+          "minutes": 1,
+          "seconds": 53
+        }
+      ],
+      "introduces": [
+        "Numpad ｜一个新式文本编辑器",
+        "Erg｜与 Python 兼容的静态类型语言",
+        "分布式文件系统 JuiceFS",
+        "JiraCLI｜ 对 Jira 的命令行客户端",
+        "Crunchy Data｜在浏览器中运行 Postgres",
+        "JSON5 作者的一篇博客"
+      ],
+      "links": [
+        "https://numpad.io/",
+        "https://github.com/erg-lang/erg",
+        "https://github.com/juicedata/juicefs",
+        "https://github.com/ankitpokhrel/jira-cli",
+        "https://www.crunchydata.com/blog/learn-postgres-at-the-playground",
+        "https://aseemk.substack.com/p/ignore-the-f-ing-haters-json5"
+      ]
+    },
+    "cover": 616.1,
+    "bid": "BV1bg411r7Fg"
+  },
+  {
+    "aid": 601882126,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 34
+        },
+        {
+          "minutes": 1,
+          "seconds": 4
+        },
+        {
+          "minutes": 1,
+          "seconds": 28
+        },
+        {
+          "minutes": 1,
+          "seconds": 54
+        },
+        {
+          "minutes": 2,
+          "seconds": 21
+        }
+      ],
+      "introduces": [
+        "远程开发方案 Coder",
+        "高性能 virtual DOM",
+        "Astro 发布了 1.0 版本",
+        "Multy｜ 基于 Terraform 的跨云部署框架",
+        "Rancher 创始团队运营新开源产品 Acorn",
+        "一篇介绍 Redis 技术细节的文章"
+      ],
+      "links": [
+        "https://coder.com/",
+        "https://millionjs.org/",
+        "https://astro.build/blog/astro-1/",
+        "https://github.com/multycloud/multy",
+        "https://acorn.io/",
+        "https://architecturenotes.co/redis/"
+      ]
+    },
+    "cover": 616,
+    "bid": "BV1UB4y1t7cW"
+  },
+  {
+    "aid": 899145721,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 8
+        },
+        {
+          "minutes": 0,
+          "seconds": 35
+        },
+        {
+          "minutes": 0,
+          "seconds": 52
+        },
+        {
+          "minutes": 1,
+          "seconds": 8
+        },
+        {
+          "minutes": 1,
+          "seconds": 24
+        },
+        {
+          "minutes": 1,
+          "seconds": 50
+        }
+      ],
+      "introduces": [
+        "开源知识库软件能否替代 Notion",
+        "Copilot 开源替代品",
+        "逆向工程工具箱",
+        "Emery｜效率工具",
+        "一篇介绍 eBPF 技术的文章",
+        "用 DALL·E 2 生成 logo 图片的分享文章"
+      ],
+      "links": [
+        "https://github.com/toeverything/AFFiNE",
+        "https://github.com/moyix/fauxpilot",
+        "https://github.com/WerWolv/ImHex",
+        "https://emery.to/",
+        "https://www.groundcover.com/blog/what-is-ebpf",
+        "https://jacobmartins.com/posts/how-i-used-dalle2-to-generate-the-logo-for-octosql/"
+      ]
+    },
+    "cover": 615,
+    "bid": "BV1VN4y1j7Pd"
+  },
+  {
+    "aid": 471440344,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 32
+        },
+        {
+          "minutes": 1,
+          "seconds": 8
+        },
+        {
+          "minutes": 1,
+          "seconds": 44
+        },
+        {
+          "minutes": 2,
+          "seconds": 25
+        },
+        {
+          "minutes": 2,
+          "seconds": 50
+        }
+      ],
+      "introduces": [
+        "Blueboat｜多功能 serverless JS 运行时",
+        "languageTool ｜Grammarly 开源替代品",
+        "Publii｜桌面端的 CMS 工具",
+        "Virtink｜ K8s 轻量级虚拟化插件",
+        "Skeleton｜ 全功能 Svelte UI 组件库",
+        "K8s 提出了 Gateway 网关 API"
+      ],
+      "links": [
+        "https://blueboat.io/",
+        "https://languagetool.org/dev",
+        "https://github.com/GetPublii/Publii",
+        "https://github.com/smartxworks/virtink",
+        "https://skeleton.brainandbonesllc.com/",
+        "https://www.armosec.io/blog/kubernetes-gateway-api"
+      ]
+    },
+    "cover": 614,
+    "bid": "BV1mT411j7LR"
+  },
+  {
+    "aid": 856201719,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 11
+        },
+        {
+          "minutes": 0,
+          "seconds": 58
+        },
+        {
+          "minutes": 1,
+          "seconds": 40
+        },
+        {
+          "minutes": 2,
+          "seconds": 36
+        },
+        {
+          "minutes": 2,
+          "seconds": 58
+        },
+        {
+          "minutes": 3,
+          "seconds": 21
+        }
+      ],
+      "introduces": [
+        "Google 发布新编程语言 Carbon",
+        "榫卯｜ Sunmao ｜低代码工具开发框架",
+        "Comcast｜模拟弱网环境的工具",
+        "Tweakpane｜ 一个调节参数的 JS 库",
+        "AI 系统 DALL·E 开放 Beta 测试",
+        "一篇关于 Scratch 潜能的文章"
+      ],
+      "links": [
+        "https://github.com/carbon-language/carbon-lang",
+        "https://github.com/smartxworks/sunmao-ui",
+        "https://github.com/tylertreat/comcast",
+        "https://cocopon.github.io/tweakpane/",
+        "https://openai.com/blog/dall-e-now-available-in-beta",
+        "https://www.bryanbraun.com/2022/07/16/scratch-is-a-big-deal"
+      ]
+    },
+    "cover": 613,
+    "bid": "BV1hV4y177P9"
+  },
+  {
+    "aid": 898526676,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 12
+        },
+        {
+          "minutes": 0,
+          "seconds": 30
+        },
+        {
+          "minutes": 1,
+          "seconds": 2
+        },
+        {
+          "minutes": 1,
+          "seconds": 49
+        },
+        {
+          "minutes": 2,
+          "seconds": 14
+        },
+        {
+          "minutes": 2,
+          "seconds": 36
+        }
+      ],
+      "introduces": [
+        "Vite 发布3.0版本",
+        "VictoriaMetrics｜Prometheus 的开源替代品",
+        "对 Bun 和 Node.js 对比实测",
+        "Cleanupphotos｜修图工具",
+        "Vim 在线交互式学习平台",
+        "推荐《PostgreSQL 14 Internals》一书"
+      ],
+      "links": [
+        "https://vitejs.dev/blog/announcing-vite3.html",
+        "https://victoriametrics.com/products/open-source/",
+        "https://techsparx.com/nodejs/bun/1st-trial.html",
+        "https://cleanupphotos.com/",
+        "https://www.vimified.com/",
+        "https://postgrespro.com/community/books/internals"
+      ]
+    },
+    "cover": 612,
+    "bid": "BV16N4y1T7Hu"
+  },
+  {
+    "aid": 513340184,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 40
+        },
+        {
+          "minutes": 1,
+          "seconds": 2
+        },
+        {
+          "minutes": 1,
+          "seconds": 19
+        },
+        {
+          "minutes": 1,
+          "seconds": 44
+        },
+        {
+          "minutes": 2,
+          "seconds": 5
+        }
+      ],
+      "introduces": [
+        "Bun｜高性能 JS 运行时",
+        "TAURI｜Electron 轻量级替代品",
+        "Felt｜在线地图编辑网站",
+        "PocketBase｜ 开源实时后端方案",
+        "fuite｜自动探测 Web 应用内存泄漏",
+        "一篇关于 rsync 工作原理的文章"
+      ],
+      "links": [
+        "https://bun.sh/",
+        "https://tauri.app/",
+        "https://felt.com/",
+        "https://pocketbase.io/",
+        "https://github.com/nolanlawson/fuite",
+        "https://michael.stapelberg.ch/posts/2022-07-02-rsync-how-does-it-work"
+      ]
+    },
+    "cover": 611,
+    "bid": "BV1Wg411f7VV"
+  },
+  {
+    "aid": 770511400,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 10
+        },
+        {
+          "minutes": 0,
+          "seconds": 35
+        },
+        {
+          "minutes": 0,
+          "seconds": 55
+        },
+        {
+          "minutes": 1,
+          "seconds": 21
+        },
+        {
+          "minutes": 1,
+          "seconds": 49
+        },
+        {
+          "minutes": 2,
+          "seconds": 15
+        }
+      ],
+      "introduces": [
+        "Pyroscope｜性能持续分析工具",
+        "daisyUI｜前端组件库",
+        "《数据库必须知道的那些事》",
+        "《浏览器是如何工作的》",
+        "Spark 与 K8s 集成新动向",
+        "Raindrop｜书签管理小工具"
+      ],
+      "links": [
+        "https://pyroscope.io/",
+        "https://daisyui.com/",
+        "https://architecturenotes.co/things-you-should-know-about-databases",
+        "https://web.dev/howbrowserswork/",
+        "https://www.cncf.io/blog/2022/06/30/why-spark-chooses-volcano-as-built-in-batch-scheduler-on-kubernetes/",
+        "https://raindrop.io/"
+      ]
+    },
+    "cover": 610,
+    "bid": "BV1Xr4y1M7T7"
+  },
+  {
+    "aid": 427756499,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 46
+        },
+        {
+          "minutes": 1,
+          "seconds": 1
+        },
+        {
+          "minutes": 1,
+          "seconds": 21
+        },
+        {
+          "minutes": 1,
+          "seconds": 49
+        },
+        {
+          "minutes": 2,
+          "seconds": 23
+        },
+        {
+          "minutes": 2,
+          "seconds": 43
+        },
+        {
+          "minutes": 3,
+          "seconds": 4
+        }
+      ],
+      "introduces": [
+        "Github AI 代码助手 Copilot 正式发布",
+        "Markwhen｜绘制时间轴的工具",
+        "Viddy｜现代的 watch 替代品",
+        "Elastic UI｜Elastic 开源的前端 UI 组件库",
+        "Avo｜构建在 Ruby on Rails 方案之上的应用开发框架",
+        "Unclutter｜整理网页的浏览器插件",
+        "SQLite 发布 SQLite4 设计",
+        "Deno 完成 A 轮融资"
+      ],
+      "links": [
+        "https://github.blog/2022-06-21-github-copilot-is-generally-available-to-all-developers/",
+        "https://markwhen.com/",
+        "https://github.com/sachaos/viddy",
+        "https://elastic.github.io/eui/#/",
+        "https://avohq.io/",
+        "https://unclutter.lindylearn.io/",
+        "https://sqlite.org/src4/doc/trunk/www/design.wiki",
+        "https://deno.com/blog/series-a"
+      ]
+    },
+    "cover": 609,
+    "bid": "BV1B3411u7ZG"
+  },
+  {
+    "aid": 257594368,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 34
+        },
+        {
+          "minutes": 0,
+          "seconds": 55
+        },
+        {
+          "minutes": 1,
+          "seconds": 14
+        },
+        {
+          "minutes": 1,
+          "seconds": 31
+        },
+        {
+          "minutes": 1,
+          "seconds": 46
+        },
+        {
+          "minutes": 2,
+          "seconds": 1
+        }
+      ],
+      "introduces": [
+        "FRESH｜Deno 原生 SSR Web 框架",
+        "Vitest｜基于 vite 的单元测试框架",
+        "Rulex｜新的正则表达式语言",
+        "Recut｜视频剪辑工具",
+        "moon｜构建工具",
+        "一个寻找项目灵感的网站",
+        "程序员社交新尝试"
+      ],
+      "links": [
+        "https://fresh.deno.dev/",
+        "https://cn.vitest.dev/",
+        "https://pomsky-lang.org/",
+        "https://getrecut.com/",
+        "https://moonrepo.dev/",
+        "https://mysideproject.rocks/",
+        "https://connectdome.com/"
+      ]
+    },
+    "cover": 608,
+    "bid": "BV1sY411T7QL"
+  },
+  {
+    "aid": 727379202,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 30
+        },
+        {
+          "minutes": 0,
+          "seconds": 49
+        },
+        {
+          "minutes": 1,
+          "seconds": 6
+        },
+        {
+          "minutes": 1,
+          "seconds": 24
+        },
+        {
+          "minutes": 1,
+          "seconds": 42
+        }
+      ],
+      "introduces": [
+        "Knight Lab｜用代码更好地讲故事",
+        "plasmo｜浏览器插件开发平台",
+        "Shotcut｜开源免费跨平台视频编辑器",
+        "DEEPKIT｜Typescript 高性能框架",
+        "opensourcealternative.to｜查找开源替代品的网站",
+        "untools｜一组帮助思考的工具和方法论"
+      ],
+      "links": [
+        "https://knightlab.northwestern.edu/projects/",
+        "https://www.plasmo.com/",
+        "https://shotcut.org/",
+        "https://deepkit.io/",
+        "https://www.opensourcealternative.to/",
+        "https://untools.co/"
+      ]
+    },
+    "cover": 607,
+    "bid": "BV1rS4y1i72U"
+  },
+  {
+    "aid": 812156413,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 50
+        },
+        {
+          "minutes": 1,
+          "seconds": 12
+        },
+        {
+          "minutes": 1,
+          "seconds": 39
+        },
+        {
+          "minutes": 2,
+          "seconds": 18
+        },
+        {
+          "minutes": 2,
+          "seconds": 49
+        },
+        {
+          "minutes": 3,
+          "seconds": 5
+        },
+        {
+          "minutes": 3,
+          "seconds": 22
+        }
+      ],
+      "introduces": [
+        "Dragonfly｜一个25倍快的 Redis 竞品",
+        "PlantUML｜快速编写 UML 图",
+        "Neon｜开源 serverless Postgres 方案",
+        "ROAPI｜数据聚合 API",
+        "Tetra｜一个全栈框架",
+        "fd｜终端工具 Find 的替代品",
+        "svelvet｜交互式关系图构建工具",
+        "ffmpeg buddy｜FFmpeg 命令生成工具"
+      ],
+      "links": [
+        "https://github.com/dragonflydb/dragonfly",
+        "https://plantuml.com/",
+        "https://neon.tech/",
+        "https://github.com/roapi/roapi",
+        "https://www.tetraframework.com/",
+        "https://github.com/sharkdp/fd",
+        "https://svelvet.io/docs/basic-usage/",
+        "https://evanhahn.github.io/ffmpeg-buddy/"
+      ]
+    },
+    "cover": 606,
+    "bid": "BV1L34y1L7zK"
+  },
+  {
+    "aid": 639600552,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 26
+        },
+        {
+          "minutes": 0,
+          "seconds": 43
+        },
+        {
+          "minutes": 1,
+          "seconds": 3
+        },
+        {
+          "minutes": 1,
+          "seconds": 20
+        },
+        {
+          "minutes": 1,
+          "seconds": 32
+        },
+        {
+          "minutes": 1,
+          "seconds": 47
+        }
+      ],
+      "introduces": [
+        "PikaScript ｜ 超轻量级 Python 引擎",
+        "bionic-reading 的快速阅读英文插件",
+        "IndigoStack｜MacOS 平台上的本地开发环境",
+        "TypeScript 发布4.7版本",
+        "AnimatiSS｜一组 CSS 动画合集",
+        "Arctype｜ SQL 数据库客户端",
+        "一个有趣的3D 植物生成工具"
+      ],
+      "links": [
+        "https://github.com/pikasTech/pikascript",
+        "https://github.com/ansh/bionic-reading",
+        "https://indigostack.app/",
+        "https://devblogs.microsoft.com/typescript/announcing-typescript-4-7/",
+        "https://xsgames.co/animatiss",
+        "https://arctype.com/",
+        "https://plant.jim-fx.com/"
+      ]
+    },
+    "cover": 605,
+    "bid": "BV1pY4y1z7Vx"
+  },
+  {
+    "aid": 214334199,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 38
+        },
+        {
+          "minutes": 0,
+          "seconds": 57
+        },
+        {
+          "minutes": 1,
+          "seconds": 17
+        },
+        {
+          "minutes": 1,
+          "seconds": 39
+        },
+        {
+          "minutes": 1,
+          "seconds": 56
+        },
+        {
+          "minutes": 2,
+          "seconds": 16
+        }
+      ],
+      "introduces": [
+        "Bud ｜ GO 的全栈 web 框架",
+        "Aspect ｜ 可视化开发 React 组件",
+        "在 SQLite 中使用 JSON 和 virtual columns",
+        "Sliderland｜一个极简风格的 JS 实验园地",
+        "LiveTerm｜开发终端风格网站",
+        "Datadog 介绍第三代事件存储库 Husky",
+        "Quastor｜一个汇集大厂架构分析的专栏频道"
+      ],
+      "links": [
+        "https://github.com/livebud/bud",
+        "https://aspect.app/",
+        "https://antonz.org/json-virtual-columns",
+        "https://sliderland.blinry.org/",
+        "https://liveterm.vercel.app/",
+        "https://www.datadoghq.com/blog/engineering/introducing-husky",
+        "https://quastor.substack.com/"
+      ]
+    },
+    "cover": 604,
+    "bid": "BV13a411E7AQ"
+  },
+  {
+    "aid": 939044423,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 10
+        },
+        {
+          "minutes": 0,
+          "seconds": 40
+        },
+        {
+          "minutes": 0,
+          "seconds": 49
+        },
+        {
+          "minutes": 1,
+          "seconds": 21
+        },
+        {
+          "minutes": 1,
+          "seconds": 33
+        },
+        {
+          "minutes": 1,
+          "seconds": 54
+        },
+        {
+          "minutes": 2,
+          "seconds": 16
+        },
+        {
+          "minutes": 2,
+          "seconds": 30
+        }
+      ],
+      "introduces": [
+        "BoltDB 作者的博客｜如何在 fly.io 中使用 SQLite",
+        "Litestream｜ Sqlite 实时复制工具",
+        "Cloudflare 发布 D1",
+        "rqlite｜ 与 D1 相似的开源分布式数据库",
+        "CaskDB｜一个 kv 存储引擎的教学工具",
+        "CubeDesk｜魔方提速工具",
+        "DFlex ｜一个适配所有 JS 框架的可拖拽的工具库",
+        "一篇 JS 性能分析指南的文章"
+      ],
+      "links": [
+        "https://fly.io/blog/all-in-on-sqlite-litestream",
+        "https://github.com/benbjohnson/litestream",
+        "https://blog.cloudflare.com/introducing-d1/",
+        "https://github.com/rqlite/rqlite",
+        "https://github.com/avinassh/py-caskdb",
+        "https://www.cubedesk.io/home",
+        "https://www.dflex.dev/",
+        "https://blog.atomrc.dev/p/js-performance-profiling/"
+      ]
+    },
+    "cover": 603,
+    "bid": "BV1kT4y1B7Nh"
+  },
+  {
+    "aid": 596334116,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 37
+        },
+        {
+          "minutes": 0,
+          "seconds": 52
+        },
+        {
+          "minutes": 1,
+          "seconds": 10
+        },
+        {
+          "minutes": 1,
+          "seconds": 23
+        },
+        {
+          "minutes": 1,
+          "seconds": 39
+        },
+        {
+          "minutes": 2,
+          "seconds": 0
+        },
+        {
+          "minutes": 2,
+          "seconds": 21
+        }
+      ],
+      "introduces": [
+        "Anaconda 发布 PyScript｜浏览器中运行 Python",
+        "JSONHERO｜JSON 可视化工具",
+        "Spacedrive｜本地和云端同在的文件管理器",
+        "Bash-Oneliner｜一个事例仓库",
+        "Fig｜ 与 Warp 类似的终端",
+        "nosleep｜避免电脑休眠的网页",
+        "一篇关于 Golang 的文章",
+        "移植到 web 上的《塞尔达传说》"
+      ],
+      "links": [
+        "https://www.anaconda.com/blog/pyscript-python-in-the-browser",
+        "https://jsonhero.io/j/JZw4Wx9Mgj6r/tree",
+        "https://www.spacedrive.app/",
+        "https://github.com/onceupon/Bash-Oneliner",
+        "https://fig.io/",
+        "https://nosleep.page/",
+        "https://fasterthanli.me/articles/lies-we-tell-ourselves-to-keep-using-golang",
+        "https://hoten.cc/blog/porting-zelda-classic-to-the-web"
+      ]
+    },
+    "cover": 602,
+    "bid": "BV1PB4y1278B"
+  },
+  {
+    "aid": 511210837,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 25
+        },
+        {
+          "minutes": 0,
+          "seconds": 49
+        },
+        {
+          "minutes": 1,
+          "seconds": 12
+        },
+        {
+          "minutes": 1,
+          "seconds": 31
+        },
+        {
+          "minutes": 1,
+          "seconds": 56
+        },
+        {
+          "minutes": 2,
+          "seconds": 25
+        }
+      ],
+      "introduces": [
+        "Clinic.js｜ Node.js 性能分析工具",
+        "magic-trace｜Jane Street 开源的进程监控工具",
+        "memray｜Bloomberg 开源的 Python 性能分析工具",
+        "《learn GO with Tests》｜练习 GO 的工具书",
+        "Edge Function｜Netlify 新推出的 PaaS 平台",
+        "workmode｜远程工作助手",
+        "pixy｜飞行相机"
+      ],
+      "links": [
+        "https://clinicjs.org/",
+        "https://github.com/janestreet/magic-trace",
+        "https://github.com/bloomberg/memray",
+        "https://quii.gitbook.io/learn-go-with-tests/go-fundamentals/hello-world",
+        "https://www.netlify.com/blog/announcing-serverless-compute-with-edge-functions",
+        "https://workmode.co/",
+        "https://pixy.com/"
+      ]
+    },
+    "cover": 601,
+    "bid": "BV1fu41167ME"
+  },
+  {
+    "aid": 595895504,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 8
+        },
+        {
+          "minutes": 0,
+          "seconds": 24
+        },
+        {
+          "minutes": 0,
+          "seconds": 44
+        },
+        {
+          "minutes": 1,
+          "seconds": 11
+        },
+        {
+          "minutes": 1,
+          "seconds": 31
+        },
+        {
+          "minutes": 1,
+          "seconds": 47
+        },
+        {
+          "minutes": 2,
+          "seconds": 3
+        }
+      ],
+      "introduces": [
+        "一个有用网站的合集",
+        "一个开源的 web 文本编辑器",
+        "一个开源的分布式数据库",
+        "OpenRefine｜开源数据清洗工具",
+        "Node.js 发布18版本",
+        "GO 发表介绍泛型的文章",
+        "一个单手键盘"
+      ],
+      "links": [
+        "https://www.insanelyusefulwebsites.com/",
+        "https://lexical.dev/",
+        "https://ydb.tech/",
+        "https://openrefine.org/",
+        "https://nodejs.org/en/",
+        "https://go.dev/blog/when-generics",
+        "https://tipykeyboard.com/en/home/"
+      ]
+    },
+    "cover": 600,
+    "bid": "BV16B4y127vi"
+  },
+  {
+    "aid": 553253895,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 35
+        },
+        {
+          "minutes": 0,
+          "seconds": 53
+        },
+        {
+          "minutes": 1,
+          "seconds": 9
+        },
+        {
+          "minutes": 1,
+          "seconds": 24
+        },
+        {
+          "minutes": 1,
+          "seconds": 45
+        },
+        {
+          "minutes": 2,
+          "seconds": 13
+        }
+      ],
+      "introduces": [
+        "现代 CLI 大全",
+        "bore｜基于 Rust 的隧道工具",
+        "WeekToDo｜本地计划管理工具",
+        "Zas｜专注于 GO 和 Rust 的编辑器",
+        "Pinry｜Pinterest 的开源替代品",
+        "｜Deno 推出 FaaS 服务",
+        "EIGHT COLORS ｜一个小游戏"
+      ],
+      "links": [
+        "https://jvns.ca/blog/2022/04/12/a-list-of-new-ish--command-line-tools/",
+        "https://github.com/ekzhang/bore",
+        "https://weektodo.me/",
+        "https://www.zeditor.app/",
+        "https://docs.getpinry.com/",
+        "https://deno.com/blog/a-whole-website-in-a-single-js-file",
+        "https://eightcolors.net/"
+      ]
+    },
+    "cover": 599,
+    "bid": "BV1yi4y1U7Ms"
+  },
+  {
+    "aid": 553093356,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 11
+        },
+        {
+          "minutes": 0,
+          "seconds": 29
+        },
+        {
+          "minutes": 0,
+          "seconds": 48
+        },
+        {
+          "minutes": 0,
+          "seconds": 59
+        },
+        {
+          "minutes": 1,
+          "seconds": 15
+        },
+        {
+          "minutes": 1,
+          "seconds": 41
+        },
+        {
+          "minutes": 2,
+          "seconds": 4
+        },
+        {
+          "minutes": 2,
+          "seconds": 18
+        }
+      ],
+      "introduces": [
+        "Coolify｜自部署 PaaS",
+        "warp｜现代化终端",
+        "redo｜开源命令行工具",
+        "MetricFlow｜数据仓库管理工具",
+        "Ruby 增加 WASM 支持",
+        "Rome 发布 Rome Formatter｜对标 Prettier",
+        "一篇博客｜TypeScript 编译器工作原理",
+        "一篇博客｜一些易被忽略的 HTML 属性"
+      ],
+      "links": [
+        "https://coolify.io/",
+        "https://www.warp.dev/",
+        "https://github.com/barthr/redo",
+        "https://transform.co/metricflow/",
+        "https://www.ruby-lang.org/en/news/2022/04/03/ruby-3-2-0-preview1-released",
+        "https://rome.tools/blog/2022/04/05/rome-formatter-release",
+        "https://www.huy.rocks/everyday/04-01-2022-typescript-how-the-compiler-compiles",
+        "https://www.smashingmagazine.com/2022/03/html-attributes-you-never-use"
+      ]
+    },
+    "cover": 598,
+    "bid": "BV12i4y1D78x"
+  },
+  {
+    "aid": 297873494,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 29
+        },
+        {
+          "minutes": 0,
+          "seconds": 52
+        },
+        {
+          "minutes": 1,
+          "seconds": 11
+        },
+        {
+          "minutes": 1,
+          "seconds": 22
+        },
+        {
+          "minutes": 1,
+          "seconds": 40
+        },
+        {
+          "minutes": 2,
+          "seconds": 3
+        },
+        {
+          "minutes": 2,
+          "seconds": 21
+        },
+        {
+          "minutes": 2,
+          "seconds": 49
+        }
+      ],
+      "introduces": [
+        "GitHub issues 打印机",
+        "Oh heck｜一个智能终端指令输入工具",
+        "dagger｜一个现代化的 CI/CD 工具包",
+        "React 发布18.0版本",
+        "Chrome Experiments 的银河系实验",
+        "arpchat｜用 ARP 协议实现的在线聊天工具",
+        "Calenday｜ 一个多人共享日历",
+        "WebAssembly 运行 Python",
+        "Blog Search｜技术类搜索引擎"
+      ],
+      "links": [
+        "https://aschmelyun.com/blog/i-built-a-receipt-printer-for-github-issues",
+        "https://oh-heck.dev/",
+        [
+          "https://dagger.io/",
+          "https://dagger.io/blog/public-launch-announcement"
+        ],
+        "https://reactjs.org/blog/2022/03/29/react-v18.html",
+        "https://stars.chromeexperiments.com/",
+        "https://github.com/kognise/arpchat",
+        "https://calenday.co/",
+        "https://2022.pycon.de/program/SBCNDY",
+        "https://blogsurf.io/"
+      ]
+    },
+    "cover": 597,
+    "bid": "BV1aF41137oA"
+  },
+  {
+    "aid": 725137289,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 8
+        },
+        {
+          "minutes": 0,
+          "seconds": 37
+        },
+        {
+          "minutes": 1,
+          "seconds": 4
+        },
+        {
+          "minutes": 1,
+          "seconds": 19
+        },
+        {
+          "minutes": 1,
+          "seconds": 49
+        },
+        {
+          "minutes": 1,
+          "seconds": 57
+        },
+        {
+          "minutes": 2,
+          "seconds": 7
+        },
+        {
+          "minutes": 2,
+          "seconds": 45
+        }
+      ],
+      "introduces": [
+        "appwrite｜为 web、mobile 和 flutter 开发者提供的开源后端服务",
+        "Bionic Reading｜一个用高亮标注的阅读工具",
+        "diagrams.net ｜老牌绘图工具更新功能",
+        "Smort｜一个可编辑其它网站文章的工具",
+        "fzf｜命令行中通用的模糊查询工具",
+        "一个 node.js 的 Postgres 数据库客户端",
+        "mdn 推出 plus 订阅计划｜Mozilla 商业化新尝试",
+        "一篇题为 《Data Mesh 架构》的文章"
+      ],
+      "links": [
+        "https://github.com/appwrite/appwrite",
+        "https://bionic-reading.com/",
+        "https://www.diagrams.net/",
+        "https://www.smort.io/",
+        "https://github.com/junegunn/fzf",
+        "https://www.tangramvision.com/blog/hands-on-with-postgresql-authorization-part-2-row-level-security",
+        "https://hacks.mozilla.org/2022/03/introducing-mdn-plus-make-mdn-your-own/",
+        "https://www.datamesh-architecture.com/"
+      ]
+    },
+    "cover": 596,
+    "bid": "BV19S4y127wz"
+  },
+  {
+    "aid": 682476244,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 8
+        },
+        {
+          "minutes": 0,
+          "seconds": 25
+        },
+        {
+          "minutes": 0,
+          "seconds": 55
+        },
+        {
+          "minutes": 1,
+          "seconds": 17
+        },
+        {
+          "minutes": 1,
+          "seconds": 36
+        },
+        {
+          "minutes": 1,
+          "seconds": 43
+        },
+        {
+          "minutes": 2,
+          "seconds": 0
+        },
+        {
+          "minutes": 2,
+          "seconds": 14
+        },
+        {
+          "minutes": 2,
+          "seconds": 35
+        }
+      ],
+      "introduces": [
+        "文献管理工具 Zotero 发布 6.0 版本",
+        "Plasticity ｜ 用 web 开发的3D 艺术建模开源软件",
+        "Lapce ｜基于原生 GUI 和 Rust 编写的开源代码编辑器",
+        "Awesome TUIs｜ 收集提供终端用户界面项目清单",
+        "K9s ｜一个终端中 UI 强大的 K8s 客户端",
+        "Tiny renderer｜500 行代码学习 openGL｜附演示教程",
+        "GO 发布1.18版本支持泛型",
+        "CSS-Tricks 网站被 DigitalOcean 收购",
+        "Veloren ｜一个基于 Rust 开发的开源多人 RPG 游戏"
+      ],
+      "links": [
+        "https://www.zotero.org/blog/zotero-6/",
+        "https://github.com/nkallen/plasticity",
+        "https://lapce.dev/",
+        "https://github.com/rothgar/awesome-tuis",
+        "https://github.com/derailed/k9s",
+        "https://jvns.ca/blog/2022/03/13/celebrate-tiny-learning-milestones/",
+        "https://golang.google.cn/",
+        "https://css-tricks.com/css-tricks-is-joining-digitalocean/",
+        "https://www.youtube.com/watch?v=hCC1C5KIeUA"
+      ]
+    },
+    "cover": 595,
+    "bid": "BV1HU4y1d7da"
+  },
+  {
+    "aid": 724739860,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 8
+        },
+        {
+          "minutes": 0,
+          "seconds": 21
+        },
+        {
+          "minutes": 0,
+          "seconds": 40
+        },
+        {
+          "minutes": 1,
+          "seconds": 17
+        },
+        {
+          "minutes": 1,
+          "seconds": 41
+        },
+        {
+          "minutes": 1,
+          "seconds": 58
+        },
+        {
+          "minutes": 2,
+          "seconds": 24
+        },
+        {
+          "minutes": 2,
+          "seconds": 45
+        }
+      ],
+      "introduces": [
+        "关于 TypeScript 的两条新闻",
+        "TypeScript 向 JS 提议增加类型系统",
+        "Stripe 将 JS 代码库从 Flow 迁移到 TypeScript",
+        "Godot ｜一个开源游戏引擎",
+        "苹果将发售 Mac Studio｜M1 芯片成为新杀手锏",
+        "关于数据库索引工作原理的解答",
+        "dasel ｜单一工具完成 JSON、TOML 等文件的读取和修改",
+        "“请停止使用 :latest 标签”｜一篇关于版本安全的文章"
+      ],
+      "links": [
+        "",
+        "",
+        "",
+        "https://godotengine.org/",
+        "https://www.apple.com/mac-studio/",
+        "https://stackoverflow.com/questions/1108/how-does-database-indexing-work",
+        "https://github.com/TomWright/dasel",
+        "https://platformers.dev/log/2022/latest-literally-kills-puppies/"
+      ]
+    },
+    "cover": 594,
+    "bid": "BV1VS4y1D768"
+  },
+  {
+    "aid": 809507046,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 8
+        },
+        {
+          "minutes": 0,
+          "seconds": 41
+        },
+        {
+          "minutes": 1,
+          "seconds": 1
+        },
+        {
+          "minutes": 1,
+          "seconds": 19
+        },
+        {
+          "minutes": 1,
+          "seconds": 42
+        },
+        {
+          "minutes": 1,
+          "seconds": 59
+        },
+        {
+          "minutes": 2,
+          "seconds": 30
+        },
+        {
+          "minutes": 2,
+          "seconds": 52
+        }
+      ],
+      "introduces": [
+        "Mozilla 的 MDN 文档全新上线",
+        "Mozilla 的3D虚拟空间产品",
+        "HOPPSCOTCH ｜一个开源网络请求发送工具",
+        "Streamlit ｜一个使用 Python 直接开发 web UI 的工具",
+        "Textframe ｜一个动画产品教程创建工具",
+        "SaaS 产品开源替代品大全",
+        "迷你掌上游戏机 playdate 开源了 SDK",
+        "轻松一刻时间｜小游戏"
+      ],
+      "links": [
+        "https://developer.mozilla.org/zh-CN/",
+        "https://hubs.mozilla.com/",
+        "https://hoppscotch.io/",
+        "https://streamlit.io/",
+        "https://textframe.app/",
+        "https://github.com/RunaCapital/awesome-oss-alternatives",
+        "https://play.date/dev/",
+        "https://www.lessmilk.com/almost-pong/"
+      ]
+    },
+    "cover": 593,
+    "bid": "BV1Y34y1b7cJ"
+  },
+  {
+    "aid": 809272615,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 32
+        },
+        {
+          "minutes": 0,
+          "seconds": 49
+        },
+        {
+          "minutes": 1,
+          "seconds": 19
+        },
+        {
+          "minutes": 1,
+          "seconds": 45
+        },
+        {
+          "minutes": 2,
+          "seconds": 6
+        },
+        {
+          "minutes": 2,
+          "seconds": 34
+        },
+        {
+          "minutes": 2,
+          "seconds": 45
+        }
+      ],
+      "introduces": [
+        "怎样实现一个最简单的 CRUD 应用？｜本期专题问答",
+        "Django｜CRUD 最佳工具/答案1",
+        "PostgREST｜CRUD 最佳工具/答案2",
+        "nHOST｜CRUD 最佳工具/答案3",
+        "Grist｜Airtable 的开源替代",
+        "Automerge｜JS 协同算法库",
+        "Supernotes｜笔记软件",
+        "Sioyek｜论文专用 PDF 阅读器"
+      ],
+      "links": [
+        "",
+        "https://www.djangoproject.com/",
+        "https://postgrest.org/en/stable/",
+        "https://nhost.io/",
+        "https://www.airtable.com/",
+        "https://github.com/automerge/automerge",
+        "https://supernotes.app/",
+        "https://github.com/ahrm/sioyek"
+      ]
+    },
+    "cover": 592,
+    "bid": "BV1m34y1r7EY"
+  },
+  {
+    "aid": 894239914,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 33
+        },
+        {
+          "minutes": 0,
+          "seconds": 52
+        },
+        {
+          "minutes": 1,
+          "seconds": 14
+        },
+        {
+          "minutes": 1,
+          "seconds": 50
+        },
+        {
+          "minutes": 2,
+          "seconds": 9
+        },
+        {
+          "minutes": 2,
+          "seconds": 31
+        }
+      ],
+      "introduces": [
+        "Mermaid | GitHub 的 Markdown 新功能",
+        "Arduboy | 8位迷你游戏机",
+        "Glitch | 一个 PaaS 平台",
+        "allotropia | 基于 WASM 在浏览器中运行 LibreOffice",
+        "Honeypot 制作的 K8s 纪录片",
+        "Hue.tools | 颜色处理工具",
+        "shortwave | 邮件工具"
+      ],
+      "links": [
+        "https://github.blog/2022-02-14-include-diagrams-markdown-files-mermaid/",
+        "https://www.arduboy.com/",
+        "https://glitch.com/",
+        "https://www.allotropia.de/",
+        "https://www.youtube.com/watch?v=BE77h7dmoQU",
+        "https://hue.tools/",
+        "https://www.shortwave.com/blog/introducing-shortwave/"
+      ]
+    },
+    "cover": 591,
+    "bid": "BV19P4y1F7s7"
+  },
+  {
+    "aid": 211446987,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 22
+        },
+        {
+          "minutes": 0,
+          "seconds": 40
+        },
+        {
+          "minutes": 1,
+          "seconds": 4
+        },
+        {
+          "minutes": 1,
+          "seconds": 20
+        },
+        {
+          "minutes": 1,
+          "seconds": 29
+        },
+        {
+          "minutes": 1,
+          "seconds": 46
+        },
+        {
+          "minutes": 2,
+          "seconds": 5
+        },
+        {
+          "minutes": 2,
+          "seconds": 25
+        },
+        {
+          "minutes": 2,
+          "seconds": 41
+        }
+      ],
+      "introduces": [
+        "Files Gallery｜应用",
+        "Tally｜工具",
+        "Datawrapper｜工具",
+        "onemodel｜工具",
+        "Postman｜工具",
+        "Laravel 9.0 发布",
+        "Mailwind｜邮件模版",
+        "《 backend.sql + frontend.js = love》｜文章",
+        "《Top web hacking techniques of 2021》｜文章",
+        "SHA256 算法可视化演示"
+      ],
+      "links": [
+        "https://www.files.gallery/",
+        "https://tally.so/",
+        "https://www.datawrapper.de/",
+        "https://www.onemodel.app/",
+        "https://blog.postman.com/postman-now-supports-grpc/",
+        "https://laravel-news.com/laravel-9-released",
+        "https://github.com/soheilpro/mailwind",
+        "https://blog.polyglot.network/backend.sql-+-frontend.js-love",
+        "",
+        "https://sha256algorithm.com/"
+      ]
+    },
+    "cover": 590,
+    "bid": "BV16a411y7fw"
+  },
+  {
+    "aid": 851363567,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 8
+        },
+        {
+          "minutes": 0,
+          "seconds": 40
+        },
+        {
+          "minutes": 1,
+          "seconds": 3
+        },
+        {
+          "minutes": 1,
+          "seconds": 23
+        },
+        {
+          "minutes": 1,
+          "seconds": 45
+        }
+      ],
+      "introduces": [
+        "Hibiki HTML -新的前端框架-没有脚手架，没有Webpack",
+        "Systemd by Example",
+        "Malloy – A Better SQL, from Looker",
+        "Rich Cli 由Python编写，可打印各种格式丰富的内容",
+        "《我是如何在AWS上发现数千个开放数据库的》"
+      ],
+      "links": [
+        "https://playground.hibikihtml.com/tutorial/",
+        "https://systemd-by-example.com/",
+        "https://github.com/looker-open-source/malloy",
+        "https://github.com/Textualize/rich-cli",
+        "https://infosecwriteups.com/how-i-discovered-thousands-of-open-databases-on-aws-764729aa7f32"
+      ]
+    },
+    "cover": 589,
+    "bid": "BV1nL4y1s7q1"
+  },
+  {
+    "aid": 808652802,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 7
+        },
+        {
+          "minutes": 0,
+          "seconds": 31
+        },
+        {
+          "minutes": 0,
+          "seconds": 46
+        },
+        {
+          "minutes": 0,
+          "seconds": 59
+        },
+        {
+          "minutes": 1,
+          "seconds": 25
+        },
+        {
+          "minutes": 2,
+          "seconds": 3
+        },
+        {
+          "minutes": 2,
+          "seconds": 27
+        },
+        {
+          "minutes": 2,
+          "seconds": 47
+        },
+        {
+          "minutes": 3,
+          "seconds": 19
+        },
+        {
+          "minutes": 3,
+          "seconds": 44
+        }
+      ],
+      "introduces": [
+        "Charm 用来开发命令行工具的框架",
+        "Nova 一个专门给Mac设计的代码编辑器",
+        "rnote 创建手绘风格的笔记软件",
+        "github action 使用示例",
+        "playwright web自动化框架",
+        "prql rust编写的现代化查询语言",
+        "Deskreen 屏幕共享工具",
+        "《为什么我们团队取消了微服务的计划》",
+        "《将SQLite存储在Cloudflare耐用对象中》",
+        "《Kubernetes如此复杂有两个原因》"
+      ],
+      "links": [
+        "https://charm.sh/",
+        "https://nova.app/",
+        "https://github.com/flxzt/rnote",
+        "https://www.actionsbyexample.com/",
+        "https://github.com/microsoft/playwright",
+        "https://github.com/prql/prql",
+        "https://deskreen.com/lang-zh_CN",
+        "https://steven-lemon182.medium.com/why-our-team-cancelled-our-move-to-microservices-8fd87898d952",
+        "https://ma.rkusa.st/store-sqlite-in-cloudflare-durable-objects",
+        "https://buttondown.email/nelhage/archive/two-reasons-kubernetes-is-so-complex/"
+      ]
+    },
+    "cover": 588,
+    "bid": "BV1r34y127VU"
+  },
+  {
+    "aid": 935758161,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 8
+        },
+        {
+          "minutes": 0,
+          "seconds": 37
+        },
+        {
+          "minutes": 1,
+          "seconds": 0
+        },
+        {
+          "minutes": 1,
+          "seconds": 14
+        },
+        {
+          "minutes": 1,
+          "seconds": 27
+        },
+        {
+          "minutes": 1,
+          "seconds": 47
+        },
+        {
+          "minutes": 2,
+          "seconds": 25
+        },
+        {
+          "minutes": 2,
+          "seconds": 53
+        },
+        {
+          "minutes": 3,
+          "seconds": 18
+        },
+        {
+          "minutes": 3,
+          "seconds": 32
+        },
+        {
+          "minutes": 3,
+          "seconds": 42
+        }
+      ],
+      "introduces": [
+        "faker.js 删库事件新进展",
+        "暴雪被收购",
+        "PyFlow｜一个可视化编程环境",
+        "CSS 选择器练习题网站",
+        "GPS 工作原理详解",
+        "Lichess ｜ 一个国际象棋服务器的支出分析",
+        "谷歌分析在欧盟合法性及其替代品",
+        "AWS DynamoDB 十年回顾",
+        "CyberChef ｜ 一个数据格式转换工具",
+        "curl ｜ 最近支持了 JSON",
+        "轻松一刻｜弹珠撞击木块游戏"
+      ],
+      "links": [
+        "https://github.com/faker-js/faker",
+        "https://news.microsoft.com/2022/01/18/microsoft-to-acquire-activision-blizzard-to-bring-the-joy-and-community-of-gaming-to-everyone-across-every-device/",
+        "https://github.com/wonderworks-software/PyFlow",
+        "https://css-speedrun.netlify.app/",
+        "https://ciechanow.ski/gps/",
+        "https://lichess.org/",
+        "https://isgoogleanalyticsillegal.com/",
+        "https://www.amazon.science/latest-news/amazons-dynamodb-10-years-later",
+        "https://gchq.github.io/CyberChef/",
+        "https://curl.se/",
+        "https://wallsmash.com/"
+      ]
+    },
+    "cover": 587,
+    "bid": "BV1AT4y127tr"
+  },
+  {
+    "aid": 935663579,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 7
+        },
+        {
+          "minutes": 0,
+          "seconds": 38
+        },
+        {
+          "minutes": 1,
+          "seconds": 9
+        },
+        {
+          "minutes": 1,
+          "seconds": 29
+        },
+        {
+          "minutes": 1,
+          "seconds": 46
+        },
+        {
+          "minutes": 2,
+          "seconds": 6
+        },
+        {
+          "minutes": 3,
+          "seconds": 33
+        },
+        {
+          "minutes": 4,
+          "seconds": 7
+        },
+        {
+          "minutes": 4,
+          "seconds": 38
+        }
+      ],
+      "introduces": [
+        "开源软件被植入恶意代码",
+        "Browsix 浏览器中实现 POSIX",
+        "GitHub Copilot",
+        "Learn and Test DMARC 一个可视化工具",
+        "BookStack 一个开源 wiki 工具",
+        "Poly Haven 如何花不到400美金处理80TB数据和500万次页面访问的",
+        "Kagi 一个新型高级付费搜索引擎",
+        "介绍两个 Cli 工具: dsq 和 fx",
+        "轻松一刻时间｜介绍一个打发时间的小游戏"
+      ],
+      "links": [
+        "https://www.bleepingcomputer.com/news/security/dev-corrupts-npm-libs-colors-and-faker-breaking-thousands-of-apps/",
+        "https://browsix.org/",
+        [
+          "https://dagshub.com/blog/github-copilot-not-code/",
+          "https://github.com/features/copilot"
+        ],
+        "https://www.learndmarc.com/",
+        "https://www.bookstackapp.com/",
+        "https://blog.polyhaven.com/how-we-handle-80tb-and-5m-page-views-a-month-for-under-400/",
+        "https://kagi.com/",
+        [
+          "https://datastation.multiprocess.io/blog/2022-01-11-dsq.html",
+          "https://github.com/antonmedv/fx"
+        ],
+        "https://looptap.vasanthv.com/"
+      ]
+    },
+    "cover": 586,
+    "bid": "BV1eT4y117Xh"
+  },
+  {
+    "aid": 850617825,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 1,
+          "seconds": 10
+        },
+        {
+          "minutes": 1,
+          "seconds": 31
+        },
+        {
+          "minutes": 1,
+          "seconds": 57
+        },
+        {
+          "minutes": 2,
+          "seconds": 16
+        },
+        {
+          "minutes": 2,
+          "seconds": 35
+        },
+        {
+          "minutes": 2,
+          "seconds": 53
+        },
+        {
+          "minutes": 3,
+          "seconds": 20
+        },
+        {
+          "minutes": 3,
+          "seconds": 42
+        },
+        {
+          "minutes": 4,
+          "seconds": 14
+        },
+        {
+          "minutes": 4,
+          "seconds": 50
+        },
+        {
+          "minutes": 5,
+          "seconds": 13
+        }
+      ],
+      "introduces": [
+        "任天堂掌上游戏机发展史回顾",
+        "《为什么要运行自己的 DNS 服务器？》",
+        "Zotero，一个开源的经典文献管理工具",
+        "Darling，一个帮助你在 Linux 上运行 Mac 应用程序的工具",
+        "coqui，克隆你的声音说外语",
+        "OpenDrop, 一个开源版的 AirDrop",
+        "Portmaster，一个帮助你管理电脑网络的开源软件",
+        "Papers We Love，一个专门研读学术类计算机科学论文的开源社区",
+        "关于 Zig 这个新兴编程语言的分析",
+        "Raycast 团队信奉无需 code review 的理念",
+        "利用浏览器 web GL 实现的东京地铁实时可视化地图",
+        "SpaceX Dragon 2 与国际空间站对接的模拟机"
+      ],
+      "links": [
+        "https://www.scanofthemonth.com/scans/game-boy-compendium",
+        "https://www.howtogeek.com/devops/how-to-run-your-own-dns-server-on-your-local-network/",
+        "https://www.zotero.org/",
+        "https://www.darlinghq.org/",
+        "https://coqui.ai/",
+        "https://github.com/seemoo-lab/opendrop",
+        "https://safing.io/",
+        "https://paperswelove.org/",
+        "https://www.duskborn.com/posts/2021-aoc-zig/",
+        "https://www.raycast.com/blog/no-code-reviews-by-default",
+        "",
+        "https://iss-sim.spacex.com/"
+      ]
+    },
+    "cover": 585,
+    "bid": "BV1vL4y1b78S"
+  },
+  {
+    "aid": 722854302,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 8
+        },
+        {
+          "minutes": 0,
+          "seconds": 25
+        },
+        {
+          "minutes": 0,
+          "seconds": 49
+        },
+        {
+          "minutes": 1,
+          "seconds": 21
+        },
+        {
+          "minutes": 1,
+          "seconds": 38
+        },
+        {
+          "minutes": 1,
+          "seconds": 59
+        },
+        {
+          "minutes": 2,
+          "seconds": 26
+        },
+        {
+          "minutes": 2,
+          "seconds": 44
+        },
+        {
+          "minutes": 3,
+          "seconds": 1
+        },
+        {
+          "minutes": 3,
+          "seconds": 11
+        },
+        {
+          "minutes": 3,
+          "seconds": 37
+        },
+        {
+          "minutes": 4,
+          "seconds": 7
+        }
+      ],
+      "introduces": [
+        "波斯王子 一款为Mac开发的游戏",
+        "《一个HTML文件中的整个网站》",
+        "街头霸王2",
+        "emfy Emacs编辑器的配置项目",
+        "HTTP Toolkit",
+        "Exa - ls的现代替代品",
+        "Marktext -优雅的Markdown编辑器，适用于Linux, macOS, Windows",
+        "Tokio rust编写的开源异步库",
+        "Ruby 3.1",
+        "Python CheatSheet python 问题查询手册",
+        "《2021年的数据库:回顾的一年》",
+        "Miller -用于查询、塑造、重新格式化CSV、TSV和JSON中的数据的工具"
+      ],
+      "links": [
+        "",
+        "https://css-tricks.com/a-whole-website-in-a-single-html-file/",
+        "",
+        "https://github.com/susam/emfy",
+        "https://httptoolkit.tech/",
+        "https://the.exa.website/",
+        "https://github.com/marktext/marktext",
+        "https://tokio.rs/blog/2021-12-announcing-tokio-console",
+        "https://www.ruby-lang.org/en/news/2021/12/25/ruby-3-1-0-released/",
+        "https://gto76.github.io/python-cheatsheet/",
+        "https://ottertune.com/blog/2021-databases-retrospective/",
+        "https://miller.readthedocs.io/en/latest/"
+      ]
+    },
+    "cover": 584,
+    "bid": "BV1GD4y1F7Ri"
+  },
+  {
+    "aid": 465206549,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 31
+        },
+        {
+          "minutes": 0,
+          "seconds": 45
+        },
+        {
+          "minutes": 1,
+          "seconds": 13
+        },
+        {
+          "minutes": 1,
+          "seconds": 33
+        },
+        {
+          "minutes": 1,
+          "seconds": 50
+        },
+        {
+          "minutes": 2,
+          "seconds": 10
+        },
+        {
+          "minutes": 2,
+          "seconds": 24
+        },
+        {
+          "minutes": 2,
+          "seconds": 43
+        },
+        {
+          "minutes": 2,
+          "seconds": 55
+        },
+        {
+          "minutes": 3,
+          "seconds": 7
+        },
+        {
+          "minutes": 3,
+          "seconds": 15
+        },
+        {
+          "minutes": 3,
+          "seconds": 30
+        }
+      ],
+      "introduces": [
+        "blender3.0 图形渲染工具",
+        "uBlacklist - 阻止特定的站点出现在谷歌的搜索结果中",
+        "Apache Guacamole 无客户端的远程桌面网端",
+        "Learn X in Y minutes",
+        "《语义搜索的自然语言处理》",
+        "Jam 自部署工具",
+        "Milk Video 通过上传的视频和音频生成声波图的工具",
+        "AlterClass -一个制作和销售编程课程的平台",
+        "Code Search 搜索代码工具",
+        "Lapce ｜基于原生 GUI 和 Rust 编写的开源代码编辑器",
+        "Rough.js -创建一个手绘的，粗略的图形外观的工具",
+        "Doodle CSS 手绘风格的主题css",
+        "Paper Website 从纸上建立一个网站界面"
+      ],
+      "links": [
+        "https://www.blender.org/download/releases/3-0/",
+        "https://github.com/iorate/uBlacklist",
+        "https://guacamole.apache.org/",
+        "https://learnxinyminutes.com/",
+        "https://www.pinecone.io/learn/nlp/",
+        "https://github.com/jam-systems/jam",
+        "https://app.milkvideo.com/",
+        "https://alterclass.io/",
+        "https://github.blog/2021-12-08-improving-github-code-search/",
+        "https://github.com/lapce/lapce",
+        "https://roughjs.com/",
+        "https://chr15m.github.io/DoodleCSS/",
+        "https://daily.tinyprojects.dev/paper_website"
+      ]
+    },
+    "cover": 583,
+    "bid": "BV1NL411L7U1"
+  }
+]
