@@ -79,12 +79,12 @@ export const covers: Record<string, any> = {
   ['cover_656']: require('./assets/covers/656.png'),
   ['cover_657']: require('./assets/covers/657.png'),
   ['cover_658']: require('./assets/covers/658.png'),
-  ['cover_659']: require('./assets/covers/659.jpg'),
-  ['cover_660']: require('./assets/covers/660.jpg'),
-  ['cover_661']: require('./assets/covers/661.jpg'),
-  ['cover_662']: require('./assets/covers/662.jpg'),
-  ['cover_662.1']: require('./assets/covers/662.1.jpg'),
-  ['cover_664']: require('./assets/covers/664.jpg'),
-  ['cover_665']: require('./assets/covers/665.jpg'),
-  ['cover_667']: require('./assets/covers/667.jpg')
+  ['cover_659']: require('./assets/covers/659.png'),
+  ['cover_660']: require('./assets/covers/660.png'),
+  ['cover_661']: require('./assets/covers/661.png'),
+  ['cover_662']: require('./assets/covers/662.png'),
+  ['cover_662.1']: require('./assets/covers/662.1.png'),
+  ['cover_664']: require('./assets/covers/664.png'),
+  ['cover_665']: require('./assets/covers/665.png'),
+  ['cover_667']: require('./assets/covers/667.png')
 }

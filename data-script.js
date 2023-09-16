@@ -19,6 +19,12 @@ for (const item of data) {
       `links.length(${links.length}) !== introduces.length(${introduces.length})`
     );
   }
+
+  for (let i = 0; i < links.length; i++) {
+    if (!links[i]) {
+      console.log(`${introduces[i]} does not have link`);
+    }
+  }
 }
 
 const covers = fs.readdirSync("./assets/covers");
@@ -64,14 +70,6 @@ const s = [11, 10, 3, 8, 4, 6];
 const xor = 177451812;
 const add = 8728348608;
 
-function dec(x) {
-  let r = 0;
-  for (let i = 0; i < 6; i++) {
-    r += tr[x[s[i]]] * Math.pow(58, i);
-  }
-  return (r - add) ^ xor;
-}
-
 function enc(x) {
   x = (x ^ xor) + add;
   let r = Array.from("BV1  4 1 7  ");
@@ -81,15 +79,9 @@ function enc(x) {
   return r.join("");
 }
 
-const links = [];
-
 for (let i = 0; i < data.length; i++) {
   data[i].cover = names[names.length - i - 1].name;
   data[i].bid = enc(data[i].aid);
-
-  links.push(...data[i].hn_items.introduces);
 }
-
-console.log(links.join("\r\n"));
 
 fs.writeFileSync("./assets/data.json", JSON.stringify(data, null, 2));

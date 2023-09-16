@@ -143,7 +143,7 @@
         }
       ],
       "introduces": [
-        "deno_python｜Deno 中调用 Python 模块",
+        "deno_python｜在 Deno 中调用 Python 模块",
         "Postgres Language Server｜为 Postgres 数据库提供语言服务协议支持",
         "Pigsty｜开源 RDS 替代方案",
         "Applite｜ Mac 应用管理工具",
@@ -158,7 +158,7 @@
         "https://github.com/milanvarady/applite",
         "https://github.com/DioxusLabs/dioxus",
         "https://github.com/projectdiscovery/katana",
-        ""
+        "https://twitter.com/rauchg/status/1687855882481336321"
       ]
     },
     "cover": 664,
@@ -202,12 +202,16 @@
         "一周 AI 小结"
       ],
       "links": [
-        "?",
-        "?",
-        "?",
-        "?",
-        "?",
-        "?"
+        "https://bloomberg.github.io/blazingmq/",
+        "https://www.hydra.so/",
+        "https://medium.com/@willkantorpringle/pythonmonkey-javascript-wasm-interop-in-python-using-spidermonkey-bindings-4a8efce2e598",
+        "https://go.dev/blog/gonew",
+        "https://v8.dev/blog/speeding-up-v8-heap-snapshots",
+        [
+          "https://about.fb.com/news/2023/08/audiocraft-generative-ai-for-music-and-audio",
+          "https://blog.google/technology/ai/google-deepmind-rt2-robotics-vla-model/",
+          "https://www.prettypolly.app/"
+        ]
       ]
     },
     "cover": 662.1,
@@ -351,7 +355,7 @@
         }
       ],
       "introduces": [
-        "Vizzu｜开源的数据可视化动画库",
+        "Vizzu｜开源数据可视化动画库",
         "Workout｜开源健身小程序",
         "Immich｜基于 Flutter 的在线相册应用",
         "OpenCost｜K8s 成本测量工具",
@@ -412,7 +416,7 @@
         "Watermill｜Go 的事件驱动开发框架",
         "BlockSuite｜通用协同编辑器",
         "Columnar｜高性能列式存储引擎",
-        "Kine｜使用 SQL 数据库运行 k8s",
+        "Kine｜使用 SQL 数据库运行 K8s",
         "基于 Three.js 的 3D 解密小游戏",
         "一周 AI 小结"
       ],
@@ -469,7 +473,7 @@
         "Refine｜更好的 React 开发框架",
         "1-Panel｜开源 Linux 服务器运维管理面板",
         "在 Go 程序中实现插件系统",
-        "本周 AI 小结"
+        "一周 AI 小结"
       ],
       "links": [
         "https://tabserve.dev/",
@@ -522,7 +526,7 @@
         "GoAWK｜Go 的 AWK 语言解释器",
         "Selecto.js｜一个区域选择的 UI 组件",
         "Svelte 发布了 v4 版本",
-        "本周 AI 小结"
+        "一周 AI 小结"
       ],
       "links": [
         "https://devpod.sh/",
@@ -578,7 +582,7 @@
         "Kera｜基于 Web 的桌面端扩展框架",
         "SeaweedFS｜分布式文件系统",
         "codespelunker｜命令行代码搜索工具",
-        "本周 AI 小结"
+        "一周 AI 小结"
       ],
       "links": [
         "https://github.com/openobserve/openobserve",
@@ -683,10 +687,10 @@
       "introduces": [
         "Lance｜面向机器学习设计的列式数据结构",
         "Trogan｜Textualize 社区的新项目",
-        "Plane｜ 开源 Jira 替代品",
+        "Plane｜ Jira 的开源替代品",
         "CSS Pro｜CSS 编辑解决方案",
         "Logicboard｜ 一个在线编程工具",
-        "AI 小结"
+        "一周 AI 小结"
       ],
       "links": [
         "https://github.com/lancedb/lance",
@@ -743,7 +747,7 @@
         "DB-GPT｜SQLChat 的开源替代品",
         "progress｜查看 Linux 命令执行进度",
         "Paypal 开源数据库 JunoDB 并发表介绍博客",
-        "本周 AI 小结"
+        "一周 AI 小结"
       ],
       "links": [
         "https://microsoft.github.io/devicescript/",
@@ -791,11 +795,11 @@
       ],
       "introduces": [
         "Windmill｜低代码 + serverless = ?",
-        "Supabase 为文档/集成与 ChatGPT 类似的问答搜索体验",
+        "Supabase 为文档添加与 ChatGPT 类似的问答搜索体验",
         "Bytebase 发布了 2.0 版本",
         "Bun /本周发布新版本 v0.6",
         "pprof｜WebAssembly 性能分析工具",
-        "AI 一周概述"
+        "一周 AI 小结"
       ],
       "links": [
         "https://github.com/windmill-labs/windmill",
@@ -945,7 +949,7 @@
       "introduces": [
         "Encore｜端到端后端开发平台",
         "Databerry｜无代码训练自己的 ChatGPT 机器人",
-        "Babylon.JS 6.0 发布超强物理引擎",
+        "Babylon.JS 发布 6.0｜超强物理引擎",
         "Linen｜将 Slack 和 Discord 对话转换为 Web 页",
         "Bullet Train｜为 SaaS 开发者提供开箱即用开发框架",
         "一篇关于 PostgreSQL 的博客"
@@ -1095,7 +1099,7 @@
         "Arroyo｜Rust 编写流式计算引擎",
         "openplayground｜Github CEO 发起的 AI playground 项目",
         "Quadratic｜一个有创意的数据工具",
-        "Midjourney 与 Adobe Firefly 对比引发对版权关注"
+        "Midjourney 与 Adobe Firefly 对比引发对版权的关注"
       ],
       "links": [
         "https://github.com/facebookresearch/segment-anything",
@@ -1302,7 +1306,7 @@
       ],
       "introduces": [
         "FormKit｜Vue 全功能表单框架",
-        "PgTyped｜从 SQL 语句中推断 Typescript 类型",
+        "PgTyped｜从 SQL 语句中推断 TypeScript 类型",
         "Flux｜软件定义键盘",
         "lightdash｜轻量级的 BI 工具",
         "OpenDAL｜开源通用数据接入层",
@@ -1352,7 +1356,7 @@
       "introduces": [
         "Google 发布新编程框架 Service Weaver",
         "Remult｜快速 CRUD 框架",
-        "Typescript 发布 5.0 候选版本",
+        "TypeScript 发布 5.0 候选版本",
         "ChatGPT 官方 API 出炉",
         "Mathesar｜ 开源 Postgres 数据库 GUI 管理工具",
         "Unfolder｜将3D 模型生成折纸零件图纸的工具"
@@ -1453,7 +1457,7 @@
         "Rerun｜ 记录计算机视觉执行过程的 SDK",
         "Sloth｜ Mac GUI 应用",
         "Bright ｜代码片段展示工具",
-        "著名作者讲解 xxxxxxx工作原理"
+        "著名作者讲解 ChatGPT 工作原理"
       ],
       "links": [
         "https://alist.nn.ci/",
@@ -1662,7 +1666,7 @@
       "introduces": [
         "Temporal｜持久化工作流平台",
         "AirByte｜数据 ETL 工具",
-        "Rough Notation｜",
+        "Rough Notation｜增加手绘风格注释的工具库",
         "barba.js｜页面间动效库",
         "Vento｜可纠错的录屏工具",
         "Cal.com｜日程管理工具",
@@ -1715,7 +1719,7 @@
         "CDC File Transfer｜ Google 开源文件同步工具",
         "just｜ 使用 Rust 开发的命令行工具",
         "Rath｜自动化数据探索工具",
-        "pinggy｜将本地的服务对公网提供访问工具",
+        "pinggy｜将本地服务对公网提供访问工具",
         "State of JS 发布年度开发者问卷结果"
       ],
       "links": [
@@ -1816,7 +1820,7 @@
         "CDN Up and Running｜从零学习开发 CDN",
         "Comprehensive Rust｜Google 内部 Rust 教程",
         "OSV-Scanner｜查找代码依赖中的安全漏洞",
-        "Hubble｜Github star 管理工具",
+        "Hubble｜GitHub star 管理工具",
         "一篇 serverless 数据库对比的博客"
       ],
       "links": [
@@ -1866,7 +1870,7 @@
         "Infisical ｜安全地传递密钥等隐私数据的工具",
         "一周末复刻赛伯朋克中的语音识别",
         "Winglang ｜面向云计算的开发语言",
-        "一篇文章介绍如何在 1 毫秒内搜索37 GB 文本的文章"
+        "一篇介绍如何在 1 毫秒内搜索 37 GB 文本的文章"
       ],
       "links": [
         "https://obsidian.md/canvas",
@@ -2023,9 +2027,9 @@
       "introduces": [
         "OpenAI 开放 ChatGPT 模型",
         "Google 推出安全编程语言 Rune",
-        "Kubeshark｜k8s 流量观测工具",
+        "Kubeshark｜K8s 流量观测工具",
         "cheat.sh｜技术小抄集合",
-        "go-coffeeshop｜GO 的微服务示例",
+        "go-coffeeshop｜Go 的微服务示例",
         "NLP 在线课程",
         "《Sql for Devs》｜数据库详解电子书"
       ],
@@ -2076,7 +2080,7 @@
         }
       ],
       "introduces": [
-        "Script Kit｜面向开发者的自动化工具，",
+        "Script Kit｜面向开发者的自动化工具",
         "D2｜开源声明式绘图语言",
         "Superset｜开源数据可视化平台",
         "Stable Diffusion 发布2.0版本",
@@ -2132,7 +2136,7 @@
         "Sapling｜Meta 大规模代码管理方案",
         "Greptime｜分布式时序数据库",
         "COZO｜事务型关系嵌入式数据库",
-        "Mathics｜Mathematica 开源替代品"
+        "Mathics｜Mathematica 的开源替代品"
       ],
       "links": [
         "https://redpanda.com/",
@@ -2235,13 +2239,13 @@
         }
       ],
       "introduces": [
-        "phlare｜GrafanaLabs推出持续性能分析平台Phlare",
-        "PostgreSQL提供图查询能力插件ApacheAGE",
-        "JC｜命令结果转JSON工具JC",
-        "shell中history命令全新实现(多设备共享历史命令)",
-        "ffmpeg｜过滤器图形化工具",
-        "turbopack速度10倍于vite?尤雨溪发文反击",
-        "Heroku免费替代品"
+        "Grafana Labs 开源持续性能分析平台 Phlare",
+        "AGE｜提供图查询能力的 PostgreSQL 插件",
+        "jc｜命令结果转 JSON 工具",
+        "hiSHtory｜交互式 shell 历史查询工具",
+        "FFmpeg Guide｜过滤器图形化工具",
+        "turbopack 速度10倍于 vite? 尤雨溪发文反击",
+        "Heroku 的免费替代品们"
       ],
       "links": [
         "https://github.com/grafana/phlare",
@@ -2810,7 +2814,7 @@
         }
       ],
       "introduces": [
-        "｜野心勃勃的数据库 SurrealDB",
+        "野心勃勃的数据库 SurrealDB",
         "Stable Diffusion｜开源的 AI 图片生成模型",
         "react-design-editor｜ Canva 的开源替代品",
         "Weylus｜将触屏设备变为触摸板",
@@ -2960,7 +2964,7 @@
       ],
       "introduces": [
         "开源知识库软件能否替代 Notion",
-        "Copilot 开源替代品",
+        "Copilot 的开源替代品",
         "逆向工程工具箱",
         "Emery｜效率工具",
         "一篇介绍 eBPF 技术的文章",
@@ -3009,7 +3013,7 @@
       ],
       "introduces": [
         "Blueboat｜多功能 serverless JS 运行时",
-        "languageTool ｜Grammarly 开源替代品",
+        "languageTool ｜Grammarly 的开源替代品",
         "Publii｜桌面端的 CMS 工具",
         "Virtink｜ K8s 轻量级虚拟化插件",
         "Skeleton｜ 全功能 Svelte UI 组件库",
@@ -3206,8 +3210,8 @@
       "introduces": [
         "Pyroscope｜性能持续分析工具",
         "daisyUI｜前端组件库",
-        "《数据库必须知道的那些事》",
-        "《浏览器是如何工作的》",
+        "博客｜《关于数据库你应该知道的那些事》",
+        "文章｜《浏览器是如何工作的》",
         "Spark 与 K8s 集成新动向",
         "Raindrop｜书签管理小工具"
       ],
@@ -3372,7 +3376,7 @@
         "Knight Lab｜用代码更好地讲故事",
         "plasmo｜浏览器插件开发平台",
         "Shotcut｜开源免费跨平台视频编辑器",
-        "DEEPKIT｜Typescript 高性能框架",
+        "DEEPKIT｜TypeScript 高性能框架",
         "opensourcealternative.to｜查找开源替代品的网站",
         "untools｜一组帮助思考的工具和方法论"
       ],
@@ -3432,7 +3436,7 @@
         "ROAPI｜数据聚合 API",
         "Tetra｜一个全栈框架",
         "fd｜终端工具 Find 的替代品",
-        "svelvet｜交互式关系图构建工具",
+        "Svelvet｜交互式关系图构建工具",
         "ffmpeg buddy｜FFmpeg 命令生成工具"
       ],
       "links": [
@@ -3538,7 +3542,7 @@
         }
       ],
       "introduces": [
-        "Bud ｜ GO 的全栈 web 框架",
+        "Bud ｜ Go 的全栈 web 框架",
         "Aspect ｜ 可视化开发 React 组件",
         "在 SQLite 中使用 JSON 和 virtual columns",
         "Sliderland｜一个极简风格的 JS 实验园地",
@@ -3718,7 +3722,7 @@
         "Clinic.js｜ Node.js 性能分析工具",
         "magic-trace｜Jane Street 开源的进程监控工具",
         "memray｜Bloomberg 开源的 Python 性能分析工具",
-        "《learn GO with Tests》｜练习 GO 的工具书",
+        "《learn Go with Tests》｜练习 Go 的工具书",
         "Edge Function｜Netlify 新推出的 PaaS 平台",
         "workmode｜远程工作助手",
         "pixy｜飞行相机"
@@ -3771,11 +3775,11 @@
       ],
       "introduces": [
         "一个有用网站的合集",
-        "一个开源的 web 文本编辑器",
-        "一个开源的分布式数据库",
+        "Lexical｜一个开源的 web 文本编辑器",
+        "YDB｜一个开源的分布式数据库",
         "OpenRefine｜开源数据清洗工具",
         "Node.js 发布18版本",
-        "GO 发表介绍泛型的文章",
+        "Go 发表介绍泛型的文章",
         "一个单手键盘"
       ],
       "links": [
@@ -3828,9 +3832,9 @@
         "现代 CLI 大全",
         "bore｜基于 Rust 的隧道工具",
         "WeekToDo｜本地计划管理工具",
-        "Zas｜专注于 GO 和 Rust 的编辑器",
+        "Zas｜专注于 Go 和 Rust 的编辑器",
         "Pinry｜Pinterest 的开源替代品",
-        "｜Deno 推出 FaaS 服务",
+        "Deno 推出 FaaS 服务",
         "EIGHT COLORS ｜一个小游戏"
       ],
       "links": [
@@ -3890,8 +3894,8 @@
         "MetricFlow｜数据仓库管理工具",
         "Ruby 增加 WASM 支持",
         "Rome 发布 Rome Formatter｜对标 Prettier",
-        "一篇博客｜TypeScript 编译器工作原理",
-        "一篇博客｜一些易被忽略的 HTML 属性"
+        "博客｜TypeScript 编译器工作原理",
+        "博客｜一些易被忽略的 HTML 属性"
       ],
       "links": [
         "https://coolify.io/",
@@ -4086,7 +4090,7 @@
         "Awesome TUIs｜ 收集提供终端用户界面项目清单",
         "K9s ｜一个终端中 UI 强大的 K8s 客户端",
         "Tiny renderer｜500 行代码学习 openGL｜附演示教程",
-        "GO 发布1.18版本支持泛型",
+        "Go 发布1.18版本支持泛型",
         "CSS-Tricks 网站被 DigitalOcean 收购",
         "Veloren ｜一个基于 Rust 开发的开源多人 RPG 游戏"
       ],
@@ -4109,10 +4113,6 @@
     "aid": 724739860,
     "hn_items": {
       "times": [
-        {
-          "minutes": 0,
-          "seconds": 8
-        },
         {
           "minutes": 0,
           "seconds": 21
@@ -4143,7 +4143,6 @@
         }
       ],
       "introduces": [
-        "关于 TypeScript 的两条新闻",
         "TypeScript 向 JS 提议增加类型系统",
         "Stripe 将 JS 代码库从 Flow 迁移到 TypeScript",
         "Godot ｜一个开源游戏引擎",
@@ -4153,9 +4152,8 @@
         "“请停止使用 :latest 标签”｜一篇关于版本安全的文章"
       ],
       "links": [
-        "",
-        "",
-        "",
+        "https://github.com/giltayar/proposal-types-as-comments",
+        "https://twitter.com/alunny/status/1501261144341680130",
         "https://godotengine.org/",
         "https://www.apple.com/mac-studio/",
         "https://stackoverflow.com/questions/1108/how-does-database-indexing-work",
@@ -4233,10 +4231,6 @@
       "times": [
         {
           "minutes": 0,
-          "seconds": 9
-        },
-        {
-          "minutes": 0,
           "seconds": 32
         },
         {
@@ -4265,7 +4259,6 @@
         }
       ],
       "introduces": [
-        "怎样实现一个最简单的 CRUD 应用？｜本期专题问答",
         "Django｜CRUD 最佳工具/答案1",
         "PostgREST｜CRUD 最佳工具/答案2",
         "nHOST｜CRUD 最佳工具/答案3",
@@ -4275,7 +4268,6 @@
         "Sioyek｜论文专用 PDF 阅读器"
       ],
       "links": [
-        "",
         "https://www.djangoproject.com/",
         "https://postgrest.org/en/stable/",
         "https://nhost.io/",
@@ -4389,16 +4381,16 @@
         }
       ],
       "introduces": [
-        "Files Gallery｜应用",
-        "Tally｜工具",
-        "Datawrapper｜工具",
-        "onemodel｜工具",
-        "Postman｜工具",
+        "Files Gallery｜一个基于 PHP 开发的应用",
+        "Tally｜一个快速编辑表单的工具",
+        "Datawrapper｜把数据转化为图表、地图、或表格的数据类工具",
+        "onemodel｜一个专门给软件工程师设计的绘图工具",
+        "Postman｜一个使用非常广泛的请求工具",
         "Laravel 9.0 发布",
         "Mailwind｜邮件模版",
-        "《 backend.sql + frontend.js = love》｜文章",
-        "《Top web hacking techniques of 2021》｜文章",
-        "SHA256 算法可视化演示"
+        "文章｜《 backend.sql + frontend.js = love》",
+        "文章｜《Top web hacking techniques of 2021》",
+        "SHA256｜算法可视化演示"
       ],
       "links": [
         "https://www.files.gallery/",
@@ -4409,7 +4401,7 @@
         "https://laravel-news.com/laravel-9-released",
         "https://github.com/soheilpro/mailwind",
         "https://blog.polyglot.network/backend.sql-+-frontend.js-love",
-        "",
+        "https://portswigger.net/research/top-10-web-hacking-techniques-of-2021",
         "https://sha256algorithm.com/"
       ]
     },
@@ -4442,11 +4434,11 @@
         }
       ],
       "introduces": [
-        "Hibiki HTML -新的前端框架-没有脚手架，没有Webpack",
-        "Systemd by Example",
-        "Malloy – A Better SQL, from Looker",
-        "Rich Cli 由Python编写，可打印各种格式丰富的内容",
-        "《我是如何在AWS上发现数千个开放数据库的》"
+        "Hibiki｜不必使用 JavaScript 开发前端应用的框架",
+        "Systemd｜一个常用的系统服务",
+        "Malloy｜用来描述数据关联关系和变化方式的实验性语言",
+        "Rich Cli｜用 Python 编写的命令行工具",
+        "博客｜《How I Discovered Thousands of Open Databases on AWS》"
       ],
       "links": [
         "https://playground.hibikihtml.com/tutorial/",
@@ -4505,16 +4497,16 @@
         }
       ],
       "introduces": [
-        "Charm 用来开发命令行工具的框架",
-        "Nova 一个专门给Mac设计的代码编辑器",
-        "rnote 创建手绘风格的笔记软件",
-        "github action 使用示例",
-        "playwright web自动化框架",
-        "prql rust编写的现代化查询语言",
-        "Deskreen 屏幕共享工具",
-        "《为什么我们团队取消了微服务的计划》",
-        "《将SQLite存储在Cloudflare耐用对象中》",
-        "《Kubernetes如此复杂有两个原因》"
+        "Charm｜用来开发命令行工具的框架",
+        "Nova｜给 Mac 设计的代码编辑器",
+        "Rnote｜手绘笔记软件",
+        "GitHub Actions｜一组使用示例",
+        "Playwright｜web 自动化测试框架",
+        "PRQL｜基于 Rust 的现代化查询语言",
+        "Deskreen｜基于web 开发的屏幕共享工具",
+        "博客｜《Why our team cancelled our move to Microservices》",
+        "博客｜《Store SQLite in Cloudflare Durable Objects》",
+        "文章｜《Two reasons Kubernetes is so complex》"
       ],
       "links": [
         "https://charm.sh/",
@@ -4587,11 +4579,11 @@
         "PyFlow｜一个可视化编程环境",
         "CSS 选择器练习题网站",
         "GPS 工作原理详解",
-        "Lichess ｜ 一个国际象棋服务器的支出分析",
+        "Lichess｜一个国际象棋服务器的支出分析",
         "谷歌分析在欧盟合法性及其替代品",
         "AWS DynamoDB 十年回顾",
-        "CyberChef ｜ 一个数据格式转换工具",
-        "curl ｜ 最近支持了 JSON",
+        "CyberChef｜一个数据格式转换工具",
+        "curl｜最近支持了 JSON",
         "轻松一刻｜弹珠撞击木块游戏"
       ],
       "links": [
@@ -4654,12 +4646,12 @@
       ],
       "introduces": [
         "开源软件被植入恶意代码",
-        "Browsix 浏览器中实现 POSIX",
+        "Browsix｜浏览器中实现 POSIX",
         "GitHub Copilot",
-        "Learn and Test DMARC 一个可视化工具",
-        "BookStack 一个开源 wiki 工具",
-        "Poly Haven 如何花不到400美金处理80TB数据和500万次页面访问的",
-        "Kagi 一个新型高级付费搜索引擎",
+        "Learn and Test DMARC｜一个可视化工具",
+        "BookStack｜一个开源 wiki 工具",
+        "Poly Haven｜如何花不到400美金处理80TB数据和500万次页面访问的",
+        "Kagi｜一个新型高级付费搜索引擎",
         "介绍两个 Cli 工具: dsq 和 fx",
         "轻松一刻时间｜介绍一个打发时间的小游戏"
       ],
@@ -4739,13 +4731,13 @@
       ],
       "introduces": [
         "任天堂掌上游戏机发展史回顾",
-        "《为什么要运行自己的 DNS 服务器？》",
-        "Zotero，一个开源的经典文献管理工具",
-        "Darling，一个帮助你在 Linux 上运行 Mac 应用程序的工具",
-        "coqui，克隆你的声音说外语",
-        "OpenDrop, 一个开源版的 AirDrop",
-        "Portmaster，一个帮助你管理电脑网络的开源软件",
-        "Papers We Love，一个专门研读学术类计算机科学论文的开源社区",
+        "博客｜《为什么要运行自己的 DNS 服务器？》",
+        "Zotero｜一个开源的经典文献管理工具",
+        "Darling｜一个帮助你在 Linux 上运行 Mac 应用程序的工具",
+        "coqui｜克隆你的声音说外语",
+        "OpenDrop｜一个开源版的 AirDrop",
+        "Portmaster｜一个帮助你管理电脑网络的开源软件",
+        "Papers We Love｜一个专门研读学术类计算机科学论文的开源社区",
         "关于 Zig 这个新兴编程语言的分析",
         "Raycast 团队信奉无需 code review 的理念",
         "利用浏览器 web GL 实现的东京地铁实时可视化地图",
@@ -4762,7 +4754,7 @@
         "https://paperswelove.org/",
         "https://www.duskborn.com/posts/2021-aoc-zig/",
         "https://www.raycast.com/blog/no-code-reviews-by-default",
-        "",
+        "https://minitokyo3d.com/",
         "https://iss-sim.spacex.com/"
       ]
     },
@@ -4820,26 +4812,31 @@
         {
           "minutes": 4,
           "seconds": 7
+        },
+        {
+          "minutes": 4,
+          "seconds": 20
         }
       ],
       "introduces": [
-        "波斯王子 一款为Mac开发的游戏",
-        "《一个HTML文件中的整个网站》",
-        "街头霸王2",
-        "emfy Emacs编辑器的配置项目",
-        "HTTP Toolkit",
-        "Exa - ls的现代替代品",
-        "Marktext -优雅的Markdown编辑器，适用于Linux, macOS, Windows",
-        "Tokio rust编写的开源异步库",
-        "Ruby 3.1",
-        "Python CheatSheet python 问题查询手册",
-        "《2021年的数据库:回顾的一年》",
-        "Miller -用于查询、塑造、重新格式化CSV、TSV和JSON中的数据的工具"
+        "在浏览器中用 JS 复刻《波斯王子》",
+        "一个只通过 HTML 和 CSS 就可以实现的博客网站",
+        "一篇回顾《街头霸王II》制作过程的博客",
+        "Emfy｜Emacs 编辑器的配置项目",
+        "HTTP Toolkit｜开源的 HTTP 请求工具包",
+        "exa｜ls 的开源替代品",
+        "Marktext｜Markdown 编辑器 Typora 的开源替代品",
+        "Tokio｜用 Rust 编写的开源异步库",
+        "Ruby 发布发布了3.1版本",
+        "Python CheatSheet｜Python 问题查询手册",
+        "博客｜《2021年的数据库:回顾的一年》",
+        "Miller｜查询、塑造、重新格式化CSV、TSV 和 JSON 中的数据的工具",
+        "Inspect｜将 Figma 设计稿导出为 HTML,React,以及 Tailwind CSS 代码的工具"
       ],
       "links": [
-        "",
+        "https://princejs.com/",
         "https://css-tricks.com/a-whole-website-in-a-single-html-file/",
-        "",
+        "https://fabiensanglard.net/sf2_sheets/index.html",
         "https://github.com/susam/emfy",
         "https://httptoolkit.tech/",
         "https://the.exa.website/",
@@ -4848,7 +4845,8 @@
         "https://www.ruby-lang.org/en/news/2021/12/25/ruby-3-1-0-released/",
         "https://gto76.github.io/python-cheatsheet/",
         "https://ottertune.com/blog/2021-databases-retrospective/",
-        "https://miller.readthedocs.io/en/latest/"
+        "https://miller.readthedocs.io/en/latest/",
+        "https://www.figma.com/community/plugin/1049994768493726219/Inspect---Export-to-HTML,-React,-TailwindCSS"
       ]
     },
     "cover": 584,
@@ -4909,22 +4907,32 @@
         {
           "minutes": 3,
           "seconds": 30
+        },
+        {
+          "minutes": 3,
+          "seconds": 52
+        },
+        {
+          "minutes": 4,
+          "seconds": 4
         }
       ],
       "introduces": [
-        "blender3.0 图形渲染工具",
-        "uBlacklist - 阻止特定的站点出现在谷歌的搜索结果中",
-        "Apache Guacamole 无客户端的远程桌面网端",
-        "Learn X in Y minutes",
-        "《语义搜索的自然语言处理》",
-        "Jam 自部署工具",
-        "Milk Video 通过上传的视频和音频生成声波图的工具",
-        "AlterClass -一个制作和销售编程课程的平台",
-        "Code Search 搜索代码工具",
-        "Lapce ｜基于原生 GUI 和 Rust 编写的开源代码编辑器",
+        "Blender 发布3.0版本",
+        "uBlacklist｜一个设置搜索结果黑名单的工具",
+        "Apache Guacamole｜一个无客户端的远程桌面网关",
+        "Learn X in Y minutes｜一个包含工具、算法、编程语言的教程",
+        "一个关于 NLP 的免费教程",
+        "Jam｜ Clubhouse 的开源自部署版本",
+        "Milk Video｜上传音视频生成声波图的工具",
+        "AlterClass｜一个制作编程课程的平台",
+        "Code Search｜GitHub 发布代码搜索工具",
+        "Lapce｜用 Rust 编写的代码编辑器",
         "Rough.js -创建一个手绘的，粗略的图形外观的工具",
-        "Doodle CSS 手绘风格的主题css",
-        "Paper Website 从纸上建立一个网站界面"
+        "Doodle CSS｜可自定义手绘风格的 UI 界面",
+        "Paper Website｜通过手写内容创造网站的工具",
+        "一个了解 DNS 工作原理的工具",
+        "一篇关于推广开源项目的文章"
       ],
       "links": [
         "https://www.blender.org/download/releases/3-0/",
@@ -4939,7 +4947,9 @@
         "https://github.com/lapce/lapce",
         "https://roughjs.com/",
         "https://chr15m.github.io/DoodleCSS/",
-        "https://daily.tinyprojects.dev/paper_website"
+        "https://daily.tinyprojects.dev/paper_website",
+        "https://jvns.ca/blog/2021/12/15/mess-with-dns/ ",
+        "https://microfounder.com/blog/marketing-is-scary"
       ]
     },
     "cover": 583,
