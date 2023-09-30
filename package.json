@@ -5,6 +5,7 @@
   "scripts": {
     "start-native": "TAMAGUI_TARGET=native expo start -c",
     "start-web": "TAMAGUI_TARGET=web expo start -c",
+    "export-web": "TAMAGUI_TARGET=web expo export:web",
     "android": "TAMAGUI_TARGET=native yarn expo run:android",
     "ios": "TAMAGUI_TARGET=native yarn expo run:ios",
     "web": "TAMAGUI_TARGET=web expo start --web"
