@@ -25,9 +25,14 @@ function NewsCard(
 ) {
   return (
     <Card elevate size="$10" borderRadius="$10" bordered {...props}>
-      <Card.Header marginTop="$20" paddingVertical="0" paddingHorizontal="$2">
+      <Card.Header
+        marginTop="$20"
+        paddingVertical="0"
+        paddingHorizontal="$2"
+        flex={1}
+      >
         <H3>{props.title}</H3>
-        <YStack height="$12">
+        <YStack flex={1}>
           <ScrollView>
             <YStack>{props.description}</YStack>
           </ScrollView>
