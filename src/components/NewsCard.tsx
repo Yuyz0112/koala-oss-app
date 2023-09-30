@@ -9,18 +9,29 @@ import {
 } from "tamagui";
 import * as Linking from "expo-linking";
 import { covers } from "../covers.gen";
+import { Platform } from "react-native";
 
 async function tryOpenUrl(nativeUrl: string, webUrl: string) {
   try {
-    console.log("tryOpenUrl");
-    const start = Date.now();
+    if (Platform.OS === "web") {
+      let hasFocus = true;
+      let timer: number | null;
+      const checkFocus = () => {
+        hasFocus = false;
+        timer && clearTimeout(timer);
+        document.removeEventListener("visibilitychange", checkFocus);
+      };
+      document.addEventListener("visibilitychange", checkFocus);
+      timer = window.setTimeout(function () {
+        if (hasFocus) {
+          // still not redirected
+          Linking.openURL(webUrl);
+        }
+      }, 1000);
+    }
+
     await Linking.openURL(nativeUrl);
-    setTimeout(function () {
-      if (Date.now() - start < 400) {
-        // still not redirected
-        Linking.openURL(webUrl);
-      }
-    }, 300);
+    // TODO: use webUrl in native platforms
   } catch (error) {
     console.error(error);
   }
