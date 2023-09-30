@@ -1,5 +1,6 @@
 {
   "expo": {
+    "entryPoint": "./src/App.tsx",
     "name": "koala-channel-app",
     "slug": "koala-channel-app",
     "version": "1.0.0",

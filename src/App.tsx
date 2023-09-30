@@ -9,9 +9,10 @@ import {
   styled,
   XStack,
 } from "tamagui";
+import { registerRootComponent } from "expo";
 import config from "./tamagui.config";
 import NewsCard from "./components/NewsCard";
-import data from "./assets/data.json";
+import data from "../assets/data.json";
 import { AnimatePresence } from "@tamagui/animate-presence";
 import * as Linking from "expo-linking";
 import { LinearGradient } from "tamagui/linear-gradient";
@@ -194,3 +195,5 @@ export default function App() {
     </TamaguiProvider>
   );
 }
+
+registerRootComponent(App);

@@ -4,13 +4,10 @@ import {
   CardProps,
   H3,
   Image,
-  XStack,
   YStack,
   ScrollView,
-  Text,
 } from "tamagui";
 import * as Linking from "expo-linking";
-import { Platform } from "react-native";
 import { covers } from "../covers.gen";
 
 async function tryOpenUrl(nativeUrl: string, webUrl: string) {

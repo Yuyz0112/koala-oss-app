@@ -1,5 +1,6 @@
-const data = require("./assets/data.json");
+const data = require("../assets/data.json");
 const fs = require("fs");
+const path = require("path");
 
 for (const item of data) {
   const {
@@ -27,7 +28,7 @@ for (const item of data) {
   }
 }
 
-const covers = fs.readdirSync("./assets/covers");
+const covers = fs.readdirSync(path.resolve(__dirname, "../assets/covers"));
 
 const names = [];
 for (const c of covers) {
@@ -45,8 +46,11 @@ for (const c of covers) {
       .replace("a", ".1")
       .trim()
   );
-  const np = `./assets/covers/${name}.${ext.toLowerCase()}`;
-  fs.renameSync(`./assets/covers/${c}`, np);
+  const np = `../assets/covers/${name}.${ext.toLowerCase()}`;
+  fs.renameSync(
+    path.resolve(__dirname, `../assets/covers/${c}`),
+    path.resolve(__dirname, np)
+  );
   names.push({
     name,
     np,
@@ -55,7 +59,7 @@ for (const c of covers) {
 
 names.sort((a, b) => a.name - b.name);
 fs.writeFileSync(
-  "./covers.gen.ts",
+  path.resolve(__dirname, "../src/covers.gen.ts"),
   `export const covers: Record<string, any> = {
   ${names.map((n) => `['cover_${n.name}']: require('${n.np}')`).join(",\r\n  ")}
 }`
@@ -84,4 +88,7 @@ for (let i = 0; i < data.length; i++) {
   data[i].bid = enc(data[i].aid);
 }
 
-fs.writeFileSync("./assets/data.json", JSON.stringify(data, null, 2));
+fs.writeFileSync(
+  path.resolve(__dirname, "../assets/data.json"),
+  JSON.stringify(data, null, 2)
+);
