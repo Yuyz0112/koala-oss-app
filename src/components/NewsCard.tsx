@@ -68,7 +68,7 @@ function NewsCard(
           themeInverse
           onPress={async () => {
             const nativeUrl = `bilibili://video/${props.bid}?start_progress=${props.time}`;
-            const webUrl = `https://www.bilibili.com/video/${props.bid}?t=34`;
+            const webUrl = `https://www.bilibili.com/video/${props.bid}?t=${props.time}`;
             await tryOpenUrl(nativeUrl, webUrl);
           }}
         >
