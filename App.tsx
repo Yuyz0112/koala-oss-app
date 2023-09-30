@@ -136,6 +136,7 @@ export default function App() {
                 <NewsCard
                   height="60%"
                   width="80%"
+                  maxWidth={320}
                   margin="$5"
                   title={items[page]?.title || ""}
                   description={items[page]?.link || ""}

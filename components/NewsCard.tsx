@@ -13,6 +13,22 @@ import * as Linking from "expo-linking";
 import { Platform } from "react-native";
 import { covers } from "../covers.gen";
 
+async function tryOpenUrl(nativeUrl: string, webUrl: string) {
+  try {
+    console.log("tryOpenUrl");
+    const start = Date.now();
+    await Linking.openURL(nativeUrl);
+    setTimeout(function () {
+      if (Date.now() - start < 400) {
+        // still not redirected
+        Linking.openURL(webUrl);
+      }
+    }, 300);
+  } catch (error) {
+    console.error(error);
+  }
+}
+
 function NewsCard(
   props: CardProps &
     Partial<{
@@ -45,7 +61,7 @@ function NewsCard(
           onPress={async () => {
             const nativeUrl = `bilibili://video/${props.bid}?start_progress=${props.time}`;
             const webUrl = `https://www.bilibili.com/video/${props.bid}?t=34`;
-            const result = await Linking.openURL(nativeUrl);
+            await tryOpenUrl(nativeUrl, webUrl);
           }}
         >
           观看
