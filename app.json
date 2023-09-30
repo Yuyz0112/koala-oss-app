@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "random-news",
-    "slug": "random-news",
+    "name": "koala-channel-app",
+    "slug": "koala-channel-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
