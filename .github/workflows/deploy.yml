@@ -35,4 +35,5 @@ jobs:
         uses: denoland/deployctl@v1
         with:
           project: "koala-channel-app"
+          entrypoint: "https://deno.land/std@0.202.0/http/file_server.ts"
           root: "./web-build" # 📝 Update the root if necessary
