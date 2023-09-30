@@ -4,11 +4,13 @@ import {
   CardProps,
   H3,
   Image,
-  Paragraph,
   XStack,
   YStack,
+  ScrollView,
+  Text,
 } from "tamagui";
 import * as Linking from "expo-linking";
+import { Platform } from "react-native";
 import { covers } from "../covers.gen";
 
 function NewsCard(
@@ -25,21 +27,20 @@ function NewsCard(
     <Card elevate size="$10" borderRadius="$10" bordered {...props}>
       <Card.Header marginTop="$20" paddingVertical="0" paddingHorizontal="$2">
         <H3>{props.title}</H3>
-        <YStack>{props.description}</YStack>
+        <YStack height="$12">
+          <ScrollView>
+            <YStack>{props.description}</YStack>
+          </ScrollView>
+        </YStack>
       </Card.Header>
       <Card.Footer padded>
-        <XStack flex={1} />
         <Button
-          borderRadius="$10"
-          theme="active"
+          width="100%"
+          themeInverse
           onPress={async () => {
-            const url =
-              `bilibili://video/${props.bid}?start_progress=${props.time}` ||
-              `https://www.bilibili.com/video/${props.bid}?t=34`;
-            const can = await Linking.canOpenURL(url);
-            console.log(`canOpenURL ${url} ? ${can}`);
-            const result = await Linking.openURL(url);
-            console.log(`doOpenURL ${url} ? ${result}`);
+            const nativeUrl = `bilibili://video/${props.bid}?start_progress=${props.time}`;
+            const webUrl = `https://www.bilibili.com/video/${props.bid}?t=34`;
+            const result = await Linking.openURL(nativeUrl);
           }}
         >
           观看
@@ -56,7 +57,12 @@ function NewsCard(
               width: "100%",
               height: "100%",
             }}
-            source={covers[`cover_${props.image}`]}
+            source={{
+              width: 320,
+              height: 180,
+              uri: covers[`cover_${props.image}`],
+            }}
+            resizeMode="cover"
           />
         </Card.Background>
       )}

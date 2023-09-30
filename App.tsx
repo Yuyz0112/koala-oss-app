@@ -14,6 +14,7 @@ import NewsCard from "./components/NewsCard";
 import data from "./assets/data.json";
 import { AnimatePresence } from "@tamagui/animate-presence";
 import * as Linking from "expo-linking";
+import { LinearGradient } from "tamagui/linear-gradient";
 
 import { ArrowLeft, ArrowRight, RefreshCcw, Link } from "@tamagui/lucide-icons";
 import { useState } from "react";
@@ -106,15 +107,16 @@ export default function App() {
 
   return (
     <TamaguiProvider config={config}>
-      <Theme name={colorScheme === "dark" ? "dark" : "light"}>
+      <Theme name={"light"}>
         <StatusBar style="auto" />
         <SafeAreaView style={{ flex: 1 }}>
-          <XStack
+          <LinearGradient
             overflow="hidden"
             position="relative"
             height="100%"
             width="100%"
             alignItems="center"
+            colors={["white", "$orange5"]}
           >
             <AnimatePresence
               enterVariant={enterVariant}
@@ -124,9 +126,9 @@ export default function App() {
                 f={1}
                 alignItems="center"
                 justifyContent="center"
-                backgroundColor="$backgroundStrong"
+                backgroundColor="rgba(0,0,0,0)"
                 key={page}
-                animation="bouncy"
+                animation="quick"
                 fullscreen
                 x={0}
                 opacity={1}
@@ -140,6 +142,7 @@ export default function App() {
                   image={items[page]?.cover}
                   bid={items[page]?.bid || ""}
                   time={items[page]?.time || 0}
+                  elevate={false}
                 />
               </YStackEnterable>
             </AnimatePresence>
@@ -149,7 +152,7 @@ export default function App() {
               bottom="$10"
               width="100%"
               alignItems="center"
-              justifyContent="space-between"
+              justifyContent="space-around"
               paddingHorizontal="$4"
             >
               <Button
@@ -157,7 +160,8 @@ export default function App() {
                 icon={ArrowLeft}
                 size="$5"
                 circular
-                elevate
+                chromeless
+                // themeInverse
                 onPress={() => paginate(-1)}
                 disabled={page === 0}
               />
@@ -167,7 +171,8 @@ export default function App() {
                 icon={RefreshCcw}
                 size="$5"
                 circular
-                elevate
+                chromeless
+                // themeInverse
                 onPress={() => setPage([getRandomIndex(), 1])}
               />
 
@@ -176,12 +181,13 @@ export default function App() {
                 icon={ArrowRight}
                 size="$5"
                 circular
-                elevate
+                chromeless
+                // themeInverse
                 onPress={() => paginate(1)}
                 disabled={page === items.length - 1}
               />
             </XStack>
-          </XStack>
+          </LinearGradient>
         </SafeAreaView>
       </Theme>
     </TamaguiProvider>
