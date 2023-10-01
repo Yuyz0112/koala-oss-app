@@ -1,8 +1,8 @@
 {
   "expo": {
     "entryPoint": "./src/App.tsx",
-    "name": "koala-channel-app",
-    "slug": "koala-channel-app",
+    "name": "koala-oss-app",
+    "slug": "koala-oss-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

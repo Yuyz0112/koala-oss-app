@@ -37,6 +37,14 @@ async function tryOpenUrl(nativeUrl: string, webUrl: string) {
   }
 }
 
+export async function openURL(url: string) {
+  if (Platform.OS === "web") {
+    window.open(url, "_blank", "noopener");
+  } else {
+    await Linking.openURL(url);
+  }
+}
+
 function NewsCard(
   props: CardProps &
     Partial<{
@@ -66,9 +74,19 @@ function NewsCard(
         <Button
           width="100%"
           themeInverse
-          onPress={async () => {
+          onPress={async (evt) => {
             const nativeUrl = `bilibili://video/${props.bid}?start_progress=${props.time}`;
-            const webUrl = `https://www.bilibili.com/video/${props.bid}?t=${props.time}`;
+            const webUrl = `https://www.bilibili.com/video/${
+              props.bid
+            }?t=${Math.floor((props.time || 0) / 1000)}`;
+
+            if (Platform.OS === "web") {
+              const { metaKey, ctrlKey } = evt as unknown as MouseEvent;
+              if (metaKey || ctrlKey) {
+                window.open(webUrl, "_blank", "noopener");
+              }
+            }
+
             await tryOpenUrl(nativeUrl, webUrl);
           }}
         >

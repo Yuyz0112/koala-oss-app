@@ -10,15 +10,14 @@ import {
   XStack,
 } from "tamagui";
 import { registerRootComponent } from "expo";
-import config from "./tamagui.config";
-import NewsCard from "./components/NewsCard";
-import data from "../assets/data.json";
 import { AnimatePresence } from "@tamagui/animate-presence";
-import * as Linking from "expo-linking";
 import { LinearGradient } from "tamagui/linear-gradient";
-
 import { ArrowLeft, ArrowRight, RefreshCcw, Link } from "@tamagui/lucide-icons";
 import { useState } from "react";
+
+import config from "./tamagui.config";
+import NewsCard, { openURL } from "./components/NewsCard";
+import data from "../assets/data.json";
 
 const YStackEnterable = styled(YStack, {
   variants: {
@@ -60,7 +59,7 @@ const items = data.reduce<
               <LinkButton
                 key={cLink}
                 onPress={() => {
-                  Linking.openURL(cLink);
+                  openURL(cLink);
                 }}
               >
                 {cLink}
@@ -70,7 +69,7 @@ const items = data.reduce<
         ) : link ? (
           <LinkButton
             onPress={() => {
-              Linking.openURL(link);
+              openURL(link);
             }}
           >
             {link}

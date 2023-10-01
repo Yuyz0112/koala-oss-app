@@ -1,5 +1,5 @@
 {
-  "name": "koala-channel-app",
+  "name": "koala-oss-app",
   "version": "1.0.0",
   "main": "./src/App.tsx",
   "scripts": {
