@@ -85,7 +85,9 @@ function enc(x) {
 
 for (let i = 0; i < data.length; i++) {
   data[i].cover = names[names.length - i - 1].name;
-  data[i].bid = enc(data[i].aid);
+  if (data[i].aid && !data[i].bid) {
+    data[i].bid = enc(data[i].aid);
+  }
 }
 
 fs.writeFileSync(

@@ -86,5 +86,9 @@ export const covers: Record<string, any> = {
   ['cover_662.1']: require('../assets/covers/662.1.png'),
   ['cover_664']: require('../assets/covers/664.png'),
   ['cover_665']: require('../assets/covers/665.png'),
-  ['cover_667']: require('../assets/covers/667.png')
+  ['cover_667']: require('../assets/covers/667.png'),
+  ['cover_668']: require('../assets/covers/668.png'),
+  ['cover_669']: require('../assets/covers/669.png'),
+  ['cover_670']: require('../assets/covers/670.png'),
+  ['cover_671']: require('../assets/covers/671.png')
 }
