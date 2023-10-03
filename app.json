@@ -14,19 +14,23 @@
     },
     "assetBundlePatterns": ["**/*"],
     "ios": {
+      "icon": "./assets/icon.png",
       "supportsTablet": true,
       "infoPlist": {
         "LSApplicationQueriesSchemes": ["bilibili"]
       }
     },
     "android": {
+      "icon": "./assets/icon.png",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       }
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/favicon.png",
+      "backgroundColor": "#ffffff",
+      "description": "Koala 聊开源频道 App"
     }
   }
 }
