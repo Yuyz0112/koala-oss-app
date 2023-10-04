@@ -147,7 +147,7 @@ export default function App() {
                 opacity={1}
               >
                 <NewsCard
-                  height="70%"
+                  height="65%"
                   width="80%"
                   maxWidth={320}
                   maxHeight={560}

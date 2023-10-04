@@ -84,6 +84,7 @@ function NewsCard(
               const { metaKey, ctrlKey } = evt as unknown as MouseEvent;
               if (metaKey || ctrlKey) {
                 window.open(webUrl, "_blank", "noopener");
+                return;
               }
             }
 
