@@ -8,8 +8,9 @@ import {
   ScrollView,
 } from "tamagui";
 import * as Linking from "expo-linking";
-import { covers } from "../covers.gen";
 import { Platform } from "react-native";
+import { Globe } from "@tamagui/lucide-icons";
+import { covers } from "../covers.gen";
 
 async function tryOpenUrl(nativeUrl: string, webUrl: string) {
   try {
@@ -45,6 +46,12 @@ export async function openURL(url: string) {
   }
 }
 
+function getWebUrl(bid = "", time = 0) {
+  return `https://www.bilibili.com/video/${bid}?t=${Math.floor(
+    (time || 0) / 1000
+  )}`;
+}
+
 function NewsCard(
   props: CardProps &
     Partial<{
@@ -72,13 +79,11 @@ function NewsCard(
       </Card.Header>
       <Card.Footer padded>
         <Button
-          width="100%"
+          flex={1}
           themeInverse
           onPress={async (evt) => {
             const nativeUrl = `bilibili://video/${props.bid}?start_progress=${props.time}`;
-            const webUrl = `https://www.bilibili.com/video/${
-              props.bid
-            }?t=${Math.floor((props.time || 0) / 1000)}`;
+            const webUrl = getWebUrl(props.bid, props.time);
 
             if (Platform.OS === "web") {
               const { metaKey, ctrlKey } = evt as unknown as MouseEvent;
@@ -93,6 +98,14 @@ function NewsCard(
         >
           观看
         </Button>
+        <Button
+          icon={Globe}
+          ml="$1"
+          chromeless
+          onPress={() => {
+            openURL(getWebUrl(props.bid, props.time));
+          }}
+        />
       </Card.Footer>
       {props.image && (
         <Card.Background

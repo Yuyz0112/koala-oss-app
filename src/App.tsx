@@ -1,6 +1,6 @@
 import { useFonts } from "expo-font";
 import { StatusBar } from "expo-status-bar";
-import { useColorScheme, SafeAreaView, Platform } from "react-native";
+import { SafeAreaView } from "react-native";
 import {
   Button,
   TamaguiProvider,
@@ -20,7 +20,7 @@ import {
   Link,
   Download,
 } from "@tamagui/lucide-icons";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 
 import config from "./tamagui.config";
 import NewsCard, { openURL } from "./components/NewsCard";
