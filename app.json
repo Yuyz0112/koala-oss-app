@@ -12,12 +12,16 @@
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
-    "assetBundlePatterns": ["**/*"],
+    "assetBundlePatterns": [
+      "**/*"
+    ],
     "ios": {
       "icon": "./assets/icon.png",
       "supportsTablet": true,
       "infoPlist": {
-        "LSApplicationQueriesSchemes": ["bilibili"]
+        "LSApplicationQueriesSchemes": [
+          "bilibili"
+        ]
       }
     },
     "android": {
@@ -31,6 +35,9 @@
       "favicon": "./assets/favicon.png",
       "backgroundColor": "#ffffff",
       "description": "Koala 聊开源频道 App"
-    }
+    },
+    "plugins": [
+      "sentry-expo"
+    ]
   }
 }

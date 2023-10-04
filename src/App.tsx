@@ -28,8 +28,10 @@ import data from "../assets/data.json";
 
 import { useInstallPrompt } from "./use-install-prompt";
 import { register } from "./service-worker-registration";
+import { initSentry } from "./sentry";
 
 register();
+initSentry();
 
 const YStackEnterable = styled(YStack, {
   variants: {
