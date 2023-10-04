@@ -1,6 +1,6 @@
 import { useFonts } from "expo-font";
 import { StatusBar } from "expo-status-bar";
-import { useColorScheme, SafeAreaView } from "react-native";
+import { useColorScheme, SafeAreaView, Platform } from "react-native";
 import {
   Button,
   TamaguiProvider,
@@ -12,12 +12,23 @@ import {
 import { registerRootComponent } from "expo";
 import { AnimatePresence } from "@tamagui/animate-presence";
 import { LinearGradient } from "tamagui/linear-gradient";
-import { ArrowLeft, ArrowRight, RefreshCcw, Link } from "@tamagui/lucide-icons";
+import {
+  ArrowLeft,
+  ArrowRight,
+  RefreshCcw,
+  Link,
+  Download,
+} from "@tamagui/lucide-icons";
 import { useState } from "react";
 
 import config from "./tamagui.config";
 import NewsCard, { openURL } from "./components/NewsCard";
 import data from "../assets/data.json";
+
+import { useInstallPrompt } from "./use-install-prompt";
+import { register } from "./service-worker-registration";
+
+register();
 
 const YStackEnterable = styled(YStack, {
   variants: {
@@ -101,6 +112,8 @@ export default function App() {
 
   const exitVariant = direction === 1 ? "isLeft" : "isRight";
 
+  const { isInstallable, handleInstall } = useInstallPrompt();
+
   if (!loaded) {
     return null;
   }
@@ -147,6 +160,19 @@ export default function App() {
                 />
               </YStackEnterable>
             </AnimatePresence>
+
+            {isInstallable && (
+              <XStack position="absolute" top="$0" right="$0">
+                <Button
+                  accessibilityLabel="Download"
+                  icon={Download}
+                  size="$5"
+                  circular
+                  chromeless
+                  onPress={handleInstall}
+                />
+              </XStack>
+            )}
 
             <XStack
               position="absolute"
