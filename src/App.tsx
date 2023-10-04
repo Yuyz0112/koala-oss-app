@@ -24,7 +24,11 @@ import { useState } from "react";
 import config from "./tamagui.config";
 import NewsCard, { openURL } from "./components/NewsCard";
 import data from "../assets/data.json";
+
 import { useInstallPrompt } from "./use-install-prompt";
+import { register } from "./service-worker-registration";
+
+register();
 
 const YStackEnterable = styled(YStack, {
   variants: {

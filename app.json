@@ -1,10 +1,10 @@
 {
   "expo": {
     "entryPoint": "./src/App.tsx",
-    "name": "koala-oss-app",
+    "name": "Koala OSS",
     "slug": "koala-oss-app",
     "version": "1.0.0",
-    "orientation": "portrait",
+    "orientation": "any",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "automatic",
     "splash": {
