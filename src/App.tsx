@@ -147,9 +147,10 @@ export default function App() {
                 opacity={1}
               >
                 <NewsCard
-                  height="60%"
+                  height="70%"
                   width="80%"
                   maxWidth={320}
+                  maxHeight={560}
                   margin="$5"
                   title={items[page]?.title || ""}
                   description={items[page]?.link || ""}
