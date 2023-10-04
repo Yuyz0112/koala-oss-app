@@ -16,10 +16,11 @@ import {
   ArrowLeft,
   ArrowRight,
   RefreshCcw,
+  History,
   Link,
   Download,
 } from "@tamagui/lucide-icons";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import config from "./tamagui.config";
 import NewsCard, { openURL } from "./components/NewsCard";
@@ -43,6 +44,12 @@ const LinkButton = styled(Button, {
   padding: "$2",
   width: "100%",
   iconAfter: Link,
+});
+
+const IconButton = styled(Button, {
+  chromeless: true,
+  size: "$5",
+  circular: true,
 });
 
 function getRandomIndex() {
@@ -96,21 +103,51 @@ const items = data.reduce<
   );
 }, []);
 
+enum Direction {
+  Left = -1,
+  Right = 1,
+  Random = 0,
+}
+
 export default function App() {
-  const colorScheme = useColorScheme();
   const [loaded] = useFonts({
     Inter: require("@tamagui/font-inter/otf/Inter-Medium.otf"),
     InterBold: require("@tamagui/font-inter/otf/Inter-Bold.otf"),
   });
 
-  const [[page, direction], setPage] = useState([getRandomIndex(), 0]);
-  const paginate = (newDirection: number) => {
-    setPage([page + newDirection, newDirection]);
-  };
-  const enterVariant =
-    direction === 1 || direction === 0 ? "isRight" : "isLeft";
+  const [[page, direction], _setPage] = useState([
+    getRandomIndex(),
+    Direction.Random,
+  ]);
+  const [indexHistory, setIndexHistory] = useState<number[]>([]);
 
-  const exitVariant = direction === 1 ? "isLeft" : "isRight";
+  const paginate = (newIndex: number, newDirection: Direction) => {
+    _setPage([newIndex, newDirection]);
+    setIndexHistory((prev) => {
+      const cur = [page].concat(prev);
+      // 3 is the max history depth
+      if (cur.length > 3) {
+        cur.pop();
+      }
+      return cur;
+    });
+  };
+  const undo = () => {
+    if (indexHistory.length < 1) {
+      return;
+    }
+
+    const [index, ...remain] = indexHistory;
+    _setPage([index!, Direction.Left]);
+    setIndexHistory(remain);
+  };
+
+  const enterVariant =
+    direction === Direction.Right || direction === Direction.Random
+      ? "isRight"
+      : "isLeft";
+
+  const exitVariant = direction === Direction.Right ? "isLeft" : "isRight";
 
   const { isInstallable, handleInstall } = useInstallPrompt();
 
@@ -183,35 +220,32 @@ export default function App() {
               justifyContent="space-around"
               paddingHorizontal="$4"
             >
-              <Button
+              <IconButton
                 accessibilityLabel="Carousel left"
                 icon={ArrowLeft}
-                size="$5"
-                circular
-                chromeless
-                // themeInverse
-                onPress={() => paginate(-1)}
+                onPress={() => paginate(page - 1, Direction.Left)}
                 disabled={page === 0}
               />
 
-              <Button
-                accessibilityLabel="random"
-                icon={RefreshCcw}
-                size="$5"
-                circular
-                chromeless
-                // themeInverse
-                onPress={() => setPage([getRandomIndex(), 1])}
-              />
+              <XStack>
+                <IconButton
+                  accessibilityLabel="undo"
+                  icon={History}
+                  onPress={undo}
+                  disabled={indexHistory.length === 0}
+                  opacity={indexHistory.length === 0 ? 0.25 : 1}
+                />
+                <IconButton
+                  accessibilityLabel="random"
+                  icon={RefreshCcw}
+                  onPress={() => paginate(getRandomIndex(), Direction.Random)}
+                />
+              </XStack>
 
-              <Button
+              <IconButton
                 accessibilityLabel="Carousel right"
                 icon={ArrowRight}
-                size="$5"
-                circular
-                chromeless
-                // themeInverse
-                onPress={() => paginate(1)}
+                onPress={() => paginate(page + 1, Direction.Right)}
                 disabled={page === items.length - 1}
               />
             </XStack>
