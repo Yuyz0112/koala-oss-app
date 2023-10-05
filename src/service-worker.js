@@ -1,5 +1,5 @@
-const CACHE_NAME = "v1";
-const urlsToCache = ["/"];
+const CACHE_NAME = "v2";
+const urlsToCache = [];
 
 self.addEventListener("install", function (event) {
   // Perform install steps
