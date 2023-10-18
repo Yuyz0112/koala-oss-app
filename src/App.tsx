@@ -34,6 +34,7 @@ const LinkButton = styled(Button, {
   padding: "$2",
   width: "100%",
   iconAfter: Link,
+  justifyContent: "flex-start",
 });
 
 const items = data.reduce<Items>((prev, cur) => {
@@ -105,14 +106,7 @@ export default function App() {
             alignItems="center"
             colors={["white", "$orange5"]}
           >
-            <XStack
-              position="absolute"
-              top="$0"
-              left="$0"
-              justifyContent="space-between"
-              width="100%"
-              zIndex={9}
-            >
+            <XStack position="absolute" top="$0" left="$0" zIndex={9}>
               <ToggleGroup
                 type="single"
                 marginLeft="$2"
@@ -128,6 +122,8 @@ export default function App() {
                   <Shuffle />
                 </ToggleGroup.Item>
               </ToggleGroup>
+            </XStack>
+            <XStack position="absolute" top="$0" right="$0" zIndex={9}>
               {isInstallable && (
                 <Button
                   accessibilityLabel="Download"

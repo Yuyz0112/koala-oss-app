@@ -87,6 +87,7 @@ export const WatchLinkButton: React.FC<Props> = (props) => {
       onPress={() => {
         openURL(getWebUrl(props.bid, props.time));
       }}
+      {...props.button}
     />
   );
 };
