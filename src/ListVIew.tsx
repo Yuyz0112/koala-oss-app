@@ -9,16 +9,15 @@ function Card({ item }: { item: Items[0] }) {
     <YStack
       marginTop="$2"
       p="$2"
-      pb="0"
       borderBottomColor="$gray8"
       borderBottomWidth="1px"
     >
       <H5 fontWeight="bold">{item.title}</H5>
-      <XStack>
-        <YStack flexBasis="80%" overflow="hidden">
+      <YStack>
+        <YStack overflow="hidden">
           <YStack>{item.link}</YStack>
         </YStack>
-        <XStack justifyContent="flex-end" flexBasis="20%">
+        <XStack justifyContent="flex-end">
           <WatchButton
             {...item}
             button={{
@@ -33,7 +32,7 @@ function Card({ item }: { item: Items[0] }) {
             }}
           />
         </XStack>
-      </XStack>
+      </YStack>
     </YStack>
   );
 }
@@ -50,7 +49,7 @@ export default function ListView({ items: _items }: { items: Items }) {
   }, [_items, searchQuery]);
 
   return (
-    <YStack flex={1} width="80%" maxWidth={640} margin="auto" paddingTop="$2">
+    <YStack flex={1} width="80%" maxWidth={640} margin="auto" paddingTop="$10">
       <Input
         placeholder="搜索你感兴趣的内容..."
         value={searchQuery}
