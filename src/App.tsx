@@ -7,6 +7,7 @@ import {
   Theme,
   styled,
   XStack,
+  YStack,
   ToggleGroup,
 } from "tamagui";
 import { registerRootComponent } from "expo";
@@ -97,48 +98,50 @@ export default function App() {
     <TamaguiProvider config={config}>
       <Theme name={"light"}>
         <StatusBar style="auto" />
-        <SafeAreaView style={{ flex: 1 }}>
-          <LinearGradient
-            overflow="hidden"
-            position="relative"
-            height="100%"
-            width="100%"
-            alignItems="center"
-            colors={["white", "$orange5"]}
-          >
-            <XStack position="absolute" top="$0" left="$0" zIndex={9}>
-              <ToggleGroup
-                type="single"
-                marginLeft="$2"
-                marginTop="$2"
-                size="$3"
-                value={view}
-                onValueChange={setView}
-              >
-                <ToggleGroup.Item value="list">
-                  <List />
-                </ToggleGroup.Item>
-                <ToggleGroup.Item value="random">
-                  <Shuffle />
-                </ToggleGroup.Item>
-              </ToggleGroup>
-            </XStack>
-            <XStack position="absolute" top="$0" right="$0" zIndex={9}>
-              {isInstallable && (
-                <Button
-                  accessibilityLabel="Download"
-                  icon={Download}
-                  size="$5"
-                  circular
-                  chromeless
-                  onPress={handleInstall}
-                />
-              )}
-            </XStack>
-            {(!view || view === "random") && <RandomView items={items} />}
-            {view === "list" && <ListView items={items} />}
-          </LinearGradient>
-        </SafeAreaView>
+        <LinearGradient
+          overflow="hidden"
+          position="relative"
+          height="100%"
+          width="100%"
+          alignItems="center"
+          colors={["white", "$orange5"]}
+        >
+          <SafeAreaView style={{ flex: 1 }}>
+            <YStack width="100%" height="100%">
+              <XStack position="absolute" top="$0" left="$0" zIndex={9}>
+                <ToggleGroup
+                  type="single"
+                  marginLeft="$2"
+                  marginTop="$2"
+                  size="$3"
+                  value={view}
+                  onValueChange={setView}
+                >
+                  <ToggleGroup.Item value="list">
+                    <List />
+                  </ToggleGroup.Item>
+                  <ToggleGroup.Item value="random">
+                    <Shuffle />
+                  </ToggleGroup.Item>
+                </ToggleGroup>
+              </XStack>
+              <XStack position="absolute" top="$0" right="$0" zIndex={9}>
+                {isInstallable && (
+                  <Button
+                    accessibilityLabel="Download"
+                    icon={Download}
+                    size="$5"
+                    circular
+                    chromeless
+                    onPress={handleInstall}
+                  />
+                )}
+              </XStack>
+              {(!view || view === "random") && <RandomView items={items} />}
+              {view === "list" && <ListView items={items} />}
+            </YStack>
+          </SafeAreaView>
+        </LinearGradient>
       </Theme>
     </TamaguiProvider>
   );
