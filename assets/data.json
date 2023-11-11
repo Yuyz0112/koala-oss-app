@@ -1,5 +1,167 @@
 [
   {
+    "aid": 450543574,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 10
+        },
+        {
+          "minutes": 0,
+          "seconds": 42
+        },
+        {
+          "minutes": 1,
+          "seconds": 22
+        },
+        {
+          "minutes": 1,
+          "seconds": 55
+        },
+        {
+          "minutes": 2,
+          "seconds": 39
+        },
+        {
+          "minutes": 3,
+          "seconds": 27
+        }
+      ],
+      "introduces": [
+        "Grist｜将传统电子表格与关系型数据库相结合的开源项目",
+        "Odigos｜全自动 K8s tracing 和监控",
+        "RedisInsight｜强大的 Redis 客户端",
+        "ScratchDB｜ 基于 ClickHouse 构建的数据分析引擎",
+        "Next.js 新版本惹争议",
+        "Google SRE 团队总结运维的一篇文章"
+      ],
+      "links": [
+        "https://www.getgrist.com/",
+        "https://odigos.io/",
+        "https://github.com/RedisInsight/RedisInsight",
+        "https://github.com/scratchdata/ScratchDB",
+        [
+          "https://nextjs.org/blog/next-14",
+          "https://remix.run/blog/remix-heart-vite"
+        ],
+        "https://sre.google/resources/practices-and-processes/twenty-years-of-sre-lessons-learned"
+      ]
+    },
+    "cover": 675,
+    "bid": "BV1vj411Y7WL"
+  },
+  {
+    "aid": 832844191,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 33
+        },
+        {
+          "minutes": 1,
+          "seconds": 6
+        },
+        {
+          "minutes": 1,
+          "seconds": 47
+        },
+        {
+          "minutes": 2,
+          "seconds": 25
+        },
+        {
+          "minutes": 2,
+          "seconds": 52
+        }
+      ],
+      "introduces": [
+        "Sandpack｜在线实时编程方案",
+        "Protomaps｜高质量开源地图数据",
+        "ArtistAssistApp｜绘制更逼真颜色的网页应用",
+        "一篇博客｜解析 ChatGPT 如何控制 DALL.E 3",
+        "LocalPilot｜本地运行的 GitHub Copilot 替代品",
+        "Epsio 博文｜介绍如何构建流计算的 SQL 引擎"
+      ],
+      "links": [
+        "https://sandpack.codesandbox.io/",
+        "https://protomaps.com/",
+        "https://artistassistapp.com/",
+        "https://simonwillison.net/2023/Oct/26/add-a-walrus/",
+        "https://github.com/danielgross/localpilot",
+        "https://www.epsio.io/blog/how-to-create-a-streaming-sql-engine"
+      ]
+    },
+    "cover": 674,
+    "bid": "BV1Fg4y1R7fE"
+  },
+  {
+    "aid": 920103822,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 39
+        },
+        {
+          "minutes": 1,
+          "seconds": 6
+        },
+        {
+          "minutes": 1,
+          "seconds": 29
+        },
+        {
+          "minutes": 1,
+          "seconds": 58
+        },
+        {
+          "minutes": 2,
+          "seconds": 24
+        },
+        {
+          "minutes": 2,
+          "seconds": 54
+        },
+        {
+          "minutes": 3,
+          "seconds": 22
+        }
+      ],
+      "introduces": [
+        "Dive｜快速分析优化容器镜像",
+        "LocalSend｜Airdrop 跨平台开源替代品",
+        "Formbricks｜开源用户体验管理和调研平台",
+        "Wandb｜机器学习一站式平台",
+        "Reflect｜ 一个用于构建多人网页应用的同步引擎",
+        "AI 生成 selenium 脚本",
+        "Speakeasy｜一套 API 端到端工具",
+        "《Koala聊开源》频道 App 添加列表页功能"
+      ],
+      "links": [
+        "https://github.com/wagoodman/dive",
+        "https://github.com/localsend/localsend",
+        "https://github.com/formbricks/formbricks",
+        "https://github.com/wandb/wandb",
+        "https://reflect.net/",
+        "https://www.autotab.com/",
+        "https://www.speakeasyapi.dev/",
+        "https://koala-oss.app/"
+      ]
+    },
+    "cover": 673,
+    "bid": "BV1mu4y1n7hc"
+  },
+  {
     "aid": 662142190,
     "hn_items": {
       "times": [
