@@ -26,11 +26,7 @@ function generateFeed() {
         date: new Date().toISOString(),
         title: intro,
         url: linkArr[0],
-        description: `
-          <![CDATA[
-            <p><a href="${videoUrl}">视频链接</a></p>
-          ]]>
-        `,
+        description: `<p><a href="${videoUrl}" target="_blank">视频链接</a></p>`,
       });
     });
   });
