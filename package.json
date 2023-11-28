@@ -5,7 +5,7 @@
   "scripts": {
     "start-native": "TAMAGUI_TARGET=native expo start -c",
     "start-web": "TAMAGUI_TARGET=web expo start -c",
-    "export-web": "TAMAGUI_TARGET=web expo export:web && cp assets/manifest.json ./web-build && cp assets/*.png ./web-build && cp src/service-worker.js ./web-build",
+    "export-web": "TAMAGUI_TARGET=web expo export:web && cp assets/manifest.json ./web-build && cp assets/*.png ./web-build && cp src/service-worker.js ./web-build && cp assets/rss.xml ./web-build",
     "android": "TAMAGUI_TARGET=native yarn expo run:android",
     "ios": "TAMAGUI_TARGET=native yarn expo run:ios",
     "web": "TAMAGUI_TARGET=web expo start --web"
@@ -38,6 +38,7 @@
     "react-native-reanimated": "~3.3.0",
     "react-native-svg": "13.9.0",
     "react-native-web": "~0.19.6",
+    "rss": "^1.2.2",
     "sentry-expo": "~7.0.0",
     "tamagui": "^1.69.3"
   },
