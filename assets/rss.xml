@@ -4,197 +4,211 @@
         <description><![CDATA[Koala 聊开源近期视频]]></description>
         <link>https://koala-oss.app/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 28 Nov 2023 13:17:29 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 06 Dec 2023 03:41:07 GMT</lastBuildDate>
         <atom:link href="https://koala-oss.app/rss.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[zh-cn]]></language>
+        <item>
+            <title><![CDATA[dnd kit｜更现代的 React 拖拽库]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1eu4y1c71w?t=9.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://dndkit.com/</link>
+            <guid isPermaLink="false">BV1eu4y1c71w-0</guid>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Vest｜ 一个 JS 声明式校验框架]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1eu4y1c71w?t=40.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://vestjs.dev/</link>
+            <guid isPermaLink="false">BV1eu4y1c71w-1</guid>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[marker｜ PDF 转 markdown 工具]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1eu4y1c71w?t=71.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/VikParuchuri/marker</link>
+            <guid isPermaLink="false">BV1eu4y1c71w-2</guid>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[openmeter｜云服务计量工具]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1eu4y1c71w?t=96.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://openmeter.io/</link>
+            <guid isPermaLink="false">BV1eu4y1c71w-3</guid>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[SQL formatter｜SQL 语句格式化工具]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1eu4y1c71w?t=132.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/sql-formatter-org/sql-formatter</link>
+            <guid isPermaLink="false">BV1eu4y1c71w-4</guid>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Knip｜废弃代码扫描工具]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1eu4y1c71w?t=154.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/webpro/knip</link>
+            <guid isPermaLink="false">BV1eu4y1c71w-5</guid>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[MobSlide｜将手机变为 PPT 遥控器]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1eu4y1c71w?t=173.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://thewh1teagle.github.io/mobslide.web/</link>
+            <guid isPermaLink="false">BV1eu4y1c71w-6</guid>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[《Koala 聊开源》发布生成式 AI 原理讲解视频]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1eu4y1c71w?t=193.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://www.bilibili.com/video/BV1vN4y1Y7u3</link>
+            <guid isPermaLink="false">BV1eu4y1c71w-7</guid>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Vite 5.0 发布]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1qv411F7DB?t=8.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://vitejs.dev/blog/announcing-vite5</link>
             <guid isPermaLink="false">BV1qv411F7DB-0</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[River｜基于 Postgres 和 Go 的任务队列库]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1qv411F7DB?t=37.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://brandur.org/river</link>
             <guid isPermaLink="false">BV1qv411F7DB-1</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[TinaCMS｜ 一个灵活易用的 headless 内容管理系统]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1qv411F7DB?t=63.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://github.com/tinacms/tinacms</link>
             <guid isPermaLink="false">BV1qv411F7DB-2</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Anthropic 发布 Claude  2.1 版本]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1qv411F7DB?t=93.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://www.anthropic.com/index/claude-2-1</link>
             <guid isPermaLink="false">BV1qv411F7DB-3</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[tldraw 的白板+AI 无限创意]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1qv411F7DB?t=128.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://tldraw.substack.com/p/make-real-the-story-so-far</link>
             <guid isPermaLink="false">BV1qv411F7DB-4</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Stripe 促销日在线概览页面]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1qv411F7DB?t=169.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://bfcm.stripe.dev/</link>
             <guid isPermaLink="false">BV1qv411F7DB-5</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[React Datasheet Grid｜ 开源 Airtable 式表格组件]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Fv411c781?t=8.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://react-datasheet-grid.netlify.app/</link>
             <guid isPermaLink="false">BV1Fv411c781-0</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[flyscrape｜基于 Go 的数据抓取工具]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Fv411c781?t=39.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://github.com/philippta/flyscrape</link>
             <guid isPermaLink="false">BV1Fv411c781-1</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Loro｜ CRDT 工具库]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Fv411c781?t=64.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://www.loro.dev/</link>
             <guid isPermaLink="false">BV1Fv411c781-2</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[GraphCast｜Deepmind 发布高效天气预报模型]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Fv411c781?t=90.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://deepmind.google/discover/blog/graphcast-ai-model-for-faster-and-more-accurate-global-weather-forecasting/</link>
             <guid isPermaLink="false">BV1Fv411c781-3</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Tiny LLMs｜在浏览器中本地运行的大语言模型]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Fv411c781?t=131.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://tinyllms.vercel.app/</link>
             <guid isPermaLink="false">BV1Fv411c781-4</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[perfect freehand｜手绘功能代码仓库]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Fv411c781?t=152.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://github.com/steveruizok/perfect-freehand</link>
             <guid isPermaLink="false">BV1Fv411c781-5</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[一篇介绍 67 种浏览器中调试技巧的文章]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Fv411c781?t=181.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://alan.norbauer.com/articles/browser-debugging-tricks</link>
             <guid isPermaLink="false">BV1Fv411c781-6</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[一篇介绍消息队列 pgmq 的技术原理的文章]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Fv411c781?t=205.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://tembo.io/blog/pgmq-self-regulating-queue/</link>
             <guid isPermaLink="false">BV1Fv411c781-7</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[SSHX｜基于 Web 的终端共享工具]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Lu4y1N7Tq?t=8.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://sshx.io/</link>
             <guid isPermaLink="false">BV1Lu4y1N7Tq-0</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Pagefind｜专为大型静态网站设计的静态搜索库]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Lu4y1N7Tq?t=45.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://pagefind.app/</link>
             <guid isPermaLink="false">BV1Lu4y1N7Tq-1</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[tailspin｜ 基于 Rust 开发的日志查看工具]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Lu4y1N7Tq?t=83.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://github.com/bensadeh/tailspin</link>
             <guid isPermaLink="false">BV1Lu4y1N7Tq-2</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Moveable｜实现复杂交互的 JS 库]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Lu4y1N7Tq?t=109.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://github.com/daybrush/moveable</link>
             <guid isPermaLink="false">BV1Lu4y1N7Tq-3</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Bulletpapers｜为 ArXiv 上的论文基于 AI 进行总结]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Lu4y1N7Tq?t=139.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://www.bulletpapers.ai/</link>
             <guid isPermaLink="false">BV1Lu4y1N7Tq-4</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Angular 发布 v17 版本和全新官网]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Lu4y1N7Tq?t=163.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://angular.dev/</link>
             <guid isPermaLink="false">BV1Lu4y1N7Tq-5</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[轻松一刻时间｜用 WebAssembly 基于虚幻 4 引擎开发的游戏]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Lu4y1N7Tq?t=186.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://play.spacelancers.com/</link>
             <guid isPermaLink="false">BV1Lu4y1N7Tq-6</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Grist｜将传统电子表格与关系型数据库相结合的开源项目]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1vj411Y7WL?t=9.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://www.getgrist.com/</link>
-            <guid isPermaLink="false">BV1vj411Y7WL-0</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Odigos｜全自动 K8s tracing 和监控]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1vj411Y7WL?t=41.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://odigos.io/</link>
-            <guid isPermaLink="false">BV1vj411Y7WL-1</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[RedisInsight｜强大的 Redis 客户端]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1vj411Y7WL?t=81.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://github.com/RedisInsight/RedisInsight</link>
-            <guid isPermaLink="false">BV1vj411Y7WL-2</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ScratchDB｜ 基于 ClickHouse 构建的数据分析引擎]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1vj411Y7WL?t=114.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://github.com/scratchdata/ScratchDB</link>
-            <guid isPermaLink="false">BV1vj411Y7WL-3</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Next.js 新版本惹争议]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1vj411Y7WL?t=158.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://nextjs.org/blog/next-14</link>
-            <guid isPermaLink="false">BV1vj411Y7WL-4</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Google SRE 团队总结运维的一篇文章]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1vj411Y7WL?t=206.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://sre.google/resources/practices-and-processes/twenty-years-of-sre-lessons-learned</link>
-            <guid isPermaLink="false">BV1vj411Y7WL-5</guid>
-            <pubDate>Tue, 28 Nov 2023 13:17:29 GMT</pubDate>
+            <pubDate>Wed, 06 Dec 2023 03:41:07 GMT</pubDate>
         </item>
     </channel>
 </rss>
