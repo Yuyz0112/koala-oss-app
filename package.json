@@ -5,7 +5,7 @@
   "scripts": {
     "start-native": "TAMAGUI_TARGET=native expo start -c",
     "start-web": "TAMAGUI_TARGET=web expo start -c",
-    "export-web": "TAMAGUI_TARGET=web expo export:web && cp assets/manifest.json ./web-build && cp assets/*.png ./web-build && cp src/service-worker.js ./web-build && cp assets/rss.xml ./web-build",
+    "export-web": "TAMAGUI_TARGET=web expo export:web && cp assets/manifest.json ./web-build && cp assets/*.png ./web-build && cp src/service-worker.js ./web-build && cp assets/rss.xml ./web-build && cp assets/pricing.html ./web-build",
     "android": "TAMAGUI_TARGET=native yarn expo run:android",
     "ios": "TAMAGUI_TARGET=native yarn expo run:ios",
     "web": "TAMAGUI_TARGET=web expo start --web"
