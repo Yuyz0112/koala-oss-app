@@ -1,5 +1,164 @@
 [
   {
+    "aid": 836255190,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 10
+        },
+        {
+          "minutes": 0,
+          "seconds": 36
+        },
+        {
+          "minutes": 1,
+          "seconds": 3
+        },
+        {
+          "minutes": 1,
+          "seconds": 36
+        },
+        {
+          "minutes": 2,
+          "seconds": 26
+        },
+        {
+          "minutes": 2,
+          "seconds": 33
+        },
+        {
+          "minutes": 2,
+          "seconds": 58
+        }
+      ],
+      "introduces": [
+        "shoelace｜web components 组件库",
+        "Penrose｜ 科研图表库",
+        "更好的 nodejs fs API",
+        "ugrep｜比 grep 更友好的命令行搜索工具",
+        "开源的 prompt 设计工具 priompt",
+        "Go 作者年度总结",
+        "vx.dev 再度升级多项新功能 开放免费体验"
+      ],
+      "links": [
+        "https://shoelace.style/",
+        "https://penrose.cs.cmu.edu/",
+        "https://humanwhocodes.com/blog/2024/01/fsx-modern-filesystem-api-javascript/",
+        "https://ugrep.com/",
+        "https://github.com/anysphere/priompt",
+        "https://commandcenter.blogspot.com/2024/01/what-we-got-right-what-we-got-wrong.html",
+        "https://www.bilibili.com/video/BV1Ha4y117rZ/"
+      ]
+    },
+    "cover": 683,
+    "bid": "BV1jg4y1m7s2"
+  },
+  {
+    "aid": 965930187,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 10
+        },
+        {
+          "minutes": 0,
+          "seconds": 40
+        },
+        {
+          "minutes": 1,
+          "seconds": 6
+        },
+        {
+          "minutes": 1,
+          "seconds": 29
+        },
+        {
+          "minutes": 1,
+          "seconds": 55
+        },
+        {
+          "minutes": 2,
+          "seconds": 10
+        },
+        {
+          "minutes": 2,
+          "seconds": 30
+        }
+      ],
+      "introduces": [
+        "Blot｜轻量级网站部署工具",
+        "Plotteus｜ 专注于数据故事的 JS 库",
+        "Atuin｜为 shell 历史提供同步、搜索、备份功能的工具",
+        "pgroll｜开源 Postgres schema 迁移工具",
+        "一篇介绍 psql 命令行使用技巧的文章",
+        "保时捷发布 UI 设计指南的 v3 版本",
+        "starlight｜Astro 出品的文档工具"
+      ],
+      "links": [
+        "https://blot.im/",
+        "https://www.plotteus.dev/",
+        "https://atuin.sh/",
+        "https://xata.io/blog/pgroll-schema-migrations-postgres",
+        "https://psql-tips.org/psql_tips_all.html",
+        "https://designsystem.porsche.com/",
+        "https://starlight.astro.build/"
+      ]
+    },
+    "cover": 682,
+    "bid": "BV1NW4y1N7Xd"
+  },
+  {
+    "aid": 923105208,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 43
+        },
+        {
+          "minutes": 1,
+          "seconds": 10
+        },
+        {
+          "minutes": 1,
+          "seconds": 36
+        },
+        {
+          "minutes": 2,
+          "seconds": 8
+        },
+        {
+          "minutes": 2,
+          "seconds": 35
+        }
+      ],
+      "introduces": [
+        "Inbox Zero｜开源邮箱管理工具",
+        "Plate｜ 完全可定制富文本编辑器",
+        "movie-web｜在线看电影应用",
+        "Tree-sitter｜构建编程语言解析器的框架",
+        "Dozzle｜轻量级 Docker 日志监控 Web 应用",
+        "Sonner｜通知弹出 UI 组件"
+      ],
+      "links": [
+        "https://www.getinboxzero.com/",
+        "https://platejs.org/",
+        "https://movie-web.app/",
+        "https://tree-sitter.github.io/tree-sitter/",
+        "https://github.com/amir20/dozzle",
+        "https://sonner.emilkowal.ski/"
+      ]
+    },
+    "cover": 681.1,
+    "bid": "BV1wT4y1W7zW"
+  },
+  {
     "aid": 367680645,
     "hn_items": {
       "times": [
