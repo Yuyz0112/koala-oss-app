@@ -45,7 +45,9 @@ export default function ListView({ items: _items }: { items: Items }) {
     }
 
     const reg = new RegExp(searchQuery, "i");
-    return _items.filter((item) => item.title.match(reg));
+    return _items.filter(
+      (item) => item.title.match(reg) || item.linkStr.match(reg)
+    );
   }, [_items, searchQuery]);
 
   return (

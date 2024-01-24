@@ -45,6 +45,7 @@ const items = data.reduce<Items>((prev, cur) => {
       const time = cur.hn_items.times[index];
       return {
         title: introduce,
+        linkStr: Array.isArray(link) ? link.join(",") : link || "",
         link: Array.isArray(link) ? (
           <>
             {link.map((cLink) => (
