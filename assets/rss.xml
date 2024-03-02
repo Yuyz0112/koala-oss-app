@@ -4,197 +4,197 @@
         <description><![CDATA[Koala 聊开源近期视频]]></description>
         <link>https://koala-oss.app/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 20 Feb 2024 09:24:27 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 02 Mar 2024 13:44:03 GMT</lastBuildDate>
         <atom:link href="https://koala-oss.app/rss.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[zh-cn]]></language>
+        <item>
+            <title><![CDATA[uv｜高性能 Python 包管理器]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV15a4k1P7y3?t=8.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://astral.sh/blog/uv</link>
+            <guid isPermaLink="false">BV15a4k1P7y3-0</guid>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Markmap｜Markdown 编写思维导图]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV15a4k1P7y3?t=32.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://markmap.js.org/repl</link>
+            <guid isPermaLink="false">BV15a4k1P7y3-1</guid>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Lobe Chat｜开源的 LLM UI 交互界面]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV15a4k1P7y3?t=57.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/lobehub/lobe-chat</link>
+            <guid isPermaLink="false">BV15a4k1P7y3-2</guid>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[GPTScript｜创建基于自然语言编程体验的脚本语言]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV15a4k1P7y3?t=86.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/gptscript-ai/gptscript</link>
+            <guid isPermaLink="false">BV15a4k1P7y3-3</guid>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Gemma｜Google 开源大模型]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV15a4k1P7y3?t=122.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://blog.google/technology/developers/gemma-open-models/</link>
+            <guid isPermaLink="false">BV15a4k1P7y3-4</guid>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ok-Robot｜机器人与 AI 领域的有趣研究项目]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV15a4k1P7y3?t=154.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://ok-robot.github.io/</link>
+            <guid isPermaLink="false">BV15a4k1P7y3-5</guid>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Toolong｜终端日志管理工具]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Fc4C1K7n6?t=8.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://github.com/Textualize/toolong</link>
             <guid isPermaLink="false">BV1Fc4C1K7n6-0</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[GitButler｜ Git 分支管理工具]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Fc4C1K7n6?t=38.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://gitbutler.com/</link>
             <guid isPermaLink="false">BV1Fc4C1K7n6-1</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[WXT｜降低浏览器插件开发复杂度的框架]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Fc4C1K7n6?t=67.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://wxt.dev/</link>
             <guid isPermaLink="false">BV1Fc4C1K7n6-2</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[dstack｜GPU 负载管理方案]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Fc4C1K7n6?t=97.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://dstack.ai/</link>
             <guid isPermaLink="false">BV1Fc4C1K7n6-3</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[OpenAI 发布视频生成模型 Sora]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Fc4C1K7n6?t=118.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://openai.com/sora</link>
             <guid isPermaLink="false">BV1Fc4C1K7n6-4</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Google 介绍 100 万上下文模型 Gemini 1.5]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Fc4C1K7n6?t=147.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024</link>
             <guid isPermaLink="false">BV1Fc4C1K7n6-5</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[《Koala聊开源》介绍 2023 年 JS 社区开源前 50 项目]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Fc4C1K7n6?t=185.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://space.bilibili.com/489667127/channel/collectiondetail?sid=2214332</link>
             <guid isPermaLink="false">BV1Fc4C1K7n6-6</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[LLRT｜AWS 开源轻量级 JS 运行时]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV15k4C1c7Mw?t=8.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://github.com/awslabs/llrt</link>
             <guid isPermaLink="false">BV15k4C1c7Mw-0</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[pet｜命令行代码片段管理工具]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV15k4C1c7Mw?t=40.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://github.com/knqyf263/pet</link>
             <guid isPermaLink="false">BV15k4C1c7Mw-1</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[React Email｜ 邮件模版开发工具]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV15k4C1c7Mw?t=72.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://react.email</link>
             <guid isPermaLink="false">BV15k4C1c7Mw-2</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[gping｜网络检测工具]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV15k4C1c7Mw?t=94.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://github.com/orf/gping</link>
             <guid isPermaLink="false">BV15k4C1c7Mw-3</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Zellij｜一个终端工作区]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV15k4C1c7Mw?t=117.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://zellij.dev/screencasts/</link>
             <guid isPermaLink="false">BV15k4C1c7Mw-4</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Gemini Ultra 面世]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV15k4C1c7Mw?t=144.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://blog.google/products/gemini/bard-gemini-advanced-app/</link>
             <guid isPermaLink="false">BV15k4C1c7Mw-5</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[react native 开发 vision pro 应用]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV15k4C1c7Mw?t=170.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://www.callstack.com/blog/announcing-react-native-for-apple-vision-pro</link>
             <guid isPermaLink="false">BV15k4C1c7Mw-6</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[React Resizable Panels｜React 动态面板库]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Mg4C1M75L?t=8.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://github.com/bvaughn/react-resizable-panels</link>
             <guid isPermaLink="false">BV1Mg4C1M75L-0</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Plot｜为数据分析场景设计的可视化 JS 库]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Mg4C1M75L?t=44.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://github.com/observablehq/plot</link>
             <guid isPermaLink="false">BV1Mg4C1M75L-1</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[OpenSaaS｜ 开源 SaaS 框架]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Mg4C1M75L?t=74.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://github.com/wasp-lang/open-saas</link>
             <guid isPermaLink="false">BV1Mg4C1M75L-2</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Code Llama 70B 发布]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Mg4C1M75L?t=105.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://twitter.com/AIatMeta/status/1752013879532782075</link>
             <guid isPermaLink="false">BV1Mg4C1M75L-3</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ChatGPT Prompting｜快速构建提示词的在线小工具]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Mg4C1M75L?t=124.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://mitenmit.github.io/gpt</link>
             <guid isPermaLink="false">BV1Mg4C1M75L-4</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Twine｜使用 Kotlin 和 Compose 构建的多平台 RSS 阅读器]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Mg4C1M75L?t=150.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://github.com/msasikanth/twine</link>
             <guid isPermaLink="false">BV1Mg4C1M75L-5</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[本频道技术顾问的播客采访]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Mg4C1M75L?t=189.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://www.xiaoyuzhoufm.com/episode/65bafe551ed6d5797f6c37c2</link>
             <guid isPermaLink="false">BV1Mg4C1M75L-6</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Zed｜开源的新锐代码编辑器]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1g64y1w7uG?t=8.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://zed.dev/blog/zed-is-now-open-source</link>
-            <guid isPermaLink="false">BV1g64y1w7uG-0</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[TypeSpec｜微软推出 API 定义工具]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1g64y1w7uG?t=42.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://typespec.io/</link>
-            <guid isPermaLink="false">BV1g64y1w7uG-1</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ts-reset｜由开源社区维护的 TypeScript 增强规则]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1g64y1w7uG?t=78.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://www.totaltypescript.com/ts-reset</link>
-            <guid isPermaLink="false">BV1g64y1w7uG-2</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[visx｜ 数据可视化库]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1g64y1w7uG?t=109.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://airbnb.io/visx/</link>
-            <guid isPermaLink="false">BV1g64y1w7uG-3</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Zustand｜年度最受关注的 React 状态管理工具]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1g64y1w7uG?t=137.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://zustand-demo.pmnd.rs/</link>
-            <guid isPermaLink="false">BV1g64y1w7uG-4</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[一本讲解查询引擎工作原理的电子书]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1g64y1w7uG?t=164.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://howqueryengineswork.com/</link>
-            <guid isPermaLink="false">BV1g64y1w7uG-5</guid>
-            <pubDate>Tue, 20 Feb 2024 09:24:27 GMT</pubDate>
+            <pubDate>Sat, 02 Mar 2024 13:44:03 GMT</pubDate>
         </item>
     </channel>
 </rss>
