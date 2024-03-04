@@ -108,38 +108,56 @@ export default function App() {
           colors={["white", "$orange5"]}
         >
           <SafeAreaView style={{ flex: 1 }}>
-            <YStack width="100%" height="100%">
-              <XStack position="absolute" top="$0" left="$0" zIndex={9}>
-                <ToggleGroup
-                  type="single"
-                  marginLeft="$2"
-                  marginTop="$2"
-                  size="$3"
-                  value={view}
-                  onValueChange={setView}
-                >
-                  <ToggleGroup.Item value="list">
-                    <List />
-                  </ToggleGroup.Item>
-                  <ToggleGroup.Item value="random">
-                    <Shuffle />
-                  </ToggleGroup.Item>
-                </ToggleGroup>
-              </XStack>
-              <XStack position="absolute" top="$0" right="$0" zIndex={9}>
-                {isInstallable && (
-                  <Button
-                    accessibilityLabel="Download"
-                    icon={Download}
-                    size="$5"
-                    circular
-                    chromeless
-                    onPress={handleInstall}
-                  />
-                )}
-              </XStack>
-              {(!view || view === "random") && <RandomView items={items} />}
-              {view === "list" && <ListView items={items} />}
+            <YStack width="100%" height="100%" display="flex">
+              <Button
+                p="$2"
+                style={{
+                  background: "#212121",
+                  color: "#f1f3f5",
+                }}
+                justifyContent="center"
+                borderRadius={0}
+                onPress={() => {
+                  openURL(
+                    `https://github.com/Yuyz0112/koala-oss-app?tab=readme-ov-file#%E4%BA%A4%E6%B5%81%E7%BE%A4`
+                  );
+                }}
+              >
+                加入 Koala 学习交流群
+              </Button>
+              <YStack width="100%" flex={1}>
+                <XStack position="absolute" top="$0" left="$0" zIndex={9}>
+                  <ToggleGroup
+                    type="single"
+                    marginLeft="$2"
+                    marginTop="$2"
+                    size="$3"
+                    value={view}
+                    onValueChange={setView}
+                  >
+                    <ToggleGroup.Item value="list">
+                      <List />
+                    </ToggleGroup.Item>
+                    <ToggleGroup.Item value="random">
+                      <Shuffle />
+                    </ToggleGroup.Item>
+                  </ToggleGroup>
+                </XStack>
+                <XStack position="absolute" top="$0" right="$0" zIndex={9}>
+                  {isInstallable && (
+                    <Button
+                      accessibilityLabel="Download"
+                      icon={Download}
+                      size="$5"
+                      circular
+                      chromeless
+                      onPress={handleInstall}
+                    />
+                  )}
+                </XStack>
+                {(!view || view === "random") && <RandomView items={items} />}
+                {view === "list" && <ListView items={items} />}
+              </YStack>
             </YStack>
           </SafeAreaView>
         </LinearGradient>
