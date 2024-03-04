@@ -12,15 +12,23 @@ export const useStorage = ({
   const { getItem, setItem } = useAsyncStorage(storageKey);
 
   const readItemFromStorage = async () => {
-    const item = await getItem();
-    if (item !== null) {
-      setValue(item);
+    try {
+      const item = await getItem();
+      if (item !== null) {
+        setValue(item);
+      }
+    } catch (error) {
+      console.error(error);
     }
   };
 
   const writeItemToStorage = async (newValue: string) => {
-    await setItem(newValue);
-    setValue(newValue);
+    try {
+      await setItem(newValue);
+      setValue(newValue);
+    } catch (error) {
+      console.error(error);
+    }
   };
 
   useEffect(() => {
