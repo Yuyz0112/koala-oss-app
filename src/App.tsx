@@ -109,22 +109,16 @@ export default function App() {
         >
           <SafeAreaView style={{ flex: 1 }}>
             <YStack width="100%" height="100%" display="flex">
-              <Button
+              <XStack
                 p="$2"
                 style={{
                   background: "#212121",
                   color: "#f1f3f5",
                 }}
                 justifyContent="center"
-                borderRadius={0}
-                onPress={() => {
-                  openURL(
-                    `https://github.com/Yuyz0112/koala-oss-app?tab=readme-ov-file#%E4%BA%A4%E6%B5%81%E7%BE%A4`
-                  );
-                }}
               >
-                加入 Koala 学习交流群
-              </Button>
+                添加微信 Koala-oss 加入学习交流群
+              </XStack>
               <YStack width="100%" flex={1}>
                 <XStack position="absolute" top="$0" left="$0" zIndex={9}>
                   <ToggleGroup
