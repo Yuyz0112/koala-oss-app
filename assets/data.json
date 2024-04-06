@@ -1,5 +1,207 @@
 [
   {
+    "aid": 1052469051,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 48
+        },
+        {
+          "minutes": 1,
+          "seconds": 35
+        },
+        {
+          "minutes": 2,
+          "seconds": 26
+        },
+        {
+          "minutes": 3,
+          "seconds": 3
+        },
+        {
+          "minutes": 3,
+          "seconds": 47
+        }
+      ],
+      "introduces": [
+        "KeyDB｜Redis 替代方案",
+        "Lago｜开源 Stripe 替代品",
+        "GritQL｜ 用于搜索和修改代码的查询语言",
+        "PrimeVue｜ 一组 Vue 组件库",
+        "Dropflow｜基于 CSS 标准实现的布局引擎",
+        "DBRX｜Databricks 开源基础大模型"
+      ],
+      "links": [
+        "https://keydb.dev/",
+        "https://www.getlago.com/",
+        "https://github.com/getgrit/gritql",
+        "https://primevue.org/",
+        "https://github.com/chearon/dropflow",
+        "https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm"
+      ]
+    },
+    "cover": 694,
+    "bid": "BV1DH4y1H7f4"
+  },
+  {
+    "aid": 1952467190,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 52
+        },
+        {
+          "minutes": 1,
+          "seconds": 46
+        },
+        {
+          "minutes": 2,
+          "seconds": 36
+        },
+        {
+          "minutes": 3,
+          "seconds": 21
+        },
+        {
+          "minutes": 4,
+          "seconds": 3
+        }
+      ],
+      "introduces": [
+        "difftastic｜智能 diff 工具",
+        "Retina｜微软发布的开源 K8s 网络观测平台",
+        "Memories｜开源相册软件",
+        "Soul｜Soul ｜ 为 SQLite 提供 REST API",
+        "jnv｜对 JSON 数据解析和过滤",
+        "griddycode｜基于 Godot 开发编辑器"
+      ],
+      "links": [
+        "https://difftastic.wilfred.me.uk/",
+        "https://retina.sh/",
+        "https://memories.gallery/",
+        "https://github.com/thevahidal/soul",
+        "https://github.com/ynqa/jnv",
+        "https://github.com/face-hh/griddycode"
+      ]
+    },
+    "cover": 693,
+    "bid": "BV1a44k1b7nk"
+  },
+  {
+    "aid": 1001895275,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 8
+        },
+        {
+          "minutes": 0,
+          "seconds": 50
+        },
+        {
+          "minutes": 1,
+          "seconds": 27
+        },
+        {
+          "minutes": 2,
+          "seconds": 8
+        },
+        {
+          "minutes": 2,
+          "seconds": 47
+        },
+        {
+          "minutes": 3,
+          "seconds": 39
+        }
+      ],
+      "introduces": [
+        "Aceternity UI｜设计感极强的 UI 组件",
+        "Spreadsheets-are-all-you-need｜ 基于 Excel 实现 GPT",
+        "Editor.js｜ 块式富文本编辑器框架",
+        "Ingestr｜ Python 命令行工具",
+        "Spin｜ WASM serverless 服务",
+        "Astro 发布数据库方案 Astro DB"
+      ],
+      "links": [
+        "https://ui.aceternity.com/components",
+        "https://spreadsheets-are-all-you-need.ai/index.html",
+        "https://editorjs.io/",
+        "https://bruin-data.github.io/ingestr/",
+        "https://github.com/fermyon/spin",
+        [
+          "https://astro.build/db/",
+          "https://astro.build/blog/astro-db-deep-dive"
+        ]
+      ]
+    },
+    "cover": 692,
+    "bid": "BV1xx4y1D7sq"
+  },
+  {
+    "aid": 1001584068,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 8
+        },
+        {
+          "minutes": 1,
+          "seconds": 3
+        },
+        {
+          "minutes": 1,
+          "seconds": 51
+        },
+        {
+          "minutes": 2,
+          "seconds": 43
+        },
+        {
+          "minutes": 3,
+          "seconds": 15
+        },
+        {
+          "minutes": 4,
+          "seconds": 0
+        }
+      ],
+      "introduces": [
+        "JSR｜Deno 推出 NPM 替代品",
+        "Puter｜浏览器中的操作系统",
+        "Expr｜基于 Go 开发的简易脚本语言",
+        "Finder｜ 生成最短 CSS 选择器的 JS 库",
+        "Daytona 开源开发环境管理工具",
+        "苹果抢占 AI 笔记本电脑市场"
+      ],
+      "links": [
+        "https://deno.com/blog/jsr_open_beta",
+        [
+          "https://github.com/HeyPuter/puter",
+          "https://puter.com/"
+        ],
+        "https://github.com/expr-lang/expr",
+        "https://github.com/antonmedv/finder",
+        "https://www.daytona.io/",
+        "https://www.apple.com/newsroom/2024/03/apple-unveils-the-new-13-and-15-inch-macbook-air-with-the-powerful-m3-chip/?utm_source=hackernewsletter&utm_medium=email&utm_term=show_hn"
+      ]
+    },
+    "cover": 691,
+    "bid": "BV1nx4y1Q7ox"
+  },
+  {
     "aid": 1251321866,
     "hn_items": {
       "times": [
