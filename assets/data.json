@@ -1,5 +1,163 @@
 [
   {
+    "aid": 1653320297,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 10
+        },
+        {
+          "minutes": 0,
+          "seconds": 58
+        },
+        {
+          "minutes": 1,
+          "seconds": 59
+        },
+        {
+          "minutes": 2,
+          "seconds": 36
+        },
+        {
+          "minutes": 3,
+          "seconds": 23
+        },
+        {
+          "minutes": 4,
+          "seconds": 20
+        }
+      ],
+      "introduces": [
+        "Redka｜基于 SQLite 实现 Redis",
+        "otel-profiling-agent｜基于 eBPF 的全局 agent",
+        "DrawDB｜免费易用的开源数据库设计工具",
+        "TresJS｜ Vue 结合 Three.js 的应用开发框架",
+        "reader API｜将网页内容供 LLM 使用的函数服务",
+        "Twenty｜ 流行的开源 CRM 方案"
+      ],
+      "links": [
+        "https://github.com/nalgeon/redka",
+        "https://github.com/elastic/otel-profiling-agent",
+        "https://github.com/drawdb-io/drawdb",
+        "https://tresjs.org/",
+        [
+          "https://github.com/jina-ai/reader",
+          "https://github.com/mendableai/firecrawl"
+        ],
+        "https://twenty.com/"
+      ]
+    },
+    "cover": 696,
+    "bid": "BV1Tw4C1p7LF"
+  },
+  {
+    "aid": 1003024345,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 48
+        },
+        {
+          "minutes": 1,
+          "seconds": 25
+        },
+        {
+          "minutes": 2,
+          "seconds": 3
+        },
+        {
+          "minutes": 2,
+          "seconds": 56
+        },
+        {
+          "minutes": 3,
+          "seconds": 47
+        }
+      ],
+      "introduces": [
+        "Morphic｜增强版 AI 问答引擎",
+        "Scalar｜更加现代化的 API 文档框架",
+        "Faces.js｜生成基于 SVG 的卡通头像的 JS 库",
+        "PythonMonkey｜Python 与 JS 融合运行时",
+        "Alloy｜符合 OpenTelemetry 标准的采集器",
+        "四大 AI 模型突飞猛进"
+      ],
+      "links": [
+        "https://github.com/miurla/morphic",
+        "https://scalar.com/",
+        [
+          "https://github.com/zengm-games/facesjs",
+          "https://zengm.com/facesjs/editor"
+        ],
+        "https://github.com/Distributive-Network/PythonMonkey",
+        "https://github.com/grafana/alloy",
+        [
+          "https://twitter.com/OpenAIDevs/status/1777769463258988634",
+          "https://developers.googleblog.com/2024/04/gemini-15-pro-in-public-preview-with-new-features.html",
+          "https://twitter.com/MistralAI/status/1777869263778291896",
+          "https://techcrunch.com/2024/04/09/meta-confirms-that-its-llama-3-open-source-llm-is-coming-in-the-next-month/"
+        ]
+      ]
+    },
+    "cover": 694.2,
+    "bid": "BV1Dx4y1h7JS"
+  },
+  {
+    "aid": 1802777388,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 10
+        },
+        {
+          "minutes": 0,
+          "seconds": 48
+        },
+        {
+          "minutes": 1,
+          "seconds": 31
+        },
+        {
+          "minutes": 2,
+          "seconds": 11
+        },
+        {
+          "minutes": 2,
+          "seconds": 58
+        },
+        {
+          "minutes": 3,
+          "seconds": 48
+        }
+      ],
+      "introduces": [
+        "HeyForm｜ 开源的表单 SaaS 解决方案",
+        "Freeze｜将代码与终端结果转图片的工具",
+        "TS-Pattern｜TS 对 Pattern Matching 的实现",
+        "SPQR｜ 无状态 Postgres 数据库查询路由工具",
+        "llamafile｜Mozilla 开源的单个文件运行大模型",
+        "Counterscale｜开源的 Web 数据分析工具"
+      ],
+      "links": [
+        "https://github.com/heyform/heyform",
+        "https://github.com/charmbracelet/freeze",
+        "https://github.com/gvergnaud/ts-pattern",
+        "https://github.com/pg-sharding/spqr",
+        "https://github.com/Mozilla-Ocho/llamafile",
+        "https://counterscale.dev/"
+      ]
+    },
+    "cover": 694.1,
+    "bid": "BV1H34C1Y7CL"
+  },
+  {
     "aid": 1052469051,
     "hn_items": {
       "times": [
