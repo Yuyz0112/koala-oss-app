@@ -1,5 +1,52 @@
 [
   {
+    "aid": 1053783169,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 46
+        },
+        {
+          "minutes": 1,
+          "seconds": 29
+        },
+        {
+          "minutes": 2,
+          "seconds": 16
+        },
+        {
+          "minutes": 2,
+          "seconds": 52
+        }
+      ],
+      "introduces": [
+        "Cap｜开源桌面端录屏分享工具",
+        "Infisical｜密钥管理方案",
+        "Hatchet｜分布式高容错消息队列",
+        "ServiceLogos｜可爱版 Logo 绘制",
+        "->"
+      ],
+      "links": [
+        "https://cap.so/",
+        "https://infisical.com/",
+        "https://github.com/hatchet-dev/hatchet",
+        "https://github.com/SAWARATSUKI/ServiceLogos",
+        [
+          "https://github.com/myshell-ai/OpenVoice",
+          "https://github.com/apple/corenet",
+          "https://www.balanc3dgame.com/"
+        ]
+      ]
+    },
+    "cover": 697,
+    "bid": "BV1WH4y1P79K"
+  },
+  {
     "aid": 1653320297,
     "hn_items": {
       "times": [
