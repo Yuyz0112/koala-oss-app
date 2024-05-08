@@ -71,8 +71,8 @@ for (let i = 0; i < 58; i++) {
   tr[table[i]] = i;
 }
 const s = [11, 10, 3, 8, 4, 6];
-const xor = 177451812;
-const add = 8728348608;
+const xor = 1251193636;
+const add = 7654606784;
 
 function enc(x) {
   x = (x ^ xor) + add;
@@ -85,7 +85,7 @@ function enc(x) {
 
 for (let i = 0; i < data.length; i++) {
   data[i].cover = names[names.length - i - 1].name;
-  if (data[i].aid && !data[i].bid) {
+  if (data[i].aid) {
     data[i].bid = enc(data[i].aid);
   }
 }

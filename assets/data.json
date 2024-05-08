@@ -1,5 +1,54 @@
 [
   {
+    "aid": 1954115552,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 52
+        },
+        {
+          "minutes": 1,
+          "seconds": 41
+        },
+        {
+          "minutes": 2,
+          "seconds": 28
+        },
+        {
+          "minutes": 3,
+          "seconds": 10
+        },
+        {
+          "minutes": 3,
+          "seconds": 45
+        }
+      ],
+      "introduces": [
+        "sqlc｜ 多语言 SQL 生成器",
+        "Extensions.js｜浏览器插件开发工具",
+        "Verdaccio｜ 轻量级 Node.js 私有化 Registry 方案",
+        "secret-llama｜使用 WebGPU 在浏览器中运行 LLM",
+        "EmojiMart｜表情包选择器组件",
+        "React 19 发布"
+      ],
+      "links": [
+        "https://sqlc.dev/",
+        "https://github.com/cezaraugusto/extension.js",
+        "https://verdaccio.org/",
+        "https://github.com/abi/secret-llama",
+        "https://github.com/missive/emoji-mart",
+        "https://react.dev/blog/2024/04/25/react-19"
+      ]
+    },
+    "cover": 698,
+    "bid": "BV1cC411E7T7"
+  },
+  {
     "aid": 1053783169,
     "hn_items": {
       "times": [
@@ -96,7 +145,7 @@
       ]
     },
     "cover": 696,
-    "bid": "BV1Tw4C1p7LF"
+    "bid": "BV1aE421M7JM"
   },
   {
     "aid": 1003024345,
@@ -202,7 +251,7 @@
       ]
     },
     "cover": 694.1,
-    "bid": "BV1H34C1Y7CL"
+    "bid": "BV12t421E7mW"
   },
   {
     "aid": 1052469051,
@@ -300,7 +349,7 @@
       ]
     },
     "cover": 693,
-    "bid": "BV1a44k1b7nk"
+    "bid": "BV1oC41157sD"
   },
   {
     "aid": 1001895275,
@@ -459,7 +508,7 @@
       ]
     },
     "cover": 690,
-    "bid": "BV16A4y127AL"
+    "bid": "BV1NJ4m1Y7TW"
   },
   {
     "aid": 1901026218,
@@ -508,7 +557,7 @@
       ]
     },
     "cover": 689,
-    "bid": "BV15a4k1P7y3"
+    "bid": "BV1zm411S7UJ"
   },
   {
     "aid": 1650946228,
@@ -563,7 +612,7 @@
       ]
     },
     "cover": 688,
-    "bid": "BV1Fc4C1K7n6"
+    "bid": "BV1sj421Q7sU"
   },
   {
     "aid": 1150571929,
@@ -618,7 +667,7 @@
       ]
     },
     "cover": 687,
-    "bid": "BV15k4C1c7Mw"
+    "bid": "BV1zZ42127Gg"
   },
   {
     "aid": 1750065440,
@@ -673,7 +722,7 @@
       ]
     },
     "cover": 686,
-    "bid": "BV1Mg4C1M75L"
+    "bid": "BV1Yx42197EW"
   },
   {
     "aid": 581760581,
