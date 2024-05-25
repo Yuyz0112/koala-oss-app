@@ -1,5 +1,103 @@
 [
   {
+    "aid": 1754795343,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 1,
+          "seconds": 15
+        },
+        {
+          "minutes": 2,
+          "seconds": 6
+        },
+        {
+          "minutes": 3,
+          "seconds": 3
+        },
+        {
+          "minutes": 4,
+          "seconds": 29
+        },
+        {
+          "minutes": 5,
+          "seconds": 38
+        }
+      ],
+      "introduces": [
+        "React Compiler｜ React 代码优化编译器",
+        "React Flow｜基于 React 构建的开源库",
+        "DuckDB｜内存分析型数据库",
+        "pgsql-http｜提供 HTTP 客户端功能的 postgres 扩展",
+        "Veo｜DeepMind 发布 Sora 竞品",
+        "OpenAI 发布了新的模型 GPT-4o"
+      ],
+      "links": [
+        "https://react.dev/learn/react-compiler",
+        "https://reactflow.dev/",
+        "https://duckdb.org/",
+        "https://github.com/pramsey/pgsql-http",
+        "https://deepmind.google/technologies/veo",
+        "https://openai.com/index/hello-gpt-4o/"
+      ]
+    },
+    "cover": 701,
+    "bid": "BV1it421K7kh"
+  },
+  {
+    "aid": 1554332696,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 1,
+          "seconds": 20
+        },
+        {
+          "minutes": 2,
+          "seconds": 24
+        },
+        {
+          "minutes": 3,
+          "seconds": 25
+        },
+        {
+          "minutes": 4,
+          "seconds": 1
+        },
+        {
+          "minutes": 4,
+          "seconds": 50
+        }
+      ],
+      "introduces": [
+        "Glance｜ 开源个人主页工具",
+        "Hurl｜一个命令行工具",
+        "Dokploy｜开源一站式部署管理平台",
+        "Terminal Trove｜专注于 CLI 和 TUI 工具的网站",
+        "微软发布 Phi-3 开源 AI 模型系列",
+        "苹果发布最新一代芯片 M4"
+      ],
+      "links": [
+        "https://github.com/glanceapp/glance",
+        "https://hurl.dev/",
+        "https://dokploy.com/",
+        "https://terminaltrove.com/list/",
+        "https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/",
+        "https://www.apple.com/newsroom/2024/05/apple-introduces-m4-chip/"
+      ]
+    },
+    "cover": 700,
+    "bid": "BV1P1421z7ZX"
+  },
+  {
     "aid": 1954115552,
     "hn_items": {
       "times": [
@@ -45,7 +143,7 @@
         "https://react.dev/blog/2024/04/25/react-19"
       ]
     },
-    "cover": 698,
+    "cover": 699,
     "bid": "BV1cC411E7T7"
   },
   {
@@ -92,7 +190,7 @@
         ]
       ]
     },
-    "cover": 697,
+    "cover": 698,
     "bid": "BV1WH4y1P79K"
   },
   {
@@ -144,7 +242,7 @@
         "https://twenty.com/"
       ]
     },
-    "cover": 696,
+    "cover": 697,
     "bid": "BV1aE421M7JM"
   },
   {
@@ -201,7 +299,7 @@
         ]
       ]
     },
-    "cover": 694.2,
+    "cover": 696,
     "bid": "BV1Dx4y1h7JS"
   },
   {
@@ -250,7 +348,7 @@
         "https://counterscale.dev/"
       ]
     },
-    "cover": 694.1,
+    "cover": 694.2,
     "bid": "BV12t421E7mW"
   },
   {
@@ -299,7 +397,7 @@
         "https://www.databricks.com/blog/introducing-dbrx-new-state-art-open-llm"
       ]
     },
-    "cover": 694,
+    "cover": 694.1,
     "bid": "BV1DH4y1H7f4"
   },
   {
@@ -348,7 +446,7 @@
         "https://github.com/face-hh/griddycode"
       ]
     },
-    "cover": 693,
+    "cover": 694,
     "bid": "BV1oC41157sD"
   },
   {
@@ -400,7 +498,7 @@
         ]
       ]
     },
-    "cover": 692,
+    "cover": 693,
     "bid": "BV1xx4y1D7sq"
   },
   {
@@ -452,7 +550,7 @@
         "https://www.apple.com/newsroom/2024/03/apple-unveils-the-new-13-and-15-inch-macbook-air-with-the-powerful-m3-chip/?utm_source=hackernewsletter&utm_medium=email&utm_term=show_hn"
       ]
     },
-    "cover": 691,
+    "cover": 692,
     "bid": "BV1nx4y1Q7ox"
   },
   {
@@ -507,7 +605,7 @@
         "https://github.com/ajeetdsouza/zoxide"
       ]
     },
-    "cover": 690,
+    "cover": 691,
     "bid": "BV1NJ4m1Y7TW"
   },
   {
@@ -556,7 +654,7 @@
         "https://ok-robot.github.io/"
       ]
     },
-    "cover": 689,
+    "cover": 690,
     "bid": "BV1zm411S7UJ"
   },
   {
@@ -611,7 +709,7 @@
         "https://space.bilibili.com/489667127/channel/collectiondetail?sid=2214332"
       ]
     },
-    "cover": 688,
+    "cover": 689,
     "bid": "BV1sj421Q7sU"
   },
   {
@@ -666,7 +764,7 @@
         "https://www.callstack.com/blog/announcing-react-native-for-apple-vision-pro"
       ]
     },
-    "cover": 687,
+    "cover": 688,
     "bid": "BV1zZ42127Gg"
   },
   {
@@ -721,7 +819,7 @@
         "https://www.xiaoyuzhoufm.com/episode/65bafe551ed6d5797f6c37c2"
       ]
     },
-    "cover": 686,
+    "cover": 687,
     "bid": "BV1Yx42197EW"
   },
   {
@@ -770,7 +868,7 @@
         "https://howqueryengineswork.com/"
       ]
     },
-    "cover": 685,
+    "cover": 686,
     "bid": "BV1g64y1w7uG"
   },
   {
@@ -831,7 +929,7 @@
         "https://www.rosebud.ai/"
       ]
     },
-    "cover": 684,
+    "cover": 685,
     "bid": "BV1Xa4y1y7Wq"
   },
   {
@@ -886,7 +984,7 @@
         "https://www.bilibili.com/video/BV1Ha4y117rZ/"
       ]
     },
-    "cover": 683,
+    "cover": 684,
     "bid": "BV1jg4y1m7s2"
   },
   {
@@ -941,7 +1039,7 @@
         "https://starlight.astro.build/"
       ]
     },
-    "cover": 682,
+    "cover": 683,
     "bid": "BV1NW4y1N7Xd"
   },
   {
@@ -990,7 +1088,7 @@
         "https://sonner.emilkowal.ski/"
       ]
     },
-    "cover": 681.1,
+    "cover": 682,
     "bid": "BV1wT4y1W7zW"
   },
   {
@@ -1042,7 +1140,7 @@
         ]
       ]
     },
-    "cover": 681,
+    "cover": 681.1,
     "bid": "BV1n94y1w7mQ"
   },
   {
@@ -1097,7 +1195,7 @@
         "https://supabase.com/blog/postgres-on-fly-by-supabase"
       ]
     },
-    "cover": 680.1,
+    "cover": 681,
     "bid": "BV1f94y1A7SV"
   },
   {
@@ -1149,7 +1247,7 @@
         "https://deepmind.google/technologies/gemini/"
       ]
     },
-    "cover": 680,
+    "cover": 680.1,
     "bid": "BV1Ri4y1v7ae"
   },
   {
@@ -1210,7 +1308,7 @@
         "https://www.bilibili.com/video/BV1vN4y1Y7u3"
       ]
     },
-    "cover": 679,
+    "cover": 680,
     "bid": "BV1eu4y1c71w"
   },
   {
@@ -1262,7 +1360,7 @@
         "https://bfcm.stripe.dev/"
       ]
     },
-    "cover": 678,
+    "cover": 679,
     "bid": "BV1qv411F7DB"
   },
   {
@@ -1323,7 +1421,7 @@
         "https://tembo.io/blog/pgmq-self-regulating-queue/"
       ]
     },
-    "cover": 677,
+    "cover": 678,
     "bid": "BV1Fv411c781"
   },
   {
@@ -1378,7 +1476,7 @@
         "https://play.spacelancers.com/"
       ]
     },
-    "cover": 676,
+    "cover": 677,
     "bid": "BV1Lu4y1N7Tq"
   },
   {
@@ -1430,7 +1528,7 @@
         "https://sre.google/resources/practices-and-processes/twenty-years-of-sre-lessons-learned"
       ]
     },
-    "cover": 675,
+    "cover": 676,
     "bid": "BV1vj411Y7WL"
   },
   {
@@ -1479,7 +1577,7 @@
         "https://www.epsio.io/blog/how-to-create-a-streaming-sql-engine"
       ]
     },
-    "cover": 674,
+    "cover": 675,
     "bid": "BV1Fg4y1R7fE"
   },
   {
@@ -1540,7 +1638,7 @@
         "https://koala-oss.app/"
       ]
     },
-    "cover": 673,
+    "cover": 674,
     "bid": "BV1mu4y1n7hc"
   },
   {
@@ -1589,7 +1687,7 @@
         "https://www.cloudcomputingpatterns.org/"
       ]
     },
-    "cover": 672.1,
+    "cover": 673,
     "bid": "BV1qh4y1z7yo"
   },
   {
@@ -1644,7 +1742,7 @@
         "https://jakelazaroff.com/words/an-interactive-intro-to-crdts"
       ]
     },
-    "cover": 672,
+    "cover": 672.1,
     "bid": "BV1fH4y1d74T"
   },
   {
@@ -1693,7 +1791,7 @@
         "https://photoshop.adobe.com/discover"
       ]
     },
-    "cover": 671
+    "cover": 672
   },
   {
     "bid": "BV1uu41137gH",
@@ -1759,7 +1857,7 @@
         "https://twitter.com/OfficialLoganK/status/1704181284036300970"
       ]
     },
-    "cover": 670
+    "cover": 671
   },
   {
     "bid": "BV1p34y1P7Mc",
@@ -1819,7 +1917,7 @@
         "https://twitter.com/vercel/status/1702351846445080953"
       ]
     },
-    "cover": 669
+    "cover": 670
   },
   {
     "aid": 958340126,
@@ -1879,7 +1977,7 @@
         "https://github.com/EmNudge/watlings"
       ]
     },
-    "cover": 668,
+    "cover": 669,
     "bid": "BV17p4y1j7Ra"
   },
   {
@@ -1940,7 +2038,7 @@
         "https://openai.com/blog/gpt-3-5-turbo-fine-tuning-and-api-updates"
       ]
     },
-    "cover": 667,
+    "cover": 668,
     "bid": "BV1o94y1471e"
   },
   {
@@ -1989,7 +2087,7 @@
         "https://github.com/logto-io/logto"
       ]
     },
-    "cover": 665,
+    "cover": 667,
     "bid": "BV1Tz4y1u7VR"
   },
   {
@@ -2044,7 +2142,7 @@
         "https://twitter.com/rauchg/status/1687855882481336321"
       ]
     },
-    "cover": 664,
+    "cover": 665,
     "bid": "BV1hp4y1g7mh"
   },
   {
@@ -2097,7 +2195,7 @@
         ]
       ]
     },
-    "cover": 662.1,
+    "cover": 664,
     "bid": "BV1m44y1w7DU"
   },
   {
@@ -2151,7 +2249,7 @@
         ]
       ]
     },
-    "cover": 662,
+    "cover": 662.1,
     "bid": "BV1bj41197vF"
   },
   {
@@ -2205,7 +2303,7 @@
         ]
       ]
     },
-    "cover": 661,
+    "cover": 662,
     "bid": "BV1Rp4y1V7UT"
   },
   {
@@ -2263,7 +2361,7 @@
         ]
       ]
     },
-    "cover": 660,
+    "cover": 661,
     "bid": "BV1bM4y1x78f"
   },
   {
@@ -2318,7 +2416,7 @@
         ]
       ]
     },
-    "cover": 659,
+    "cover": 660,
     "bid": "BV13z4y1J73N"
   },
   {
@@ -2371,7 +2469,7 @@
         ]
       ]
     },
-    "cover": 658,
+    "cover": 659,
     "bid": "BV1eM4y1772Y"
   },
   {
@@ -2427,7 +2525,7 @@
         ]
       ]
     },
-    "cover": 657,
+    "cover": 658,
     "bid": "BV19V411u7dP"
   },
   {
@@ -2481,7 +2579,7 @@
         ]
       ]
     },
-    "cover": 656,
+    "cover": 657,
     "bid": "BV13N411r7eS"
   },
   {
@@ -2535,7 +2633,7 @@
         ]
       ]
     },
-    "cover": 655,
+    "cover": 656,
     "bid": "BV1Wo4y1N7ZP"
   },
   {
@@ -2592,7 +2690,7 @@
         ]
       ]
     },
-    "cover": 654,
+    "cover": 655,
     "bid": "BV1Mk4y1p7Jg"
   },
   {
@@ -2644,7 +2742,7 @@
         ]
       ]
     },
-    "cover": 653,
+    "cover": 654,
     "bid": "BV1ek4y1W7eg"
   },
   {
@@ -2693,7 +2791,7 @@
         "https://twitter.com/rowancheung/status/1659650892071616512"
       ]
     },
-    "cover": 652,
+    "cover": 653,
     "bid": "BV1Js4y1u7J3"
   },
   {
@@ -2745,7 +2843,7 @@
         "https://tamagui.dev/blog/version-one"
       ]
     },
-    "cover": 651,
+    "cover": 652,
     "bid": "BV1Wg4y1V7GJ"
   },
   {
@@ -2797,7 +2895,7 @@
         "https://github.com/Textualize/frogmouth"
       ]
     },
-    "cover": 650,
+    "cover": 651,
     "bid": "BV1x24y1T7Tf"
   },
   {
@@ -2846,7 +2944,7 @@
         "https://philbooth.me/blog/nine-ways-to-shoot-yourself-in-the-foot-with-postgresql"
       ]
     },
-    "cover": 649,
+    "cover": 650,
     "bid": "BV16P41127ZY"
   },
   {
@@ -2895,7 +2993,7 @@
         "https://samwho.dev/load-balancing"
       ]
     },
-    "cover": 648,
+    "cover": 649,
     "bid": "BV1Rg4y1j7rZ"
   },
   {
@@ -2944,7 +3042,7 @@
         "https://github.com/everythingishacked/Semaphore"
       ]
     },
-    "cover": 647,
+    "cover": 648,
     "bid": "BV1vh411u78w"
   },
   {
@@ -2993,7 +3091,7 @@
         "https://twitter.com/DrJimFan/status/1642921475849203712"
       ]
     },
-    "cover": 646,
+    "cover": 647,
     "bid": "BV1hT411x7Mi"
   },
   {
@@ -3042,7 +3140,7 @@
         "https://react.dev/blog/2023/03/22/react-labs-what-we-have-been-working-on-march-2023"
       ]
     },
-    "cover": 645,
+    "cover": 646,
     "bid": "BV1fX4y1r7CW"
   },
   {
@@ -3091,7 +3189,7 @@
         "https://github.com/typst/typst"
       ]
     },
-    "cover": 644,
+    "cover": 645,
     "bid": "BV1fV4y1X7x5"
   },
   {
@@ -3155,7 +3253,7 @@
         "https://react.dev/"
       ]
     },
-    "cover": 643,
+    "cover": 644,
     "bid": "BV1p84y1w7n6"
   },
   {
@@ -3204,7 +3302,7 @@
         "https://github.com/zinclabs/zincsearch"
       ]
     },
-    "cover": 642,
+    "cover": 643,
     "bid": "BV1mv4y1j7WB"
   },
   {
@@ -3253,7 +3351,7 @@
         "https://www.unfolder.app/"
       ]
     },
-    "cover": 641,
+    "cover": 642,
     "bid": "BV1xM41147Te"
   },
   {
@@ -3302,7 +3400,7 @@
         "https://github.com/Nutlope/aicommits"
       ]
     },
-    "cover": 640,
+    "cover": 641,
     "bid": "BV1pY4y127Bx"
   },
   {
@@ -3351,7 +3449,7 @@
         "https://writings.stephenwolfram.com/2023/02/what-is-chatgpt-doing-and-why-does-it-work/"
       ]
     },
-    "cover": 639,
+    "cover": 640,
     "bid": "BV1y84y1n7gH"
   },
   {
@@ -3412,7 +3510,7 @@
         "https://www.youtube.com/watch?v=8pDqJVdNa44"
       ]
     },
-    "cover": 638,
+    "cover": 639,
     "bid": "BV1Ge4y1w7EA"
   },
   {
@@ -3461,7 +3559,7 @@
         "https://www.hashicorp.com/blog/introducing-hermes-an-open-source-document-management-system"
       ]
     },
-    "cover": 637,
+    "cover": 638,
     "bid": "BV1ed4y1n7cF"
   },
   {
@@ -3510,7 +3608,7 @@
         "https://summer-afternoon.vlucendo.com/"
       ]
     },
-    "cover": 636,
+    "cover": 637,
     "bid": "BV1Y8411371f"
   },
   {
@@ -3565,7 +3663,7 @@
         "https://www.youtube.com/watch?v=kCc8FmEb1nY"
       ]
     },
-    "cover": 635,
+    "cover": 636,
     "bid": "BV1C24y1r7yJ"
   },
   {
@@ -3617,7 +3715,7 @@
         "https://2022.stateofjs.com/"
       ]
     },
-    "cover": 634,
+    "cover": 635,
     "bid": "BV1784y1h7eq"
   },
   {
@@ -3666,7 +3764,7 @@
         "https://uiverse.io/"
       ]
     },
-    "cover": 633,
+    "cover": 634,
     "bid": "BV1ad4y1E7SC"
   },
   {
@@ -3715,7 +3813,7 @@
         "https://fauna.com/blog/comparison-of-serverless-databases"
       ]
     },
-    "cover": 632.1,
+    "cover": 633,
     "bid": "BV1pM411y72o"
   },
   {
@@ -3764,7 +3862,7 @@
         "https://death.andgravity.com/pwned"
       ]
     },
-    "cover": 632,
+    "cover": 632.1,
     "bid": "BV1z14y1P7uC"
   },
   {
@@ -3822,7 +3920,7 @@
         "https://hanzi.gg/"
       ]
     },
-    "cover": 631,
+    "cover": 632,
     "bid": "BV1wA411R72Y"
   },
   {
@@ -3871,7 +3969,7 @@
         "https://github.com/JannisX11/blockbench"
       ]
     },
-    "cover": 630,
+    "cover": 631,
     "bid": "BV1Gv4y197md"
   },
   {
@@ -3926,7 +4024,7 @@
         "https://sqlfordevs.com/ebook"
       ]
     },
-    "cover": 629.1,
+    "cover": 630,
     "bid": "BV1tP4y1Q7Vt"
   },
   {
@@ -3981,7 +4079,7 @@
         "https://diataxis.fr/"
       ]
     },
-    "cover": 629,
+    "cover": 629.1,
     "bid": "BV1Z24y1C793"
   },
   {
@@ -4030,7 +4128,7 @@
         "https://mathics.org/"
       ]
     },
-    "cover": 628.1,
+    "cover": 629,
     "bid": "BV1oP4y197dF"
   },
   {
@@ -4085,7 +4183,7 @@
         "https://devblogs.microsoft.com/dotnet/announcing-dotnet-7/"
       ]
     },
-    "cover": 628,
+    "cover": 628.1,
     "bid": "BV1oY411Z7mU"
   },
   {
@@ -4140,7 +4238,7 @@
         "https://github.com/Engagespot/heroku-free-alternatives"
       ]
     },
-    "cover": 627,
+    "cover": 628,
     "bid": "BV1u14y157NA"
   },
   {
@@ -4195,7 +4293,7 @@
         "https://startertab.com/"
       ]
     },
-    "cover": 626,
+    "cover": 627,
     "bid": "BV1DD4y1b76j"
   },
   {
@@ -4254,7 +4352,7 @@
         ]
       ]
     },
-    "cover": 625,
+    "cover": 626,
     "bid": "BV14G4y1H7VM"
   },
   {
@@ -4309,7 +4407,7 @@
         "https://github.com/golang/go/discussions/56010"
       ]
     },
-    "cover": 624,
+    "cover": 625,
     "bid": "BV1Ae411V7UR"
   },
   {
@@ -4367,7 +4465,7 @@
         "https://devblogs.microsoft.com/typescript/ten-years-of-typescript/"
       ]
     },
-    "cover": 623,
+    "cover": 624,
     "bid": "BV1GR4y1R7Yw"
   },
   {
@@ -4422,7 +4520,7 @@
         "https://www.theverge.com/2022/9/29/23378713/google-stadia-shutting-down-game-streaming-january-2023"
       ]
     },
-    "cover": 622,
+    "cover": 623,
     "bid": "BV1td4y1B7Y1"
   },
   {
@@ -4483,7 +4581,7 @@
         "https://twitter.com/markrussinovich/status/1571995117233504257"
       ]
     },
-    "cover": 621,
+    "cover": 622,
     "bid": "BV1Je4y1r7B4"
   },
   {
@@ -4544,7 +4642,7 @@
         "https://github.com/divamgupta/diffusionbee-stable-diffusion-ui"
       ]
     },
-    "cover": 620,
+    "cover": 621,
     "bid": "BV1QP411H7rM"
   },
   {
@@ -4599,7 +4697,7 @@
         "https://preactjs.com/blog/introducing-signals/"
       ]
     },
-    "cover": 619,
+    "cover": 620,
     "bid": "BV1Pe4y187LV"
   },
   {
@@ -4660,7 +4758,7 @@
         "https://github.com/community/community/discussions/31644"
       ]
     },
-    "cover": 618,
+    "cover": 619,
     "bid": "BV19e411g7qe"
   },
   {
@@ -4715,7 +4813,7 @@
         "https://news.ycombinator.com/item?id=32534173"
       ]
     },
-    "cover": 617,
+    "cover": 618,
     "bid": "BV1qa411G7kd"
   },
   {
@@ -4764,7 +4862,7 @@
         "https://aseemk.substack.com/p/ignore-the-f-ing-haters-json5"
       ]
     },
-    "cover": 616.1,
+    "cover": 617,
     "bid": "BV1bg411r7Fg"
   },
   {
@@ -4813,7 +4911,7 @@
         "https://architecturenotes.co/redis/"
       ]
     },
-    "cover": 616,
+    "cover": 616.1,
     "bid": "BV1UB4y1t7cW"
   },
   {
@@ -4862,7 +4960,7 @@
         "https://jacobmartins.com/posts/how-i-used-dalle2-to-generate-the-logo-for-octosql/"
       ]
     },
-    "cover": 615,
+    "cover": 616,
     "bid": "BV1VN4y1j7Pd"
   },
   {
@@ -4911,7 +5009,7 @@
         "https://www.armosec.io/blog/kubernetes-gateway-api"
       ]
     },
-    "cover": 614,
+    "cover": 615,
     "bid": "BV1mT411j7LR"
   },
   {
@@ -4960,7 +5058,7 @@
         "https://www.bryanbraun.com/2022/07/16/scratch-is-a-big-deal"
       ]
     },
-    "cover": 613,
+    "cover": 614,
     "bid": "BV1hV4y177P9"
   },
   {
@@ -5009,7 +5107,7 @@
         "https://postgrespro.com/community/books/internals"
       ]
     },
-    "cover": 612,
+    "cover": 613,
     "bid": "BV16N4y1T7Hu"
   },
   {
@@ -5058,7 +5156,7 @@
         "https://michael.stapelberg.ch/posts/2022-07-02-rsync-how-does-it-work"
       ]
     },
-    "cover": 611,
+    "cover": 612,
     "bid": "BV1Wg411f7VV"
   },
   {
@@ -5107,7 +5205,7 @@
         "https://raindrop.io/"
       ]
     },
-    "cover": 610,
+    "cover": 611,
     "bid": "BV1Xr4y1M7T7"
   },
   {
@@ -5168,7 +5266,7 @@
         "https://deno.com/blog/series-a"
       ]
     },
-    "cover": 609,
+    "cover": 610,
     "bid": "BV1B3411u7ZG"
   },
   {
@@ -5223,7 +5321,7 @@
         "https://connectdome.com/"
       ]
     },
-    "cover": 608,
+    "cover": 609,
     "bid": "BV1sY411T7QL"
   },
   {
@@ -5272,7 +5370,7 @@
         "https://untools.co/"
       ]
     },
-    "cover": 607,
+    "cover": 608,
     "bid": "BV1rS4y1i72U"
   },
   {
@@ -5333,7 +5431,7 @@
         "https://evanhahn.github.io/ffmpeg-buddy/"
       ]
     },
-    "cover": 606,
+    "cover": 607,
     "bid": "BV1L34y1L7zK"
   },
   {
@@ -5388,7 +5486,7 @@
         "https://plant.jim-fx.com/"
       ]
     },
-    "cover": 605,
+    "cover": 606,
     "bid": "BV1pY4y1z7Vx"
   },
   {
@@ -5443,7 +5541,7 @@
         "https://quastor.substack.com/"
       ]
     },
-    "cover": 604,
+    "cover": 605,
     "bid": "BV13a411E7AQ"
   },
   {
@@ -5504,7 +5602,7 @@
         "https://blog.atomrc.dev/p/js-performance-profiling/"
       ]
     },
-    "cover": 603,
+    "cover": 604,
     "bid": "BV1kT4y1B7Nh"
   },
   {
@@ -5565,7 +5663,7 @@
         "https://hoten.cc/blog/porting-zelda-classic-to-the-web"
       ]
     },
-    "cover": 602,
+    "cover": 603,
     "bid": "BV1PB4y1278B"
   },
   {
@@ -5620,7 +5718,7 @@
         "https://pixy.com/"
       ]
     },
-    "cover": 601,
+    "cover": 602,
     "bid": "BV1fu41167ME"
   },
   {
@@ -5675,7 +5773,7 @@
         "https://tipykeyboard.com/en/home/"
       ]
     },
-    "cover": 600,
+    "cover": 601,
     "bid": "BV16B4y127vi"
   },
   {
@@ -5730,7 +5828,7 @@
         "https://eightcolors.net/"
       ]
     },
-    "cover": 599,
+    "cover": 600,
     "bid": "BV1yi4y1U7Ms"
   },
   {
@@ -5791,7 +5889,7 @@
         "https://www.smashingmagazine.com/2022/03/html-attributes-you-never-use"
       ]
     },
-    "cover": 598,
+    "cover": 599,
     "bid": "BV12i4y1D78x"
   },
   {
@@ -5861,7 +5959,7 @@
         "https://blogsurf.io/"
       ]
     },
-    "cover": 597,
+    "cover": 598,
     "bid": "BV1aF41137oA"
   },
   {
@@ -5922,7 +6020,7 @@
         "https://www.datamesh-architecture.com/"
       ]
     },
-    "cover": 596,
+    "cover": 597,
     "bid": "BV19S4y127wz"
   },
   {
@@ -5989,7 +6087,7 @@
         "https://www.youtube.com/watch?v=hCC1C5KIeUA"
       ]
     },
-    "cover": 595,
+    "cover": 596,
     "bid": "BV1HU4y1d7da"
   },
   {
@@ -6044,7 +6142,7 @@
         "https://platformers.dev/log/2022/latest-literally-kills-puppies/"
       ]
     },
-    "cover": 594,
+    "cover": 595,
     "bid": "BV1VS4y1D768"
   },
   {
@@ -6105,7 +6203,7 @@
         "https://www.lessmilk.com/almost-pong/"
       ]
     },
-    "cover": 593,
+    "cover": 594,
     "bid": "BV1Y34y1b7cJ"
   },
   {
@@ -6160,7 +6258,7 @@
         "https://github.com/ahrm/sioyek"
       ]
     },
-    "cover": 592,
+    "cover": 593,
     "bid": "BV1m34y1r7EY"
   },
   {
@@ -6215,7 +6313,7 @@
         "https://www.shortwave.com/blog/introducing-shortwave/"
       ]
     },
-    "cover": 591,
+    "cover": 592,
     "bid": "BV19P4y1F7s7"
   },
   {
@@ -6288,7 +6386,7 @@
         "https://sha256algorithm.com/"
       ]
     },
-    "cover": 590,
+    "cover": 591,
     "bid": "BV16a411y7fw"
   },
   {
@@ -6331,7 +6429,7 @@
         "https://infosecwriteups.com/how-i-discovered-thousands-of-open-databases-on-aws-764729aa7f32"
       ]
     },
-    "cover": 589,
+    "cover": 590,
     "bid": "BV1nL4y1s7q1"
   },
   {
@@ -6404,7 +6502,7 @@
         "https://buttondown.email/nelhage/archive/two-reasons-kubernetes-is-so-complex/"
       ]
     },
-    "cover": 588,
+    "cover": 589,
     "bid": "BV1r34y127VU"
   },
   {
@@ -6483,7 +6581,7 @@
         "https://wallsmash.com/"
       ]
     },
-    "cover": 587,
+    "cover": 588,
     "bid": "BV1AT4y127tr"
   },
   {
@@ -6556,7 +6654,7 @@
         "https://looptap.vasanthv.com/"
       ]
     },
-    "cover": 586,
+    "cover": 587,
     "bid": "BV1eT4y117Xh"
   },
   {
@@ -6641,7 +6739,7 @@
         "https://iss-sim.spacex.com/"
       ]
     },
-    "cover": 585,
+    "cover": 586,
     "bid": "BV1vL4y1b78S"
   },
   {
@@ -6732,7 +6830,7 @@
         "https://www.figma.com/community/plugin/1049994768493726219/Inspect---Export-to-HTML,-React,-TailwindCSS"
       ]
     },
-    "cover": 584,
+    "cover": 585,
     "bid": "BV1GD4y1F7Ri"
   },
   {
@@ -6835,7 +6933,7 @@
         "https://microfounder.com/blog/marketing-is-scary"
       ]
     },
-    "cover": 583,
+    "cover": 584,
     "bid": "BV1NL411L7U1"
   }
 ]
