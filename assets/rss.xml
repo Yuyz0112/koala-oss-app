@@ -4,169 +4,176 @@
         <description><![CDATA[Koala 聊开源近期视频]]></description>
         <link>https://koala-oss.app/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 25 May 2024 08:20:27 GMT</lastBuildDate>
+        <lastBuildDate>Tue, 11 Jun 2024 06:20:52 GMT</lastBuildDate>
         <atom:link href="https://koala-oss.app/rss.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[zh-cn]]></language>
+        <item>
+            <title><![CDATA[Pake｜将网页打包为桌面应用]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1gD421u7Zz?t=8.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/tw93/Pake</link>
+            <guid isPermaLink="false">BV1gD421u7Zz-0</guid>
+            <pubDate>Tue, 11 Jun 2024 06:20:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[PlayBooks｜故障排查和修复的效率工具]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1gD421u7Zz?t=65.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://drdroid.io/</link>
+            <guid isPermaLink="false">BV1gD421u7Zz-1</guid>
+            <pubDate>Tue, 11 Jun 2024 06:20:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[File0｜开发者存储服务]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1gD421u7Zz?t=145.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://www.file0.dev/</link>
+            <guid isPermaLink="false">BV1gD421u7Zz-2</guid>
+            <pubDate>Tue, 11 Jun 2024 06:20:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Uppy｜现代文件上传库]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1gD421u7Zz?t=200.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://uppy.io/</link>
+            <guid isPermaLink="false">BV1gD421u7Zz-3</guid>
+            <pubDate>Tue, 11 Jun 2024 06:20:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Terminal CSS｜终端风格 CSS]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1gD421u7Zz?t=241.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://terminalcss.xyz/</link>
+            <guid isPermaLink="false">BV1gD421u7Zz-4</guid>
+            <pubDate>Tue, 11 Jun 2024 06:20:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[快手发布可灵｜中国版 Sora 文生视频]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1gD421u7Zz?t=290.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://kling.kuaishou.com/</link>
+            <guid isPermaLink="false">BV1gD421u7Zz-5</guid>
+            <pubDate>Tue, 11 Jun 2024 06:20:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Sandbox｜开源云端 IDE]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1QD421g7UZ?t=8.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/ishaan1013/sandbox</link>
+            <guid isPermaLink="false">BV1QD421g7UZ-0</guid>
+            <pubDate>Tue, 11 Jun 2024 06:20:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Namviek｜开源项目管理工具]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1QD421g7UZ?t=79.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/hudy9x/namviek</link>
+            <guid isPermaLink="false">BV1QD421g7UZ-1</guid>
+            <pubDate>Tue, 11 Jun 2024 06:20:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Wired Elements｜手绘风格 UI 组件库]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1QD421g7UZ?t=121.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://wiredjs.com/</link>
+            <guid isPermaLink="false">BV1QD421g7UZ-2</guid>
+            <pubDate>Tue, 11 Jun 2024 06:20:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Vulcain｜基于 HTTP/2 增强 API]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1QD421g7UZ?t=155.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://vulcain.rocks/</link>
+            <guid isPermaLink="false">BV1QD421g7UZ-3</guid>
+            <pubDate>Tue, 11 Jun 2024 06:20:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[ChatTTS｜文本转语音模型]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1QD421g7UZ?t=199.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/2noise/ChatTTS</link>
+            <guid isPermaLink="false">BV1QD421g7UZ-4</guid>
+            <pubDate>Tue, 11 Jun 2024 06:20:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Cover-Agent｜AI 生成单元测试]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1QD421g7UZ?t=238.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/Codium-ai/cover-agent</link>
+            <guid isPermaLink="false">BV1QD421g7UZ-5</guid>
+            <pubDate>Tue, 11 Jun 2024 06:20:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[SST｜ 基于 serverless 架构的全栈框架]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1jx4y1n7Vp?t=8.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://sst.dev/</link>
+            <guid isPermaLink="false">BV1jx4y1n7Vp-0</guid>
+            <pubDate>Tue, 11 Jun 2024 06:20:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Amber｜编译至 Bash 的现代脚本语言]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1jx4y1n7Vp?t=71.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://amber-lang.com/</link>
+            <guid isPermaLink="false">BV1jx4y1n7Vp-1</guid>
+            <pubDate>Tue, 11 Jun 2024 06:20:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Avvvatars｜ 有趣的 React 头像组件库]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1jx4y1n7Vp?t=139.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/nusu/avvvatars</link>
+            <guid isPermaLink="false">BV1jx4y1n7Vp-2</guid>
+            <pubDate>Tue, 11 Jun 2024 06:20:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Piko｜ Ngrok 的开源替代品]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1jx4y1n7Vp?t=177.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/andydunstall/piko</link>
+            <guid isPermaLink="false">BV1jx4y1n7Vp-3</guid>
+            <pubDate>Tue, 11 Jun 2024 06:20:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Unify｜ 一个 LLM AI 路由]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1jx4y1n7Vp?t=228.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://unify.ai/</link>
+            <guid isPermaLink="false">BV1jx4y1n7Vp-4</guid>
+            <pubDate>Tue, 11 Jun 2024 06:20:52 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[从零构建 Llama3 的精彩教程]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1jx4y1n7Vp?t=269.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/naklecha/llama3-from-scratch</link>
+            <guid isPermaLink="false">BV1jx4y1n7Vp-5</guid>
+            <pubDate>Tue, 11 Jun 2024 06:20:52 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[React Compiler｜ React 代码优化编译器]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1it421K7kh?t=8.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://react.dev/learn/react-compiler</link>
             <guid isPermaLink="false">BV1it421K7kh-0</guid>
-            <pubDate>Sat, 25 May 2024 08:20:27 GMT</pubDate>
+            <pubDate>Tue, 11 Jun 2024 06:20:52 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[React Flow｜基于 React 构建的开源库]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1it421K7kh?t=74.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://reactflow.dev/</link>
             <guid isPermaLink="false">BV1it421K7kh-1</guid>
-            <pubDate>Sat, 25 May 2024 08:20:27 GMT</pubDate>
+            <pubDate>Tue, 11 Jun 2024 06:20:52 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[DuckDB｜内存分析型数据库]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1it421K7kh?t=125.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://duckdb.org/</link>
             <guid isPermaLink="false">BV1it421K7kh-2</guid>
-            <pubDate>Sat, 25 May 2024 08:20:27 GMT</pubDate>
+            <pubDate>Tue, 11 Jun 2024 06:20:52 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[pgsql-http｜提供 HTTP 客户端功能的 postgres 扩展]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1it421K7kh?t=182.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://github.com/pramsey/pgsql-http</link>
             <guid isPermaLink="false">BV1it421K7kh-3</guid>
-            <pubDate>Sat, 25 May 2024 08:20:27 GMT</pubDate>
+            <pubDate>Tue, 11 Jun 2024 06:20:52 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Veo｜DeepMind 发布 Sora 竞品]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1it421K7kh?t=268.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://deepmind.google/technologies/veo</link>
             <guid isPermaLink="false">BV1it421K7kh-4</guid>
-            <pubDate>Sat, 25 May 2024 08:20:27 GMT</pubDate>
+            <pubDate>Tue, 11 Jun 2024 06:20:52 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[OpenAI 发布了新的模型 GPT-4o]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1it421K7kh?t=337.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://openai.com/index/hello-gpt-4o/</link>
             <guid isPermaLink="false">BV1it421K7kh-5</guid>
-            <pubDate>Sat, 25 May 2024 08:20:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Glance｜ 开源个人主页工具]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1P1421z7ZX?t=8.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://github.com/glanceapp/glance</link>
-            <guid isPermaLink="false">BV1P1421z7ZX-0</guid>
-            <pubDate>Sat, 25 May 2024 08:20:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Hurl｜一个命令行工具]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1P1421z7ZX?t=79.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://hurl.dev/</link>
-            <guid isPermaLink="false">BV1P1421z7ZX-1</guid>
-            <pubDate>Sat, 25 May 2024 08:20:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Dokploy｜开源一站式部署管理平台]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1P1421z7ZX?t=143.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://dokploy.com/</link>
-            <guid isPermaLink="false">BV1P1421z7ZX-2</guid>
-            <pubDate>Sat, 25 May 2024 08:20:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Terminal Trove｜专注于 CLI 和 TUI 工具的网站]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1P1421z7ZX?t=204.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://terminaltrove.com/list/</link>
-            <guid isPermaLink="false">BV1P1421z7ZX-3</guid>
-            <pubDate>Sat, 25 May 2024 08:20:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[微软发布 Phi-3 开源 AI 模型系列]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1P1421z7ZX?t=240.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://azure.microsoft.com/en-us/blog/introducing-phi-3-redefining-whats-possible-with-slms/</link>
-            <guid isPermaLink="false">BV1P1421z7ZX-4</guid>
-            <pubDate>Sat, 25 May 2024 08:20:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[苹果发布最新一代芯片 M4]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1P1421z7ZX?t=289.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://www.apple.com/newsroom/2024/05/apple-introduces-m4-chip/</link>
-            <guid isPermaLink="false">BV1P1421z7ZX-5</guid>
-            <pubDate>Sat, 25 May 2024 08:20:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[sqlc｜ 多语言 SQL 生成器]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1cC411E7T7?t=8.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://sqlc.dev/</link>
-            <guid isPermaLink="false">BV1cC411E7T7-0</guid>
-            <pubDate>Sat, 25 May 2024 08:20:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Extensions.js｜浏览器插件开发工具]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1cC411E7T7?t=51.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://github.com/cezaraugusto/extension.js</link>
-            <guid isPermaLink="false">BV1cC411E7T7-1</guid>
-            <pubDate>Sat, 25 May 2024 08:20:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Verdaccio｜ 轻量级 Node.js 私有化 Registry 方案]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1cC411E7T7?t=100.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://verdaccio.org/</link>
-            <guid isPermaLink="false">BV1cC411E7T7-2</guid>
-            <pubDate>Sat, 25 May 2024 08:20:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[secret-llama｜使用 WebGPU 在浏览器中运行 LLM]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1cC411E7T7?t=147.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://github.com/abi/secret-llama</link>
-            <guid isPermaLink="false">BV1cC411E7T7-3</guid>
-            <pubDate>Sat, 25 May 2024 08:20:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[EmojiMart｜表情包选择器组件]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1cC411E7T7?t=189.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://github.com/missive/emoji-mart</link>
-            <guid isPermaLink="false">BV1cC411E7T7-4</guid>
-            <pubDate>Sat, 25 May 2024 08:20:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[React 19 发布]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1cC411E7T7?t=224.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://react.dev/blog/2024/04/25/react-19</link>
-            <guid isPermaLink="false">BV1cC411E7T7-5</guid>
-            <pubDate>Sat, 25 May 2024 08:20:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Cap｜开源桌面端录屏分享工具]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1WH4y1P79K?t=8.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://cap.so/</link>
-            <guid isPermaLink="false">BV1WH4y1P79K-0</guid>
-            <pubDate>Sat, 25 May 2024 08:20:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Infisical｜密钥管理方案]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1WH4y1P79K?t=45.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://infisical.com/</link>
-            <guid isPermaLink="false">BV1WH4y1P79K-1</guid>
-            <pubDate>Sat, 25 May 2024 08:20:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Hatchet｜分布式高容错消息队列]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1WH4y1P79K?t=88.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://github.com/hatchet-dev/hatchet</link>
-            <guid isPermaLink="false">BV1WH4y1P79K-2</guid>
-            <pubDate>Sat, 25 May 2024 08:20:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[ServiceLogos｜可爱版 Logo 绘制]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1WH4y1P79K?t=135.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://github.com/SAWARATSUKI/ServiceLogos</link>
-            <guid isPermaLink="false">BV1WH4y1P79K-3</guid>
-            <pubDate>Sat, 25 May 2024 08:20:27 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[->]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1WH4y1P79K?t=171.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://github.com/myshell-ai/OpenVoice</link>
-            <guid isPermaLink="false">BV1WH4y1P79K-4</guid>
-            <pubDate>Sat, 25 May 2024 08:20:27 GMT</pubDate>
+            <pubDate>Tue, 11 Jun 2024 06:20:52 GMT</pubDate>
         </item>
     </channel>
 </rss>
