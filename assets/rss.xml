@@ -4,155 +4,134 @@
         <description><![CDATA[Koala 聊开源近期视频]]></description>
         <link>https://koala-oss.app/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Wed, 03 Jul 2024 09:15:38 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 20 Jul 2024 08:08:31 GMT</lastBuildDate>
         <atom:link href="https://koala-oss.app/rss.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[zh-cn]]></language>
+        <item>
+            <title><![CDATA[Pikimov｜网页版 AE]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1FS421R7uU?t=8.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://pikimov.com/</link>
+            <guid isPermaLink="false">BV1FS421R7uU-0</guid>
+            <pubDate>Sat, 20 Jul 2024 08:08:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Posting｜命令行 Postman 替代品]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1FS421R7uU?t=49.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/darrenburns/posting</link>
+            <guid isPermaLink="false">BV1FS421R7uU-1</guid>
+            <pubDate>Sat, 20 Jul 2024 08:08:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Onlook Studio｜开源本地运行的 Webflow 替代品]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1FS421R7uU?t=81.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/onlook-dev/studio</link>
+            <guid isPermaLink="false">BV1FS421R7uU-2</guid>
+            <pubDate>Sat, 20 Jul 2024 08:08:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[微软开源了 GraphRAG]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1FS421R7uU?t=120.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/microsoft/graphrag</link>
+            <guid isPermaLink="false">BV1FS421R7uU-3</guid>
+            <pubDate>Sat, 20 Jul 2024 08:08:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Dropbase｜ Prompt 和 Python 开发 Web 应用工具]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1FS421R7uU?t=152.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/DropbaseHQ/dropbase</link>
+            <guid isPermaLink="false">BV1FS421R7uU-4</guid>
+            <pubDate>Sat, 20 Jul 2024 08:08:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Satyrn｜ Mac Jupyter 客户端]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1FS421R7uU?t=180.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://satyrn.app/</link>
+            <guid isPermaLink="false">BV1FS421R7uU-5</guid>
+            <pubDate>Sat, 20 Jul 2024 08:08:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[OmniParse｜高质量数据解析器]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Zb421n7Uw?t=8.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/adithya-s-k/omniparse</link>
+            <guid isPermaLink="false">BV1Zb421n7Uw-0</guid>
+            <pubDate>Sat, 20 Jul 2024 08:08:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Smart Components｜智能 UI 组件]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Zb421n7Uw?t=50.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/dotnet-smartcomponents/smartcomponents</link>
+            <guid isPermaLink="false">BV1Zb421n7Uw-1</guid>
+            <pubDate>Sat, 20 Jul 2024 08:08:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[SmoothMQ｜开源 Amazon SQS 替代品]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Zb421n7Uw?t=90.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/poundifdef/SmoothMQ</link>
+            <guid isPermaLink="false">BV1Zb421n7Uw-2</guid>
+            <pubDate>Sat, 20 Jul 2024 08:08:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Omakub｜Ubuntu 配置工具]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Zb421n7Uw?t=127.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://omakub.org/</link>
+            <guid isPermaLink="false">BV1Zb421n7Uw-3</guid>
+            <pubDate>Sat, 20 Jul 2024 08:08:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Gridstack｜网格布局 JS 库]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Zb421n7Uw?t=164.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://gridstackjs.com/</link>
+            <guid isPermaLink="false">BV1Zb421n7Uw-4</guid>
+            <pubDate>Sat, 20 Jul 2024 08:08:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[screego｜开源屏幕共享工具]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Zb421n7Uw?t=199.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/screego/server</link>
+            <guid isPermaLink="false">BV1Zb421n7Uw-5</guid>
+            <pubDate>Sat, 20 Jul 2024 08:08:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Glasskube｜K8s 包管理器]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1G6421Z7QG?t=9.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://glasskube.dev/</link>
+            <guid isPermaLink="false">BV1G6421Z7QG-0</guid>
+            <pubDate>Sat, 20 Jul 2024 08:08:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Solid Toast｜Solid JS 通知组件]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1G6421Z7QG?t=65.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://www.solid-toast.com/</link>
+            <guid isPermaLink="false">BV1G6421Z7QG-1</guid>
+            <pubDate>Sat, 20 Jul 2024 08:08:31 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[dotenvx｜下一代 dotenv]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1G6421Z7QG?t=118.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://dotenvx.com/blog/2024/06/24/dotenvx-next-generation-config-management.html</link>
+            <guid isPermaLink="false">BV1G6421Z7QG-2</guid>
+            <pubDate>Sat, 20 Jul 2024 08:08:31 GMT</pubDate>
+        </item>
         <item>
             <title><![CDATA[Eidos｜离线版 Notion]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1dM4m1m7Xf?t=8.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://eidos.space/</link>
             <guid isPermaLink="false">BV1dM4m1m7Xf-0</guid>
-            <pubDate>Wed, 03 Jul 2024 09:15:38 GMT</pubDate>
+            <pubDate>Sat, 20 Jul 2024 08:08:31 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Yazi｜Rust 编写终端文件管理器]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1dM4m1m7Xf?t=60.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://github.com/sxyazi/yazi</link>
             <guid isPermaLink="false">BV1dM4m1m7Xf-1</guid>
-            <pubDate>Wed, 03 Jul 2024 09:15:38 GMT</pubDate>
+            <pubDate>Sat, 20 Jul 2024 08:08:31 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Claude 3.5 发布]]></title>
             <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1dM4m1m7Xf?t=107.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://www.anthropic.com/news/claude-3-5-sonnet</link>
             <guid isPermaLink="false">BV1dM4m1m7Xf-2</guid>
-            <pubDate>Wed, 03 Jul 2024 09:15:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Cyber Scarecrow｜赛博稻草人]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Di421e7Ey?t=8.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://www.cyberscarecrow.com/</link>
-            <guid isPermaLink="false">BV1Di421e7Ey-0</guid>
-            <pubDate>Wed, 03 Jul 2024 09:15:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Teo｜ 快速 CRUD 开发框架]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Di421e7Ey?t=87.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://github.com/teodevgroup/teo</link>
-            <guid isPermaLink="false">BV1Di421e7Ey-1</guid>
-            <pubDate>Wed, 03 Jul 2024 09:15:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Dbmate｜数据库迁移工具]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Di421e7Ey?t=158.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://github.com/amacneil/dbmate</link>
-            <guid isPermaLink="false">BV1Di421e7Ey-2</guid>
-            <pubDate>Wed, 03 Jul 2024 09:15:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[SQL Studio｜跨平台数据库 GUI 客户端]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Di421e7Ey?t=223.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://github.com/frectonz/sql-studio</link>
-            <guid isPermaLink="false">BV1Di421e7Ey-3</guid>
-            <pubDate>Wed, 03 Jul 2024 09:15:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[htmx 2.0 版本正式发布]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Di421e7Ey?t=254.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://htmx.org/posts/2024-06-17-htmx-2-0-0-is-released</link>
-            <guid isPermaLink="false">BV1Di421e7Ey-4</guid>
-            <pubDate>Wed, 03 Jul 2024 09:15:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[TokenCost｜计算 LLM AI 成本]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1Di421e7Ey?t=297.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://github.com/AgentOps-AI/tokencost</link>
-            <guid isPermaLink="false">BV1Di421e7Ey-5</guid>
-            <pubDate>Wed, 03 Jul 2024 09:15:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Taipy｜Python 开发 Web UI 工具]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1om421V7nA?t=8.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://taipy.io/</link>
-            <guid isPermaLink="false">BV1om421V7nA-0</guid>
-            <pubDate>Wed, 03 Jul 2024 09:15:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Revideo｜通过代码编辑视频]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1om421V7nA?t=64.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://github.com/redotvideo/revideo</link>
-            <guid isPermaLink="false">BV1om421V7nA-1</guid>
-            <pubDate>Wed, 03 Jul 2024 09:15:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Piku｜轻量级 PaaS 方案]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1om421V7nA?t=104.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://github.com/piku/piku</link>
-            <guid isPermaLink="false">BV1om421V7nA-2</guid>
-            <pubDate>Wed, 03 Jul 2024 09:15:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Restate｜ 持久化工作流引擎]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1om421V7nA?t=160.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://restate.dev/</link>
-            <guid isPermaLink="false">BV1om421V7nA-3</guid>
-            <pubDate>Wed, 03 Jul 2024 09:15:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Ice｜ macOS 菜单栏管理工具]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1om421V7nA?t=211.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://github.com/jordanbaird/Ice</link>
-            <guid isPermaLink="false">BV1om421V7nA-4</guid>
-            <pubDate>Wed, 03 Jul 2024 09:15:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Pastel｜基于 React 开发命令行工具的框架]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1om421V7nA?t=240.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://github.com/vadimdemedes/pastel</link>
-            <guid isPermaLink="false">BV1om421V7nA-5</guid>
-            <pubDate>Wed, 03 Jul 2024 09:15:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Pake｜将网页打包为桌面应用]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1gD421u7Zz?t=8.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://github.com/tw93/Pake</link>
-            <guid isPermaLink="false">BV1gD421u7Zz-0</guid>
-            <pubDate>Wed, 03 Jul 2024 09:15:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[PlayBooks｜故障排查和修复的效率工具]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1gD421u7Zz?t=65.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://drdroid.io/</link>
-            <guid isPermaLink="false">BV1gD421u7Zz-1</guid>
-            <pubDate>Wed, 03 Jul 2024 09:15:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[File0｜开发者存储服务]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1gD421u7Zz?t=145.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://www.file0.dev/</link>
-            <guid isPermaLink="false">BV1gD421u7Zz-2</guid>
-            <pubDate>Wed, 03 Jul 2024 09:15:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Uppy｜现代文件上传库]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1gD421u7Zz?t=200.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://uppy.io/</link>
-            <guid isPermaLink="false">BV1gD421u7Zz-3</guid>
-            <pubDate>Wed, 03 Jul 2024 09:15:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Terminal CSS｜终端风格 CSS]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1gD421u7Zz?t=241.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://terminalcss.xyz/</link>
-            <guid isPermaLink="false">BV1gD421u7Zz-4</guid>
-            <pubDate>Wed, 03 Jul 2024 09:15:38 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[快手发布可灵｜中国版 Sora 文生视频]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1gD421u7Zz?t=290.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://kling.kuaishou.com/</link>
-            <guid isPermaLink="false">BV1gD421u7Zz-5</guid>
-            <pubDate>Wed, 03 Jul 2024 09:15:38 GMT</pubDate>
+            <pubDate>Sat, 20 Jul 2024 08:08:31 GMT</pubDate>
         </item>
     </channel>
 </rss>
