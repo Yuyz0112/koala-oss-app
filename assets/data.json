@@ -1,5 +1,155 @@
 [
   {
+    "aid": 1506280668,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 49
+        },
+        {
+          "minutes": 1,
+          "seconds": 25
+        },
+        {
+          "minutes": 2,
+          "seconds": 10
+        },
+        {
+          "minutes": 2,
+          "seconds": 49
+        },
+        {
+          "minutes": 3,
+          "seconds": 32
+        }
+      ],
+      "introduces": [
+        "VideoZip.online｜WASM 视频处理工具",
+        "vtool｜手写体文稿生成器",
+        "exo｜组建自己的 AI 集群",
+        "Origami｜免费 3D 动画对象",
+        "Google 发布更强端侧模型 Gemma 2 2B",
+        "Meta 发布 SAM 2 实时视频切割模型"
+      ],
+      "links": [
+        "https://www.videozip.online/",
+        "https://vtool.pro/handwriting/index.html",
+        "https://github.com/exo-explore/exo",
+        "https://tympanus.net/Development/Origami/",
+        "https://developers.googleblog.com/en/smaller-safer-more-transparent-advancing-responsible-ai-with-gemma/",
+        "https://ai.meta.com/blog/segment-anything-2/"
+      ]
+    },
+    "cover": 710,
+    "bid": "BV1YS421X796"
+  },
+  {
+    "aid": 1156462894,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 54
+        },
+        {
+          "minutes": 1,
+          "seconds": 43
+        },
+        {
+          "minutes": 2,
+          "seconds": 31
+        },
+        {
+          "minutes": 3,
+          "seconds": 17
+        },
+        {
+          "minutes": 3,
+          "seconds": 58
+        }
+      ],
+      "introduces": [
+        "LinDB｜开源时序数据库 LinDB",
+        "Zerox OCR｜文档 OCR 工具",
+        "NodeJS 试验性支持原生 TS",
+        "交互式 release note 解读 Go 1.23",
+        "Stirling-PDF｜自部署 PDF 处理工具",
+        "两大基础模型发布"
+      ],
+      "links": [
+        "https://lindb.io/oss/lindb",
+        "https://github.com/getomni-ai/zerox",
+        "https://github.com/nodejs/node/pull/53725",
+        "https://antonz.org/go-1-23",
+        "https://github.com/Stirling-Tools/Stirling-PDF",
+        [
+          "https://ai.meta.com/blog/meta-llama-3-1/",
+          "https://mistral.ai/news/mistral-large-2407/"
+        ]
+      ]
+    },
+    "cover": 709,
+    "bid": "BV1MZ421K7xt"
+  },
+  {
+    "aid": 1356274104,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 53
+        },
+        {
+          "minutes": 1,
+          "seconds": 36
+        },
+        {
+          "minutes": 2,
+          "seconds": 11
+        },
+        {
+          "minutes": 2,
+          "seconds": 59
+        },
+        {
+          "minutes": 3,
+          "seconds": 46
+        }
+      ],
+      "introduces": [
+        "Logdy｜便捷日志查看工具",
+        "SENDUNE｜开源 HTML 邮件设计工具",
+        "Motion Canvas｜动画创作工具",
+        "SCALE｜AMD GPU 运行 CUDA",
+        "Pezzo｜开源 LLMOps 平台",
+        "Zed 代码编辑器登陆 Linux"
+      ],
+      "links": [
+        "https://logdy.dev/",
+        "https://github.com/SendWithSES/Drag-and-Drop-Email-Designer",
+        "https://motioncanvas.io/",
+        "https://docs.scale-lang.com/",
+        "https://github.com/pezzolabs/pezzo",
+        "https://zed.dev/blog/zed-on-linux"
+      ]
+    },
+    "cover": 708,
+    "bid": "BV1Wz421B7cB"
+  },
+  {
     "aid": 1506067194,
     "hn_items": {
       "times": [
