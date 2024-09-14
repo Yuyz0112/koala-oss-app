@@ -1,5 +1,261 @@
 [
   {
+    "aid": 113099759685226,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 48
+        },
+        {
+          "minutes": 1,
+          "seconds": 24
+        },
+        {
+          "minutes": 1,
+          "seconds": 57
+        },
+        {
+          "minutes": 2,
+          "seconds": 40
+        },
+        {
+          "minutes": 3,
+          "seconds": 18
+        }
+      ],
+      "introduces": [
+        "用代码设计复杂架构图",
+        "纸张的未来已来",
+        "一组精心设计的 3D 图标",
+        "serverless 结合 AI 生成代码",
+        "自托管的 Docker 管理 UI",
+        "AI 驱动的数据库管理平台"
+      ],
+      "links": [
+        "https://metz.sh/",
+        "https://remarkable.com/",
+        "https://www.isocons.app/",
+        [
+          "https://www.val.town/townie",
+          "https://x.com/stevekrouse/status/1832061856787361891"
+        ],
+        "https://github.com/will-moss/isaiah",
+        "https://www.outerbase.com/"
+      ],
+      "cover": 715
+    },
+    "cover": 715,
+    "bid": "BV1zd4y1D76t"
+  },
+  {
+    "aid": 113060182230505,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 46
+        },
+        {
+          "minutes": 1,
+          "seconds": 32
+        },
+        {
+          "minutes": 2,
+          "seconds": 8
+        },
+        {
+          "minutes": 2,
+          "seconds": 45
+        },
+        {
+          "minutes": 3,
+          "seconds": 26
+        }
+      ],
+      "introduces": [
+        "Moq｜Go 语言接口模拟工具",
+        "Rspack 1.0 正式发布",
+        "filebrowser｜Web 中的文件管理器",
+        "Departure Mono｜完美结合科幻与像素风的字体",
+        "ChartDB｜数据库架构图可视化工具",
+        "SlateDB｜基于对象存储的嵌入式存储引擎本期项目链接："
+      ],
+      "links": [
+        "https://github.com/matryer/moq",
+        "https://rspack.dev/zh/blog/announcing-1-0",
+        "https://github.com/filebrowser/filebrowser",
+        "https://departuremono.com/",
+        "https://chartdb.io/",
+        "https://slatedb.io/"
+      ],
+      "cover": 714
+    },
+    "cover": 714,
+    "bid": "BV14h4S1V7i9"
+  },
+  {
+    "aid": 113020470559609,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 58
+        },
+        {
+          "minutes": 1,
+          "seconds": 40
+        },
+        {
+          "minutes": 2,
+          "seconds": 22
+        },
+        {
+          "minutes": 3,
+          "seconds": 7
+        },
+        {
+          "minutes": 3,
+          "seconds": 51
+        }
+      ],
+      "introduces": [
+        "srcbook｜浏览器中的 JS 交互式编程环境",
+        "tldr｜浏览器中的命令行手册",
+        "Instant｜实现实时协作的客户端数据库",
+        "go-vcr｜Go语言的HTTP交互录制与回放工具",
+        "Cedar｜AWS 开源的权限策略语言",
+        "Pink Arrows｜基于 Web 的开源标注工具"
+      ],
+      "links": [
+        "https://srcbook.com/",
+        "https://tldr.inbrowser.app/",
+        "https://www.instantdb.com/",
+        "https://github.com/dnaeon/go-vcr",
+        "https://www.cedarpolicy.com/",
+        "https://github.com/robbalian/pinkarrows"
+      ],
+      "cover": 713
+    },
+    "cover": 713,
+    "bid": "BV1LD4m1Q729"
+  },
+  {
+    "aid": 1056367916,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 44
+        },
+        {
+          "minutes": 1,
+          "seconds": 19
+        },
+        {
+          "minutes": 1,
+          "seconds": 59
+        },
+        {
+          "minutes": 2,
+          "seconds": 42
+        },
+        {
+          "minutes": 3,
+          "seconds": 30
+        }
+      ],
+      "introduces": [
+        "postgres.new｜浏览器中的 Postgres 数据库",
+        "Teable：将 Postgres 数据库变为 Airtable",
+        "Oops.js：给你的应用添加强大的撤销/重做功能",
+        "Next.js + Tailwind CSS 博客模版",
+        "X.AI 发布 Grok 2",
+        "Black Forest Labs 发布 FLUX.1 模型"
+      ],
+      "links": [
+        "https://supabase.com/blog/postgres-new",
+        "https://teable.io/",
+        "https://github.com/HeyPuter/Oops.js",
+        "https://github.com/timlrx/tailwind-nextjs-starter-blog",
+        "https://x.ai/blog/grok-2",
+        "https://blackforestlabs.ai/"
+      ],
+      "cover": 712
+    },
+    "cover": 712,
+    "bid": "BV1aH4y1c7G3"
+  },
+  {
+    "aid": 1056269317,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 52
+        },
+        {
+          "minutes": 1,
+          "seconds": 32
+        },
+        {
+          "minutes": 2,
+          "seconds": 5
+        },
+        {
+          "minutes": 2,
+          "seconds": 44
+        },
+        {
+          "minutes": 3,
+          "seconds": 15
+        }
+      ],
+      "introduces": [
+        "Deep-Live-Cam｜ 开源的一键视频换脸项目",
+        "Outlines｜ 开源的结构化文本生成库",
+        "Plunk｜ 开源的电子邮件平台",
+        "Neon｜在 Node.js 中调用 Rust",
+        "Approf｜ macOS 原生应用",
+        "Go 技术负责人转投 AI"
+      ],
+      "links": [
+        "https://github.com/hacksider/Deep-Live-Cam",
+        "https://github.com/outlines-dev/outlines",
+        "https://www.useplunk.com/",
+        "https://neon-rs.dev/",
+        "https://github.com/moderato-app/approf",
+        [
+          "https://go.googlesource.com/oscar/+/refs/heads/master/README.md",
+          "https://groups.google.com/g/golang-dev/c/0OqBkS2RzWw/m/GzWvX5u6AQAJ"
+        ]
+      ],
+      "cover": 711
+    },
+    "cover": 711,
+    "bid": "BV1cH4y1c794"
+  },
+  {
     "aid": 1506280668,
     "hn_items": {
       "times": [
