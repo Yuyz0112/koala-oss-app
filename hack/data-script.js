@@ -65,28 +65,32 @@ fs.writeFileSync(
 }`
 );
 
-const table = "fZodR9XQDSUm21yCkr6zBqiveYah8bt4xsWpHnJE7jL5VG3guMTKNPAwcF";
-const tr = {};
-for (let i = 0; i < 58; i++) {
-  tr[table[i]] = i;
-}
-const s = [11, 10, 3, 8, 4, 6];
-const xor = 1251193636;
-const add = 7654606784;
+const XOR_CODE = 23442827791579n;
+const MASK_CODE = 2251799813685247n;
+const MAX_AID = 1n << 51n;
+const BASE = 58n;
 
-function enc(x) {
-  x = (x ^ xor) + add;
-  let r = Array.from("BV1  4 1 7  ");
-  for (let i = 0; i < 6; i++) {
-    r[s[i]] = table[Math.floor(x / Math.pow(58, i)) % 58];
+const table = 'FcwAPNKTMug3GV5Lj7EJnHpWsx4tb8haYeviqBz6rkCy12mUSDQX9RdoZf';
+
+function av2bv(aid) {
+  const bytes = ['B', 'V', '1', '0', '0', '0', '0', '0', '0', '0', '0', '0'];
+  let bvIndex = bytes.length - 1;
+  let tmp = (MAX_AID | BigInt(aid)) ^ XOR_CODE;
+  while (tmp > 0) {
+    bytes[bvIndex] = table[Number(tmp % BigInt(BASE))];
+    tmp = tmp / BASE;
+    bvIndex -= 1;
   }
-  return r.join("");
+  [bytes[3], bytes[9]] = [bytes[9], bytes[3]];
+  [bytes[4], bytes[7]] = [bytes[7], bytes[4]];
+  return bytes.join('');
 }
+
 
 for (let i = 0; i < data.length; i++) {
   data[i].cover = names[names.length - i - 1].name;
   if (data[i].aid) {
-    data[i].bid = enc(data[i].aid);
+    data[i].bid = av2bv(data[i].aid);
   }
 }
 
