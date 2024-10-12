@@ -4,176 +4,190 @@
         <description><![CDATA[Koala 聊开源近期视频]]></description>
         <link>https://koala-oss.app/</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Sat, 14 Sep 2024 14:00:22 GMT</lastBuildDate>
+        <lastBuildDate>Sat, 12 Oct 2024 11:35:42 GMT</lastBuildDate>
         <atom:link href="https://koala-oss.app/rss.xml" rel="self" type="application/rss+xml"/>
         <language><![CDATA[zh-cn]]></language>
         <item>
+            <title><![CDATA[System Initiative｜DevOps 自动化的新选择]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV147xkeQEFq?t=8.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://www.systeminit.com/</link>
+            <guid isPermaLink="false">BV147xkeQEFq-0</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Weather Landscape｜用风景画看天气]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV147xkeQEFq?t=55.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/lds133/weather_landscape</link>
+            <guid isPermaLink="false">BV147xkeQEFq-1</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Revive｜超快可配置的 Go 代码 linter]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV147xkeQEFq?t=102.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://revive.run/</link>
+            <guid isPermaLink="false">BV147xkeQEFq-2</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[deck.gl｜强大 GPU 驱动的数据可视化框架]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV147xkeQEFq?t=138.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://deck.gl/</link>
+            <guid isPermaLink="false">BV147xkeQEFq-3</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Supervision｜轻松构建你的计算机视觉工具集]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV147xkeQEFq?t=178.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/roboflow/supervision</link>
+            <guid isPermaLink="false">BV147xkeQEFq-4</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Void｜开源的 AI 代码编辑器]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV147xkeQEFq?t=222.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://voideditor.com/</link>
+            <guid isPermaLink="false">BV147xkeQEFq-5</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[PostgreSQL 17 正式发布]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV147xkeQEFq?t=265.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://www.postgresql.org/about/news/postgresql-17-released-2936/</link>
+            <guid isPermaLink="false">BV147xkeQEFq-6</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Deno 2.0 候选版本发布]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV147xkeQEFq?t=305.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://deno.com/blog/v2.0-release-candidate</link>
+            <guid isPermaLink="false">BV147xkeQEFq-7</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Konty｜快速绘制手绘风格线框图]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1wH42e8EDJ?t=8.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://konty.app/</link>
+            <guid isPermaLink="false">BV1wH42e8EDJ-0</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Ergo｜用 Go 语言打造 Erlang 风格的分布式系统]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1wH42e8EDJ?t=49.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/ergo-services/ergo</link>
+            <guid isPermaLink="false">BV1wH42e8EDJ-1</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[TinyStatus｜用 Python 打造的轻量级状态页面]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1wH42e8EDJ?t=83.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://github.com/harsxv/tinystatus</link>
+            <guid isPermaLink="false">BV1wH42e8EDJ-2</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Mem0｜为你的 AI 应用添加记忆]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1wH42e8EDJ?t=123.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://www.mem0.ai/</link>
+            <guid isPermaLink="false">BV1wH42e8EDJ-3</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[PlanetScale 发布介绍 B+ tree 和数据库索引的文章]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1wH42e8EDJ?t=165.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://planetscale.com/blog/btrees-and-database-indexes</link>
+            <guid isPermaLink="false">BV1wH42e8EDJ-4</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
+        </item>
+        <item>
+            <title><![CDATA[Briefer｜开源协作的数据平台]]></title>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1wH42e8EDJ?t=200.9" target="_blank">视频链接</a></p>]]></description>
+            <link>https://briefer.cloud/</link>
+            <guid isPermaLink="false">BV1wH42e8EDJ-5</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
+        </item>
+        <item>
             <title><![CDATA[用代码设计复杂架构图]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1zd4y1D76t?t=8.9" target="_blank">视频链接</a></p>]]></description>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1axpeeYEFB?t=8.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://metz.sh/</link>
-            <guid isPermaLink="false">BV1zd4y1D76t-0</guid>
-            <pubDate>Sat, 14 Sep 2024 14:00:22 GMT</pubDate>
+            <guid isPermaLink="false">BV1axpeeYEFB-0</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[纸张的未来已来]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1zd4y1D76t?t=47.9" target="_blank">视频链接</a></p>]]></description>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1axpeeYEFB?t=47.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://remarkable.com/</link>
-            <guid isPermaLink="false">BV1zd4y1D76t-1</guid>
-            <pubDate>Sat, 14 Sep 2024 14:00:22 GMT</pubDate>
+            <guid isPermaLink="false">BV1axpeeYEFB-1</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[一组精心设计的 3D 图标]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1zd4y1D76t?t=83.9" target="_blank">视频链接</a></p>]]></description>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1axpeeYEFB?t=83.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://www.isocons.app/</link>
-            <guid isPermaLink="false">BV1zd4y1D76t-2</guid>
-            <pubDate>Sat, 14 Sep 2024 14:00:22 GMT</pubDate>
+            <guid isPermaLink="false">BV1axpeeYEFB-2</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[serverless 结合 AI 生成代码]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1zd4y1D76t?t=116.9" target="_blank">视频链接</a></p>]]></description>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1axpeeYEFB?t=116.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://www.val.town/townie</link>
-            <guid isPermaLink="false">BV1zd4y1D76t-3</guid>
-            <pubDate>Sat, 14 Sep 2024 14:00:22 GMT</pubDate>
+            <guid isPermaLink="false">BV1axpeeYEFB-3</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[自托管的 Docker 管理 UI]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1zd4y1D76t?t=159.9" target="_blank">视频链接</a></p>]]></description>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1axpeeYEFB?t=159.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://github.com/will-moss/isaiah</link>
-            <guid isPermaLink="false">BV1zd4y1D76t-4</guid>
-            <pubDate>Sat, 14 Sep 2024 14:00:22 GMT</pubDate>
+            <guid isPermaLink="false">BV1axpeeYEFB-4</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[AI 驱动的数据库管理平台]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1zd4y1D76t?t=197.9" target="_blank">视频链接</a></p>]]></description>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1axpeeYEFB?t=197.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://www.outerbase.com/</link>
-            <guid isPermaLink="false">BV1zd4y1D76t-5</guid>
-            <pubDate>Sat, 14 Sep 2024 14:00:22 GMT</pubDate>
+            <guid isPermaLink="false">BV1axpeeYEFB-5</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Moq｜Go 语言接口模拟工具]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV14h4S1V7i9?t=8.9" target="_blank">视频链接</a></p>]]></description>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1rWHPebEoG?t=8.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://github.com/matryer/moq</link>
-            <guid isPermaLink="false">BV14h4S1V7i9-0</guid>
-            <pubDate>Sat, 14 Sep 2024 14:00:22 GMT</pubDate>
+            <guid isPermaLink="false">BV1rWHPebEoG-0</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Rspack 1.0 正式发布]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV14h4S1V7i9?t=45.9" target="_blank">视频链接</a></p>]]></description>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1rWHPebEoG?t=45.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://rspack.dev/zh/blog/announcing-1-0</link>
-            <guid isPermaLink="false">BV14h4S1V7i9-1</guid>
-            <pubDate>Sat, 14 Sep 2024 14:00:22 GMT</pubDate>
+            <guid isPermaLink="false">BV1rWHPebEoG-1</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[filebrowser｜Web 中的文件管理器]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV14h4S1V7i9?t=91.9" target="_blank">视频链接</a></p>]]></description>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1rWHPebEoG?t=91.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://github.com/filebrowser/filebrowser</link>
-            <guid isPermaLink="false">BV14h4S1V7i9-2</guid>
-            <pubDate>Sat, 14 Sep 2024 14:00:22 GMT</pubDate>
+            <guid isPermaLink="false">BV1rWHPebEoG-2</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[Departure Mono｜完美结合科幻与像素风的字体]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV14h4S1V7i9?t=127.9" target="_blank">视频链接</a></p>]]></description>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1rWHPebEoG?t=127.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://departuremono.com/</link>
-            <guid isPermaLink="false">BV14h4S1V7i9-3</guid>
-            <pubDate>Sat, 14 Sep 2024 14:00:22 GMT</pubDate>
+            <guid isPermaLink="false">BV1rWHPebEoG-3</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[ChartDB｜数据库架构图可视化工具]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV14h4S1V7i9?t=164.9" target="_blank">视频链接</a></p>]]></description>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1rWHPebEoG?t=164.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://chartdb.io/</link>
-            <guid isPermaLink="false">BV14h4S1V7i9-4</guid>
-            <pubDate>Sat, 14 Sep 2024 14:00:22 GMT</pubDate>
+            <guid isPermaLink="false">BV1rWHPebEoG-4</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
         </item>
         <item>
             <title><![CDATA[SlateDB｜基于对象存储的嵌入式存储引擎本期项目链接：]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV14h4S1V7i9?t=205.9" target="_blank">视频链接</a></p>]]></description>
+            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1rWHPebEoG?t=205.9" target="_blank">视频链接</a></p>]]></description>
             <link>https://slatedb.io/</link>
-            <guid isPermaLink="false">BV14h4S1V7i9-5</guid>
-            <pubDate>Sat, 14 Sep 2024 14:00:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[srcbook｜浏览器中的 JS 交互式编程环境]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1LD4m1Q729?t=8.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://srcbook.com/</link>
-            <guid isPermaLink="false">BV1LD4m1Q729-0</guid>
-            <pubDate>Sat, 14 Sep 2024 14:00:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[tldr｜浏览器中的命令行手册]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1LD4m1Q729?t=57.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://tldr.inbrowser.app/</link>
-            <guid isPermaLink="false">BV1LD4m1Q729-1</guid>
-            <pubDate>Sat, 14 Sep 2024 14:00:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Instant｜实现实时协作的客户端数据库]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1LD4m1Q729?t=99.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://www.instantdb.com/</link>
-            <guid isPermaLink="false">BV1LD4m1Q729-2</guid>
-            <pubDate>Sat, 14 Sep 2024 14:00:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[go-vcr｜Go语言的HTTP交互录制与回放工具]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1LD4m1Q729?t=141.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://github.com/dnaeon/go-vcr</link>
-            <guid isPermaLink="false">BV1LD4m1Q729-3</guid>
-            <pubDate>Sat, 14 Sep 2024 14:00:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Cedar｜AWS 开源的权限策略语言]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1LD4m1Q729?t=186.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://www.cedarpolicy.com/</link>
-            <guid isPermaLink="false">BV1LD4m1Q729-4</guid>
-            <pubDate>Sat, 14 Sep 2024 14:00:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Pink Arrows｜基于 Web 的开源标注工具]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1LD4m1Q729?t=230.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://github.com/robbalian/pinkarrows</link>
-            <guid isPermaLink="false">BV1LD4m1Q729-5</guid>
-            <pubDate>Sat, 14 Sep 2024 14:00:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[postgres.new｜浏览器中的 Postgres 数据库]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1aH4y1c7G3?t=8.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://supabase.com/blog/postgres-new</link>
-            <guid isPermaLink="false">BV1aH4y1c7G3-0</guid>
-            <pubDate>Sat, 14 Sep 2024 14:00:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Teable：将 Postgres 数据库变为 Airtable]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1aH4y1c7G3?t=43.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://teable.io/</link>
-            <guid isPermaLink="false">BV1aH4y1c7G3-1</guid>
-            <pubDate>Sat, 14 Sep 2024 14:00:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Oops.js：给你的应用添加强大的撤销/重做功能]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1aH4y1c7G3?t=78.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://github.com/HeyPuter/Oops.js</link>
-            <guid isPermaLink="false">BV1aH4y1c7G3-2</guid>
-            <pubDate>Sat, 14 Sep 2024 14:00:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Next.js + Tailwind CSS 博客模版]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1aH4y1c7G3?t=118.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://github.com/timlrx/tailwind-nextjs-starter-blog</link>
-            <guid isPermaLink="false">BV1aH4y1c7G3-3</guid>
-            <pubDate>Sat, 14 Sep 2024 14:00:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[X.AI 发布 Grok 2]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1aH4y1c7G3?t=161.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://x.ai/blog/grok-2</link>
-            <guid isPermaLink="false">BV1aH4y1c7G3-4</guid>
-            <pubDate>Sat, 14 Sep 2024 14:00:22 GMT</pubDate>
-        </item>
-        <item>
-            <title><![CDATA[Black Forest Labs 发布 FLUX.1 模型]]></title>
-            <description><![CDATA[<p><a href="https://www.bilibili.com/video/BV1aH4y1c7G3?t=209.9" target="_blank">视频链接</a></p>]]></description>
-            <link>https://blackforestlabs.ai/</link>
-            <guid isPermaLink="false">BV1aH4y1c7G3-5</guid>
-            <pubDate>Sat, 14 Sep 2024 14:00:22 GMT</pubDate>
+            <guid isPermaLink="false">BV1rWHPebEoG-5</guid>
+            <pubDate>Sat, 12 Oct 2024 11:35:42 GMT</pubDate>
         </item>
     </channel>
 </rss>

@@ -1,5 +1,115 @@
 [
   {
+    "aid": 113218961802199,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 56
+        },
+        {
+          "minutes": 1,
+          "seconds": 43
+        },
+        {
+          "minutes": 2,
+          "seconds": 19
+        },
+        {
+          "minutes": 2,
+          "seconds": 59
+        },
+        {
+          "minutes": 3,
+          "seconds": 43
+        },
+        {
+          "minutes": 4,
+          "seconds": 26
+        },
+        {
+          "minutes": 5,
+          "seconds": 6
+        }
+      ],
+      "introduces": [
+        "System Initiative｜DevOps 自动化的新选择",
+        "Weather Landscape｜用风景画看天气",
+        "Revive｜超快可配置的 Go 代码 linter",
+        "deck.gl｜强大 GPU 驱动的数据可视化框架",
+        "Supervision｜轻松构建你的计算机视觉工具集",
+        "Void｜开源的 AI 代码编辑器",
+        "PostgreSQL 17 正式发布",
+        "Deno 2.0 候选版本发布"
+      ],
+      "links": [
+        "https://www.systeminit.com/",
+        "https://github.com/lds133/weather_landscape",
+        "https://revive.run/",
+        "https://deck.gl/",
+        "https://github.com/roboflow/supervision",
+        "https://voideditor.com/",
+        "https://www.postgresql.org/about/news/postgresql-17-released-2936/",
+        "https://deno.com/blog/v2.0-release-candidate"
+      ]
+    },
+    "cover": 717,
+    "bid": "BV147xkeQEFq"
+  },
+  {
+    "aid": 113139572147894,
+    "hn_items": {
+      "times": [
+        {
+          "minutes": 0,
+          "seconds": 9
+        },
+        {
+          "minutes": 0,
+          "seconds": 50
+        },
+        {
+          "minutes": 1,
+          "seconds": 24
+        },
+        {
+          "minutes": 2,
+          "seconds": 4
+        },
+        {
+          "minutes": 2,
+          "seconds": 46
+        },
+        {
+          "minutes": 3,
+          "seconds": 21
+        }
+      ],
+      "introduces": [
+        "Konty｜快速绘制手绘风格线框图",
+        "Ergo｜用 Go 语言打造 Erlang 风格的分布式系统",
+        "TinyStatus｜用 Python 打造的轻量级状态页面",
+        "Mem0｜为你的 AI 应用添加记忆",
+        "PlanetScale 发布介绍 B+ tree 和数据库索引的文章",
+        "Briefer｜开源协作的数据平台"
+      ],
+      "links": [
+        "https://konty.app/",
+        "https://github.com/ergo-services/ergo",
+        "https://github.com/harsxv/tinystatus",
+        "https://www.mem0.ai/",
+        "https://planetscale.com/blog/btrees-and-database-indexes",
+        "https://briefer.cloud/"
+      ]
+    },
+    "cover": 716,
+    "bid": "BV1wH42e8EDJ"
+  },
+  {
     "aid": 113099759685226,
     "hn_items": {
       "times": [
@@ -46,8 +156,7 @@
         ],
         "https://github.com/will-moss/isaiah",
         "https://www.outerbase.com/"
-      ],
-      "cover": 715
+      ]
     },
     "cover": 715,
     "bid": "BV1axpeeYEFB"
@@ -96,8 +205,7 @@
         "https://departuremono.com/",
         "https://chartdb.io/",
         "https://slatedb.io/"
-      ],
-      "cover": 714
+      ]
     },
     "cover": 714,
     "bid": "BV1rWHPebEoG"
@@ -146,8 +254,7 @@
         "https://github.com/dnaeon/go-vcr",
         "https://www.cedarpolicy.com/",
         "https://github.com/robbalian/pinkarrows"
-      ],
-      "cover": 713
+      ]
     },
     "cover": 713,
     "bid": "BV1i5WBenEWY"
@@ -196,8 +303,7 @@
         "https://github.com/timlrx/tailwind-nextjs-starter-blog",
         "https://x.ai/blog/grok-2",
         "https://blackforestlabs.ai/"
-      ],
-      "cover": 712
+      ]
     },
     "cover": 712,
     "bid": "BV1aH4y1c7G3"
@@ -249,8 +355,7 @@
           "https://go.googlesource.com/oscar/+/refs/heads/master/README.md",
           "https://groups.google.com/g/golang-dev/c/0OqBkS2RzWw/m/GzWvX5u6AQAJ"
         ]
-      ],
-      "cover": 711
+      ]
     },
     "cover": 711,
     "bid": "BV1cH4y1c794"
