@@ -9,7 +9,7 @@ systemPrompt: |
 
   当用户意图不清晰或缺少信息时，回复一些信息引导他们输入上述任务。
 llm:
-  maxSteps: 3
+  maxSteps: 20
 mcp:
   servers:
     - command: deno
