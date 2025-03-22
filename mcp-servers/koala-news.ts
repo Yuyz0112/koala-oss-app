@@ -139,6 +139,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
 
 server.setRequestHandler(CallToolRequestSchema, async (request) => {
   const { name, arguments: args } = request.params;
+  console.error("call too", { name, args });
 
   try {
     switch (name) {
@@ -425,3 +426,4 @@ server.setRequestHandler(ListResourcesRequestSchema, async () => {
 
 const transport = new StdioServerTransport();
 await server.connect(transport);
+console.error("Koala News MCP Server running on stdio");
