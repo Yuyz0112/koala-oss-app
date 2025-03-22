@@ -1,0 +1,8 @@
+llm:
+  provider: openai
+  model: deepseek-chat
+  maxTokens: 8192
+  maxSteps: 3
+  maxRetries: 5
+permissions:
+  maxResponsesPerIssue: 30

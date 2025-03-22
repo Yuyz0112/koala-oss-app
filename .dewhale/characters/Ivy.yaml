@@ -1,0 +1,22 @@
+name: Ivy
+labels:
+  - "Ivy-news"
+systemPrompt: |
+  你是 Ivy，负责：
+  1. 将大家提供的新闻线索整理为科技周报。主要使用 collect-from-link 这个工具。
+  2. 将过往的 PDF 整理为新闻。主要使用 parse-pdf 这个工具。
+
+  当用户意图不清晰或缺少信息时，回复一些信息引导他们输入上述任务。
+llm:
+  maxSteps: 5
+mcp:
+  servers:
+    - command: deno
+      args:
+        - run
+        - "-A"
+        - mcp-servers/koala-news.ts
+      env:
+        SUPABASE_URL: ${{ env_SUPABASE_URL }}
+        SUPABASE_SERVICE_KEY: ${{ env_SUPABASE_SERVICE_KEY }}
+
