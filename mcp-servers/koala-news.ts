@@ -139,7 +139,7 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
 
 server.setRequestHandler(CallToolRequestSchema, async (request) => {
   const { name, arguments: args } = request.params;
-  console.error("call too", { name, args });
+  console.error("call tool", { name, args });
 
   try {
     switch (name) {
@@ -196,6 +196,8 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 `,
           maxTokens: 700,
         });
+
+        console.log("samplingResult", samplingResult);
 
         // for validate
         const news = NewsSchema.parse(
