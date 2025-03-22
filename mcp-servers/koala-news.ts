@@ -197,7 +197,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           maxTokens: 700,
         });
 
-        console.log("samplingResult", samplingResult);
+        console.error("samplingResult", samplingResult);
 
         // for validate
         const news = NewsSchema.parse(
@@ -277,11 +277,10 @@ ${content}
           maxTokens: 2000,
         });
 
-        console.log("in");
         const newsArray = NewsArraySchema.parse(
           parseMessageToJson(samplingResult.content.text as string)
         );
-        console.log("out", newsArray);
+        console.error("out", newsArray);
 
         const { data, error } = await supabase
           .from("news")
