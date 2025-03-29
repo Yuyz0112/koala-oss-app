@@ -12,7 +12,8 @@ llm:
   maxSteps: 20
 mcp:
   servers:
-    - command: deno
+    - type: stdio
+      command: deno
       args:
         - run
         - "-A"
