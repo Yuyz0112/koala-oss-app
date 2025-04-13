@@ -180,7 +180,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
     "STARTUPS": 创业与投资
     "DATA": 数据库、大数据等
     "TOOL": 实用工具
-  仅选取关联性强的 tag 方便用户分类。
+  **仅选取关联性强的 tag 方便用户分类。不要使用上述 enum array 以外的 tag。**
   </requirement>
 </requirements>
 
@@ -271,13 +271,12 @@ ${content}
             },
           ],
           systemPrompt: ``,
-          maxTokens: 2000,
+          maxTokens: 6000,
         });
 
         const newsArray = NewsArraySchema.parse(
           parseMessageToJson(samplingResult.content.text as string)
         );
-        console.error("out", newsArray);
 
         const { data, error } = await supabase
           .from("news")
