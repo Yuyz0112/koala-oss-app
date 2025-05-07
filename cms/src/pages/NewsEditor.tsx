@@ -34,6 +34,7 @@ export default function NewsEditor({ id }: { id: number }) {
   });
   const [value, setValue] = useState<News>({
     id: 0,
+    image: null,
     title: "",
     url: "",
     content: "",
@@ -143,6 +144,16 @@ export default function NewsEditor({ id }: { id: number }) {
         />
         <Label htmlFor="draft">Draft</Label>
       </div>
+
+      {value.image && (
+        <div className="space-y-2">
+          <Label>Image</Label>
+          <img
+            src={`https://r2.koala-oss.app/${value.image}`}
+            className="w-[300px] h-auto"
+          />
+        </div>
+      )}
 
       <div className="space-y-2">
         <Label>URL</Label>

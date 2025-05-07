@@ -77,7 +77,7 @@ export default function NewsList() {
           }
         }}
       >
-        <DialogContent className="min-w-[80%] h-[80%]">
+        <DialogContent className="min-w-[80%] h-[80%] overflow-auto">
           <NewsEditor id={editId} />
         </DialogContent>
       </Dialog>

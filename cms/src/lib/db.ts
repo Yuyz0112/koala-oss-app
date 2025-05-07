@@ -2,6 +2,7 @@ import { client } from "./supabase/client";
 
 export type News = {
   id: number;
+  image: string | null;
   title: string;
   url: string;
   content: string;
