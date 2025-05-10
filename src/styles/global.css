@@ -289,6 +289,7 @@ button.search-control:focus {
 
 .news-card {
   position: relative;
+  min-height: 100%;
 }
 
 .news-card .title {
@@ -310,7 +311,8 @@ button.search-control:focus {
 }
 
 a.news-card img {
-  aspect-ratio: 0.8;
+  width: 100%;
+  aspect-ratio: 1;
 }
 
 section.data-grid {
@@ -319,7 +321,7 @@ section.data-grid {
   display: grid;
   width: 100%;
   grid-template-columns: repeat(2, calc(100% / 2));
-  margin: 1rem 0 10rem;
+  margin: 1rem 0;
   min-height: 400px;
   gap: 0.5rem;
 
@@ -330,4 +332,11 @@ section.data-grid {
   @media screen and (min-width: 50em) {
     grid-template-columns: repeat(4, calc(100% / 4));
   }
+}
+
+.load-more-btn {
+  margin: 1rem auto;
+  border: 1px solid var(--border-color);
+  border-radius: var(--radius);
+  padding: var(--padding-vert) var(--padding-horz);
 }

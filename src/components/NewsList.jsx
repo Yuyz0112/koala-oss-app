@@ -1,24 +1,50 @@
-import { useEffect, useRef, useState } from "preact/hooks";
+import { useEffect, useState } from "preact/hooks";
+import { createNewsBuilder } from "../data/db";
 
-export default function NewsList({ data, grid }) {
+export default function NewsList({ initData, grid }) {
   const [keyword, setKeyword] = useState("");
 
-  const lazyLoad = useRef(null);
-
-  useEffect(() => {
-    if (!lazyLoad.current) {
-      lazyLoad.current = new window.LazyLoad({});
-    } else {
-      lazyLoad.current.update();
-    }
-  }, [data, keyword]);
-
-  const filteredData = data.filter((item) => {
-    if (!keyword) return true;
-    return item.title.toLowerCase().includes(keyword.toLowerCase());
+  const [result, setResult] = useState({
+    loading: false,
+    data: initData,
   });
 
-  const total = filteredData.length;
+  const data = result.data;
+  const total = data.length;
+
+  const loadMore = async () => {
+    setResult({ ...result, loading: true });
+
+    const builder = createNewsBuilder();
+    if (keyword) {
+      builder.or(`title.ilike.%${keyword}%,content.ilike.%${keyword}%`);
+    }
+
+    const newResult = await builder
+      .range(data.length + 1, data.length + 12)
+      .order("created_at", { ascending: false });
+
+    setResult({ loading: false, data: [...data, ...newResult.data] });
+  };
+
+  useEffect(() => {
+    const fetchData = async () => {
+      setResult({ ...result, loading: true });
+
+      const newResult = await createNewsBuilder()
+        .or(`title.ilike.%${keyword}%,content.ilike.%${keyword}%`)
+        .order("created_at", { ascending: false })
+        .limit(12);
+
+      setResult({ loading: false, data: newResult.data });
+    };
+
+    if (keyword) {
+      fetchData();
+    } else {
+      setResult({ loading: false, data: initData });
+    }
+  }, [keyword]);
 
   return (
     <>
@@ -44,13 +70,12 @@ export default function NewsList({ data, grid }) {
       <hr />
 
       <section class="data-grid" id="grid" data-grid={grid}>
-        {filteredData.map((item) => {
+        {data.map((item) => {
           if (grid === "news") {
             return (
               <a class="news-card" href={`/news/${item.id}`}>
                 <img
-                  class="lazy"
-                  data-src={`https://r2.koala-oss.app/${item.image}`}
+                  src={`https://r2.koala-oss.app/${item.image}`}
                   alt={item.title}
                 />
                 <div class="title">{item.title}</div>
@@ -61,6 +86,14 @@ export default function NewsList({ data, grid }) {
           return null;
         })}
       </section>
+
+      <button
+        className="load-more-btn"
+        disabled={result.loading}
+        onClick={loadMore}
+      >
+        {result.loading ? "Loading..." : "加载更多"}
+      </button>
     </>
   );
 }
