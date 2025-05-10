@@ -1,0 +1,90 @@
+---
+import TextSlider from "../components/TextSlider.astro";
+import Arrow from "../assets/images/arrow.svg";
+
+type Props = {
+  grid: string;
+};
+
+const { grid } = Astro.props;
+---
+
+<div class="tooltip" data-grid={grid}>
+  <div class="tooltip__row" data-field="title">
+    <!-- Stage Name -->
+    <div class="tooltip__content">
+      <TextSlider />
+    </div>
+    <div class="tooltip__content">
+      <TextSlider />
+    </div>
+  </div>
+
+  <div class="tooltip__row tooltip__row--ra">
+    <TextSlider>
+      <Arrow />
+    </TextSlider>
+  </div>
+
+  <div class="tooltip__row" data-field="name">
+    <!-- Name -->
+    <div class="tooltip__content">
+      <TextSlider />
+    </div>
+    <div class="tooltip__content">
+      <TextSlider />
+    </div>
+  </div>
+
+  <div class="tooltip__row tooltip__row--ra" data-field="genre">
+    <!-- Genre -->
+    <div class="tooltip__content">
+      <TextSlider />
+    </div>
+    <div class="tooltip__content">
+      <TextSlider />
+    </div>
+  </div>
+</div>
+
+<style>
+  .tooltip {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    width: 240px;
+    background: #000;
+    color: #bababa;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    grid-template-rows: auto auto;
+    pointer-events: none;
+    justify-content: space-between;
+    grid-row-gap: 0.25rem;
+    will-change: transform;
+  }
+  .tooltip__row {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 100%;
+    grid-template-areas: "tt-content";
+    font-size: 12px;
+  }
+  .tooltip__row--ra {
+    justify-self: end;
+    text-align: right;
+  }
+  .tooltip__row:first-child {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+  }
+  .tooltip__content {
+    grid-area: tt-content;
+    white-space: nowrap;
+  }
+</style>
+
+<script src="../scripts/tooltip.js"></script>

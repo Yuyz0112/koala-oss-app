@@ -1,0 +1,23 @@
+---
+type Props = {
+  content?: string | number;
+};
+
+const { content } = Astro.props;
+---
+
+<span class="oh">
+  <span class="oh__inner">{content}<slot /></span>
+</span>
+
+<style>
+  .oh {
+    overflow: hidden;
+    position: relative;
+    display: inline-block;
+  }
+  .oh__inner {
+    display: inline-block;
+    will-change: transform;
+  }
+</style>

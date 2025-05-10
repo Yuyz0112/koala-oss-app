@@ -1,0 +1,92 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import Separator from "../../components/Separator.astro";
+import { client } from "../../data/db";
+
+export const getStaticPaths = async () => {
+  const { data } = await client.from("news").select("*");
+
+  return (data ?? []).map((item) => ({
+    params: { id: item.id },
+    props: { item },
+  }));
+};
+
+type Props = {
+  item: any;
+};
+
+const { item } = Astro.props;
+---
+
+<BaseLayout title={item.title}>
+  <section>
+    <header class="title-header">
+      <h2>
+        {item.title}
+      </h2>
+    </header>
+    <Separator />
+    <div class="content-wrap">
+      <img class="img" src={`https://r2.koala-oss.app/${item.image}`} alt="" />
+      <div class="content">
+        {item.content}
+      </div>
+      <div class="meta">
+        <dl>
+          <dt>URL</dt>
+          <dd>
+            <a href={item.url} target="_blank" rel="noopener noreferrer"
+              >{item.url}</a
+            >
+          </dd>
+          <dt>标签</dt>
+          <dd>
+            {
+              item.tags
+                .map(
+                  (t) =>
+                    ({
+                      AI: "AI",
+                      HARDWARE: "硬件",
+                      FRONTEND: "前端",
+                      BACKEND: "后端",
+                      SECURITY: "安全",
+                      IOT: "物联网",
+                      CLOUD: "云计算",
+                      STARTUPS: "创业",
+                      DATA: "数据",
+                      TOOL: "工具",
+                    })[t]
+                )
+                .join(",")
+            }
+          </dd>
+          <dt>视频</dt>
+          <dd>
+            <a
+              href="https://space.bilibili.com/489667127/lists/249279?type=season"
+              target="_blank"
+            >
+              科技周报视频合集
+            </a>
+          </dd>
+        </dl>
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+<style>
+  .content-wrap {
+    grid-template-areas: "img" "content" "meta";
+    grid-template-columns: 100%;
+    @media screen and (min-width: 44em) {
+      grid-template-columns: 1fr auto;
+      grid-template-areas: "img img" "content meta";
+    }
+    @media screen and (min-width: 50em) {
+      grid-template-columns: 30vw 1fr 30vw;
+      grid-template-areas: "img content meta";
+    }
+  }
+</style>

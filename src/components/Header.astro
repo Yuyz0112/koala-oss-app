@@ -1,0 +1,82 @@
+---
+import TextSlider from "../components/TextSlider.astro";
+import Separator from "../components/Separator.astro";
+
+// Get the current pathname
+const currentPath = Astro.url.pathname;
+// Define a map of routes
+const routes = {
+  "/": "Home",
+  "/news/": "科技周报",
+};
+
+// Determine the active route
+const activeRoute = routes[currentPath] || null;
+---
+
+<header>
+  <h1>
+    <a href="/" class={activeRoute === "Home" ? "current" : ""}
+      ><TextSlider content="Koala OSS Club" /></a
+    >
+  </h1>
+  <span><TextSlider content="" /></span>
+  <ul>
+    <li>
+      <a
+        href="/news/"
+        class={activeRoute === "科技周报" ? "current" : ""}
+        data-astro-prefetch><TextSlider content="科技周报" /></a
+      >
+    </li>
+    <li>
+      <a
+        href="https://space.bilibili.com/489667127/lists/410578?type=season"
+        target="_blank"
+        class={activeRoute === "History" ? "current" : ""}
+        data-astro-prefetch><TextSlider content="深度分析" /></a
+      >
+    </li>
+    <li>
+      <a
+        href="https://apptdlwncur1222.h5.xiaoeknow.com"
+        target="_blank"
+        class={activeRoute === "Store" ? "current" : ""}
+        data-astro-prefetch><TextSlider content="俱乐部视频" /></a
+      >
+    </li>
+  </ul>
+</header>
+<Separator />
+
+<style>
+  header {
+    position: relative;
+    display: grid;
+    grid-template-columns: min-content auto;
+    font-weight: 700;
+    padding: 1rem 0;
+    gap: 1rem;
+  }
+  header a.current {
+    pointer-events: none;
+  }
+  h1 {
+    font-size: 1rem;
+    font-weight: inherit;
+    margin: 0;
+  }
+  ul {
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+    grid-column: auto / span 2;
+  }
+  @media screen and (min-width: 50em) {
+    header {
+      grid-template-columns: 20vw 1fr auto auto;
+    }
+  }
+</style>

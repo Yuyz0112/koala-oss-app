@@ -1,0 +1,57 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+import logo from "../assets/images/logo.png";
+
+const title = "Koala 聊开源 - 陪伴你成长的技术频道";
+---
+
+<BaseLayout title={title}>
+  <section>
+    <header class="title-header">
+      <img
+        src={logo.src}
+        alt="Koala 聊开源"
+        class="logo"
+        width="120"
+        height="120"
+      />
+      <h2>Koala 聊开源 - 陪伴你成长的技术频道</h2>
+    </header>
+    <div>
+      <p>
+        《Koala
+        聊开源》是一个专注分享前沿技术、开源世界故事、深度技术分析的自媒体频道，由
+        Koala 与技术顾问共同运营。
+      </p>
+      <p>
+        详情可以观看我们的第一期视频：<a
+          href="https://www.bilibili.com/video/BV1CL4y1e7C1"
+          target="_blank">《程序猿妈妈退休学开源》</a
+        >。
+      </p>
+      <p>
+        想对视频节目提出建议或讨论技术内容的小伙伴，欢迎添加微信 <b>Koala-oss</b
+        >
+        加入学习交流群。
+      </p>
+      <h3>科技周报</h3>
+      <p>
+        每周日，我们会发布科技周报视频，分享一周前沿资讯。视频对应的项目文案也将同步更新至网站的「科技周报」列表中。
+        需要投稿的小伙伴，可以在我们的 Github 仓库中创建
+        Issue，给出你推荐的项目的链接与推荐理由。
+      </p>
+      <h3>深度分析</h3>
+      <p>
+        在深度分析系列视频中，Koala
+        会分享我们精心选题的开源世界故事。包括开源世界中的风云人物、热点事件与值得关注的商业公司等。
+      </p>
+      <h3>俱乐部视频</h3>
+      <p>
+        俱乐部视频是由技术顾问设计并录制的深度技术分享，内容涵盖
+        AI、前端、后端等多个领域。 每月产出 3
+        期俱乐部视频，成为俱乐部会员后即可观看完整版视频，我们也免费发布所有俱乐部视频的精简版供小伙伴们浏览视频选题。
+      </p>
+    </div>
+  </section>
+</BaseLayout>
