@@ -1,4 +1,4 @@
-import { useQuery } from "@tanstack/react-query";
+import { useMutation, useQuery } from "@tanstack/react-query";
 import { db } from "@/lib/db";
 import {
   Table,
@@ -59,6 +59,15 @@ export default function NewsList() {
       }),
   });
 
+  const { isPending: isTriggering, mutate: triggerBuild } = useMutation({
+    mutationKey: ["trigger-build"],
+    mutationFn: () => {
+      return fetch(import.meta.env.VITE_TRIGGER_ENDPOINT, {
+        method: "POST",
+      });
+    },
+  });
+
   const [editId, setEditId] = useState(0);
 
   if (error) {
@@ -101,6 +110,15 @@ export default function NewsList() {
               }}
             />
             <Label htmlFor="draft">Draft</Label>
+          </div>
+          <div className="flex-1 text-right">
+            <Button
+              variant="outline"
+              onClick={() => triggerBuild()}
+              disabled={isTriggering}
+            >
+              Trigger Deploy
+            </Button>
           </div>
         </div>
         {isPending ? (
