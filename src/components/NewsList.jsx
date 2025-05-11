@@ -10,7 +10,6 @@ export default function NewsList({ initData, grid }) {
   });
 
   const data = result.data;
-  const total = data.length;
 
   const loadMore = async () => {
     setResult({ ...result, loading: true });
@@ -63,7 +62,7 @@ export default function NewsList({ initData, grid }) {
               Search
             </button>
           </div>
-          <div>Total: {total}</div>
+          <div></div>
         </div>
       </header>
 
