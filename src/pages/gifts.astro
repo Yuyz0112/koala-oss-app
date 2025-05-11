@@ -1,0 +1,86 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+
+const title = "Koala 聊开源 - 陪伴你成长的技术频道";
+
+const emoji_1 = [
+  "row-1-column-1 copy 2.png",
+  "row-1-column-1 copy 3.png",
+  "row-1-column-1 copy.png",
+  "row-1-column-1.png",
+  "row-1-column-2 copy 2.png",
+  "row-1-column-2 copy 3.png",
+  "row-1-column-2 copy.png",
+  "row-1-column-2.png",
+  "row-2-column-1 copy 2.png",
+  "row-2-column-1 copy 3.png",
+  "row-2-column-1 copy.png",
+  "row-2-column-1.png",
+  "row-2-column-2 copy 2.png",
+  "row-2-column-2 copy 3.png",
+  "row-2-column-2 copy.png",
+  "row-2-column-2.png",
+];
+---
+
+<BaseLayout title={title}>
+  <section>
+    <h2>周边</h2>
+    <div class="gifts">
+      <h3>俱乐部会员礼 - 第一季</h3>
+      <p>
+        2025 年初，我们为俱乐部会员送出了第一季的会员礼 —— 印有俱乐部 Logo
+        的收纳包。
+        <div class="gallery">
+          <img
+            src="https://r2.koala-oss.app/93101746968067_.pic.jpg"
+            alt="season-1-1"
+          />
+          <img
+            src="https://r2.koala-oss.app/93111746968077_.pic.jpg"
+            alt="season-1-2"
+          />
+          <img
+            src="https://r2.koala-oss.app/93121746968081_.pic.jpg"
+            alt="season-1-3"
+          />
+        </div>
+      </p>
+
+      <h3>表情包</h3>
+      <div class="gallery emoji">
+        {
+          emoji_1.map((item) => (
+            <img
+              src={`https://r2.koala-oss.app/emoji-1/${encodeURIComponent(item)}`}
+              alt={item}
+            />
+          ))
+        }
+      </div>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  section {
+    margin: 1rem 0;
+  }
+
+  .gifts .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+
+  .gifts img {
+    width: auto;
+    height: 300px;
+  }
+
+  .emoji img {
+    width: 100px;
+    height: 100px;
+  }
+</style>
