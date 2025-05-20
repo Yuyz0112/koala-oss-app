@@ -14,15 +14,158 @@ import { zodToJsonSchema } from "npm:zod-to-json-schema@3.24.5";
 import { createClient } from "npm:@supabase/supabase-js@2.49.1";
 import { resolvePDFJS } from "npm:pdfjs-serverless@0.7.0";
 import { assert } from "jsr:@std/assert@1.0.11";
+import { S3Client, PutObjectCommand } from "npm:@aws-sdk/client-s3@3.787.0";
 
 const SUPABASE_URL = Deno.env.get("SUPABASE_URL");
 assert(SUPABASE_URL, "SUPABASE_URL is required");
 const SUPABASE_SERVICE_KEY = Deno.env.get("SUPABASE_SERVICE_KEY");
 assert(SUPABASE_SERVICE_KEY, "SUPABASE_SERVICE_KEY is required");
 
-const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY);
+// S3 Configuration
+const S3_ACCOUNT_ID = Deno.env.get("S3_ACCOUNT_ID");
+assert(S3_ACCOUNT_ID, "S3_ACCOUNT_ID is required");
+const S3_ACCESS_KEY_ID = Deno.env.get("S3_ACCESS_KEY_ID");
+assert(S3_ACCESS_KEY_ID, "S3_ACCESS_KEY_ID is required");
+const S3_SECRET_ACCESS_KEY = Deno.env.get("S3_SECRET_ACCESS_KEY");
+assert(S3_SECRET_ACCESS_KEY, "S3_SECRET_ACCESS_KEY is required");
+const CF_API_TOKEN = Deno.env.get("CF_API_TOKEN");
+assert(CF_API_TOKEN, "CF_API_TOKEN is required");
 
+const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY);
 const READER_API_BASE = "https://r.jina.ai";
+
+// Initialize S3 client
+const S3 = new S3Client({
+  region: "auto",
+  endpoint: `https://${S3_ACCOUNT_ID}.r2.cloudflarestorage.com`,
+  credentials: {
+    accessKeyId: S3_ACCESS_KEY_ID,
+    secretAccessKey: S3_SECRET_ACCESS_KEY,
+  },
+});
+
+/**
+ * Converts a URL to a unique, readable image name
+ * @param url URL to convert
+ * @returns Converted image name with .png extension
+ */
+function urlToImageName(url: string): string {
+  // Validate URL
+  try {
+    new URL(url);
+  } catch (e) {
+    throw new Error("Invalid URL");
+  }
+
+  const urlObj = new URL(url);
+
+  // Get base name from hostname
+  let name = urlObj.hostname.replace(/^www\./, "");
+
+  // Get full path and process
+  if (urlObj.pathname && urlObj.pathname !== "/") {
+    // Remove leading slash, replace all slashes with hyphens
+    const pathPart = urlObj.pathname.replace(/^\//, "").replace(/\//g, "-");
+    name += "-" + pathPart;
+  }
+
+  // Normalize filename (remove special characters, convert to lowercase)
+  name = name
+    .toLowerCase()
+    .replace(/[^a-z0-9-]/g, "-")
+    .replace(/-+/g, "-")
+    .replace(/^-|-$/g, "");
+
+  return name + ".png";
+}
+
+/**
+ * Takes a screenshot of a webpage and uploads it to S3
+ * @param url URL to capture
+ * @returns Image name stored in S3
+ */
+async function captureAndUploadScreenshot(url: string): Promise<string> {
+  const imageName = urlToImageName(url);
+
+  // Custom CSS for GitHub repositories
+  const addStyleTag = url.startsWith(`https://github.com`)
+    ? [
+        {
+          content: `.header-wrapper,
+          #repository-container-header,
+          react-partial[partial-name="repos-overview"] div[data-target="react-partial.reactRoot"] div.Box-sc-g0xbh4-0.iNSVHo,
+          table[aria-labelledby="folders-and-files"] { display: none; }
+
+          .repository-content .container-xl {
+            padding-left: 0 !important;
+            padding-right: 0 !important;
+          }
+
+          .Box-sc-g0xbh4-0.iVEunk {
+            margin-top: 0;
+          }
+          .vIPPs {
+            gap: 0;
+          }`,
+        },
+      ]
+    : [];
+
+  const res = await fetch(
+    `https://api.cloudflare.com/client/v4/accounts/${S3_ACCOUNT_ID}/browser-rendering/snapshot`,
+    {
+      method: "post",
+      headers: {
+        "Content-Type": "application/json",
+        Authorization: `Bearer ${CF_API_TOKEN}`,
+      },
+      body: JSON.stringify({
+        url,
+        screenshotOptions: {
+          fullPage: false,
+        },
+        viewport: {
+          width: 600,
+          height: 600,
+          deviceScaleFactor: 2,
+          isMobile: true,
+        },
+        addStyleTag,
+      }),
+    }
+  );
+
+  const body: {
+    success: boolean;
+    result: {
+      screenshot: string;
+      content: string;
+    };
+  } = await res.json();
+
+  if (!body.success) {
+    throw new Error(`Failed to capture screenshot: ${JSON.stringify(body)}`);
+  }
+
+  // Convert base64 to binary
+  const binary = atob(body.result.screenshot);
+  const bytes = new Uint8Array(binary.length);
+  for (let i = 0; i < binary.length; i++) {
+    bytes[i] = binary.charCodeAt(i);
+  }
+
+  // Upload to S3
+  await S3.send(
+    new PutObjectCommand({
+      Bucket: `koala-oss-app`,
+      Key: imageName,
+      Body: bytes,
+      ContentType: `image/png`,
+    })
+  );
+
+  return imageName;
+}
 
 async function extractPdfText(data: Uint8Array) {
   const { getDocument } = await resolvePDFJS();
@@ -201,6 +344,15 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           parseMessageToJson(samplingResult.content.text as string)
         );
 
+        // Capture and upload screenshot
+        let imageName = null;
+        try {
+          imageName = await captureAndUploadScreenshot(news.url);
+        } catch (error) {
+          console.error("Failed to capture screenshot:", error);
+          // Continue even if screenshot fails
+        }
+
         const { data, error } = await supabase
           .from("news")
           .insert([
@@ -210,6 +362,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
               content: news.content,
               draft: true,
               tags: news.tags,
+              image: imageName, // Add the image field
             },
           ])
           .select()
@@ -278,17 +431,34 @@ ${content}
           parseMessageToJson(samplingResult.content.text as string)
         );
 
-        const { data, error } = await supabase
-          .from("news")
-          .insert(
-            newsArray.map((news) => ({
+        // Process each news item to capture screenshots
+        const newsWithImages = await Promise.all(
+          newsArray.map(async (news) => {
+            let imageName = null;
+            try {
+              imageName = await captureAndUploadScreenshot(news.url);
+            } catch (error) {
+              console.error(
+                `Failed to capture screenshot for ${news.url}:`,
+                error
+              );
+              // Continue even if screenshot fails
+            }
+
+            return {
               url: news.url,
               title: news.title,
               content: news.content,
               draft: true,
               tags: news.tags,
-            }))
-          )
+              image: imageName,
+            };
+          })
+        );
+
+        const { data, error } = await supabase
+          .from("news")
+          .insert(newsWithImages)
           .select();
 
         if (error) {
@@ -356,7 +526,6 @@ server.setRequestHandler(ListPromptsRequestSchema, async () => {
             name: "content",
             description: "PDF 文件内容",
             required: true,
-
             xInputType: "file",
           },
         ],
