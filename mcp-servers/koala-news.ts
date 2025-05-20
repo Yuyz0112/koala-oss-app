@@ -220,6 +220,8 @@ function parseMessageToJson(input: string) {
 
 const CollectFromLinkSchema = z.object({
   link: z.string(),
+  customTitle: z.string().optional(),
+  customContent: z.string().optional(),
 });
 
 const ParsePdfSchema = z.object({
@@ -268,7 +270,8 @@ server.setRequestHandler(ListToolsRequestSchema, async () => {
     tools: [
       {
         name: "collect-from-link",
-        description: "从链接中收集信息，生成 Koala 科技周报文案",
+        description:
+          "从链接中收集信息，生成 Koala 科技周报文案，可选自定义标题和内容",
         inputSchema: zodToJsonSchema(CollectFromLinkSchema),
       },
       {
@@ -286,10 +289,25 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
   try {
     switch (name) {
       case "collect-from-link": {
-        const { link } = CollectFromLinkSchema.parse(args);
+        const { link, customTitle, customContent } =
+          CollectFromLinkSchema.parse(args);
         const text = await fetch(`${READER_API_BASE}/${link}`).then((res) =>
           res.text()
         );
+
+        // If customTitle or customContent is provided, use AI to generate only missing parts
+        const samplingPrompt =
+          customTitle && customContent
+            ? `新闻原文：\n${text}\n\n用户已提供自定义标题和内容，请使用这些内容并仅生成合适的标签。
+             自定义标题：${customTitle}
+             自定义内容：${customContent}`
+            : customTitle
+            ? `新闻原文：\n${text}\n\n用户已提供自定义标题，请使用此标题并生成合适的内容和标签。
+             自定义标题：${customTitle}`
+            : customContent
+            ? `新闻原文：\n${text}\n\n用户已提供自定义内容，请生成合适的标题和标签，并使用提供的内容。
+             自定义内容：${customContent}`
+            : `新闻原文：\n${text}`;
 
         const samplingResult = await server.createMessage({
           messages: [
@@ -297,7 +315,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
               role: "user",
               content: {
                 type: "text",
-                text: `新闻原文：\n${text}`,
+                text: samplingPrompt,
               },
             },
           ],
@@ -324,6 +342,9 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
     "DATA": 数据库、大数据等
     "TOOL": 实用工具
   **仅选取关联性强的 tag 方便用户分类。不要使用上述 enum array 以外的 tag。**
+  </requirement>
+  <requirement>
+  如果用户提供了自定义标题或内容，请尊重用户的输入，保留用户提供的内容。
   </requirement>
 </requirements>
 
@@ -515,6 +536,16 @@ server.setRequestHandler(ListPromptsRequestSchema, async () => {
             description: "新闻链接，例如 https://www.dask.org/",
             required: true,
           },
+          {
+            name: "customTitle",
+            description: "自定义标题（可选）",
+            required: false,
+          },
+          {
+            name: "customContent",
+            description: "自定义内容（可选）",
+            required: false,
+          },
         ],
       },
       {
@@ -537,10 +568,20 @@ server.setRequestHandler(ListPromptsRequestSchema, async () => {
 server.setRequestHandler(GetPromptRequestSchema, async (request) => {
   const { name, arguments: args } = request.params;
   switch (name) {
-    case "收集新闻":
+    case "收集新闻": {
       if (!args?.link) {
         throw new Error(`"link" is required`);
       }
+
+      // Build prompt based on whether customTitle and customContent are provided
+      let promptText = `请从链接 "${args.link}" 中读取新闻，并转换为科技周报文案。`;
+      if (args.customTitle) {
+        promptText += `\n\n请使用以下自定义标题: "${args.customTitle}"`;
+      }
+      if (args.customContent) {
+        promptText += `\n\n请使用以下自定义内容: "${args.customContent}"`;
+      }
+
       return {
         description: "将新闻/项目链接制作为周报文案",
         messages: [
@@ -548,11 +589,12 @@ server.setRequestHandler(GetPromptRequestSchema, async (request) => {
             role: "user",
             content: {
               type: "text",
-              text: `请从链接 "${args.link}" 中读取新闻，并转换为科技周报文案。`,
+              text: promptText,
             },
           },
         ],
       };
+    }
     case "解析往期 PDF": {
       if (!args?.content) {
         throw new Error(`"content" is required`);
