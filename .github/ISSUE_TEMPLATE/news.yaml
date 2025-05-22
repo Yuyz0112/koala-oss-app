@@ -1,0 +1,12 @@
+name: 科技周报投稿
+description: 用于自助投稿科技周报项目
+title: "[News] 投稿"
+labels:
+  - Ivy-news
+body:
+  - type: markdown
+    attributes:
+      value: |
+        - 项目链接（必填）
+        - 项目一句话介绍（格式为 项目名 | 一句话介绍），介绍长度不超过 10 字，选填
+        - 项目详情，长度不超过 200 字，选填
