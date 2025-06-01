@@ -131,6 +131,7 @@ async function captureAndUploadScreenshot(url: string): Promise<string> {
           isMobile: true,
         },
         addStyleTag,
+        gotoOptions: { waitUntil: "networkidle0", timeout: 20_000 },
       }),
     }
   );
