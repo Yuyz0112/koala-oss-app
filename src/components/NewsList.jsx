@@ -20,7 +20,7 @@ export default function NewsList({ initData, grid }) {
     }
 
     const newResult = await builder
-      .range(data.length + 1, data.length + 12)
+      .range(data.length, data.length + 11)
       .order("created_at", { ascending: false });
 
     setResult({ loading: false, data: [...data, ...newResult.data] });
