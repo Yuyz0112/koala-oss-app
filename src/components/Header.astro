@@ -9,7 +9,7 @@ const routes = {
   "/": "Home",
   "/news/": "科技周报",
   "/course/": "俱乐部视频",
-  "/gifts": "周边",
+  "/gifts/": "周边",
 };
 
 // Determine the active route
@@ -66,8 +66,17 @@ const activeRoute = routes[currentPath] || null;
     padding: 1rem 0;
     gap: 1rem;
   }
+  header li {
+    display: flex;
+  }
+  header a {
+    padding: 0.25rem 0.5rem;
+  }
   header a.current {
     pointer-events: none;
+    background-color: var(--color-text);
+    color: var(--color-bg);
+    border-radius: 4px;
   }
   h1 {
     font-size: 1rem;
