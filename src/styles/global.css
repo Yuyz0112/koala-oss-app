@@ -315,6 +315,10 @@ a.news-card img {
   aspect-ratio: 1;
 }
 
+.course-card .title {
+  font-size: 1.2rem;
+}
+
 section.data-grid {
   position: relative;
   overflow: hidden;

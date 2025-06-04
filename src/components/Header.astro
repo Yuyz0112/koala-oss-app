@@ -8,6 +8,7 @@ const currentPath = Astro.url.pathname;
 const routes = {
   "/": "Home",
   "/news/": "科技周报",
+  "/course/": "俱乐部视频",
   "/gifts": "周边",
 };
 
@@ -40,9 +41,8 @@ const activeRoute = routes[currentPath] || null;
     </li>
     <li>
       <a
-        href="https://apptdlwncur1222.h5.xiaoeknow.com"
-        target="_blank"
-        class={activeRoute === "Store" ? "current" : ""}
+        href="/course/"
+        class={activeRoute === "俱乐部视频" ? "current" : ""}
         data-astro-prefetch><TextSlider content="俱乐部视频" /></a
       >
     </li>

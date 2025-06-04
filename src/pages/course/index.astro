@@ -1,0 +1,28 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import { createCourseBuilder } from "../../data/db";
+
+const { data } = await createCourseBuilder();
+
+const title = "Koala 聊开源 - 陪伴你成长的技术频道";
+---
+
+<BaseLayout title={title}>
+  <section class="data-grid" id="grid" data-grid="course">
+    {
+      (data || []).map((item) => {
+        return (
+          <a
+            class="course-card"
+            href={item.url}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <img src={item.image} alt={item.title} />
+            <div class="title">{item.title}</div>
+          </a>
+        );
+      })
+    }
+  </section>
+</BaseLayout>
