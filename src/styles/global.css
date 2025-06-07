@@ -344,3 +344,181 @@ section.data-grid {
   border-radius: var(--radius);
   padding: var(--padding-vert) var(--padding-horz);
 }
+
+.membership-banner {
+  margin: 1rem 0;
+  padding: 0 1rem;
+}
+
+.membership-card {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 25%, #dee2e6 50%, #ced4da 75%, #adb5bd 100%);
+  border-radius: 16px;
+  padding: 1rem;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px);
+  position: relative;
+  overflow: hidden;
+}
+
+.membership-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 100%);
+  pointer-events: none;
+}
+
+.membership-header {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.membership-header h2 {
+  margin: 0 0 0.5rem 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #2c3e50;
+  text-shadow: 0 1px 2px rgba(255, 255, 255, 0.8);
+}
+
+.membership-subtitle {
+  margin: 0;
+  color: #5a6c7d;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.membership-benefits {
+  margin-bottom: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.benefit-item {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.5rem 0;
+  color: #34495e;
+  font-weight: 500;
+  justify-content: center;
+}
+
+.benefit-icon {
+  font-size: 1.2rem;
+}
+
+.membership-pricing {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+  position: relative;
+  z-index: 1;
+}
+
+.price-item {
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 12px;
+  padding: 1rem;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.price-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+.price-label {
+  display: block;
+  font-size: 0.9rem;
+  color: #6c757d;
+  margin-bottom: 0.25rem;
+  font-weight: 500;
+}
+
+.price-value {
+  display: block;
+  font-size: 1.4rem;
+  font-weight: 700;
+  color: #2c3e50;
+}
+
+.membership-footer {
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+
+.discount-tip {
+  margin: 0 0 1rem 0;
+  font-size: 0.9rem;
+  font-weight: 500;
+  text-align: right;
+}
+
+.membership-btn {
+  background: linear-gradient(135deg, #3498db 0%, #2980b9 100%);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 0.75rem 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(52, 152, 219, 0.3);
+}
+
+.membership-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(52, 152, 219, 0.4);
+  background: linear-gradient(135deg, #2980b9 0%, #3498db 100%);
+}
+
+.membership-btn:active {
+  transform: translateY(0);
+}
+
+/* 响应式设计 */
+@media screen and (max-width: 768px) {
+  .membership-card {
+    padding: 1.5rem;
+  }
+
+  .membership-header h2 {
+    font-size: 1.5rem;
+  }
+
+  .membership-pricing {
+    grid-template-columns: 1fr;
+    gap: 0.75rem;
+  }
+
+  .price-item {
+    padding: 0.75rem;
+  }
+
+  .price-value {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .membership-banner {
+    margin: 1rem 0;
+    padding: 0 0.5rem;
+  }
+
+  .membership-card {
+    padding: 1rem;
+  }
+}

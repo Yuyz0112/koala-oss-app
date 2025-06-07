@@ -5,9 +5,54 @@ import { createCourseBuilder } from "../../data/db";
 const { data } = await createCourseBuilder();
 
 const title = "Koala 聊开源 - 陪伴你成长的技术频道";
+
+const memberLink = `https://apptdlwncur1222.h5.xiaoeknow.com/p/t/v1/svip/h5_svip/super_vip/index/s_665727c318259_4MBQJKbV23?type=15&is_experience_card=0`;
 ---
 
 <BaseLayout title={title}>
+  <!-- 会员卡 Banner -->
+  <section class="membership-banner">
+    <div class="membership-card">
+      <div class="membership-benefits">
+        <div class="benefit-item">
+          <span class="benefit-icon">✨</span>
+          <span>会员可免费观看所有已有课程</span>
+        </div>
+        <p class="discount-tip">💡 社交媒体分享可领优惠券</p>
+      </div>
+
+      <div class="membership-pricing">
+        <a
+          class="price-item"
+          href={memberLink}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="price-label">月度会员</span>
+          <span class="price-value">¥88</span>
+        </a>
+        <a
+          class="price-item"
+          href={memberLink}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="price-label">季度会员</span>
+          <span class="price-value">¥228</span>
+        </a>
+        <a
+          class="price-item"
+          href={memberLink}
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <span class="price-label">年度会员</span>
+          <span class="price-value">¥788</span>
+        </a>
+      </div>
+    </div>
+  </section>
+
   <section class="data-grid" id="grid" data-grid="course">
     {
       (data || []).map((item) => {
