@@ -135,12 +135,13 @@ export class UpdateNewsNode extends Node<SharedStorage> {
       throw new Error("Visual check result is not available.");
     }
 
+    const imageName = urlToImageName(news.url);
+
     if (visualCheck.sufficient && imageToCheck) {
-      const imageName = urlToImageName(news.url);
       await putImage(imageName, imageToCheck);
     }
 
-    await markImageCheckResult(news.id, visualCheck.sufficient);
+    await markImageCheckResult(news.id, visualCheck.sufficient, imageName);
 
     console.log(`News ID ${news.id} image check passed.`);
   }

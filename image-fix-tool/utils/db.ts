@@ -39,10 +39,14 @@ export async function putImage(imageName: string, bytes: Uint8Array) {
   );
 }
 
-export async function markImageCheckResult(id: number, sufficient: boolean) {
+export async function markImageCheckResult(
+  id: number,
+  sufficient: boolean,
+  imageName: string
+) {
   await supabase
     .from("news")
-    .update({ image_checked: sufficient })
+    .update({ image_checked: sufficient, image: imageName })
     .eq("id", id);
 }
 
@@ -80,7 +84,8 @@ export async function listNotChecked() {
   const { data, error } = await supabase
     .from("news")
     .select("*")
-    .eq("image_checked", false);
+    .filter("image_checked", "eq", false)
+    .order("created_at", { ascending: false });
 
   if (error) {
     throw new Error(`Failed to fetch not checked images: ${error.message}`);

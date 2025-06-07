@@ -21,13 +21,13 @@ const humanFeedbackNode = new HumanFeedbackNode(MAX_RETRIES);
 visualCheckNode.on(Actions.CheckPassed, updateNewsNode);
 visualCheckNode.on(Actions.FirstCheckFailed, delaySnapshotNode);
 visualCheckNode.on(Actions.DelaySnapshotCheckFailed, htmlParseNode);
-visualCheckNode.on(Actions.HTMLParseCheckFailed, aiGenerateNode);
+visualCheckNode.on(Actions.HTMLParseCheckFailed, humanFeedbackNode);
 visualCheckNode.on(Actions.AIGenerateCheckFailed, humanFeedbackNode);
 
 delaySnapshotNode.on(Actions.NeedCheck, visualCheckNode);
 
 htmlParseNode.on(Actions.NeedCheck, visualCheckNode);
-htmlParseNode.on(Actions.HTMLParseCheckFailed, aiGenerateNode);
+htmlParseNode.on(Actions.HTMLParseCheckFailed, humanFeedbackNode);
 
 aiGenerateNode.on(Actions.NeedCheck, visualCheckNode);
 aiGenerateNode.on(Actions.AIGenerateCheckFailed, humanFeedbackNode);
