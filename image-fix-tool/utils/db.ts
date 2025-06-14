@@ -84,7 +84,7 @@ export async function listNotChecked() {
   const { data, error } = await supabase
     .from("news")
     .select("*")
-    .filter("image_checked", "eq", false)
+    .filter("image_checked", "is", null)
     .order("created_at", { ascending: false });
 
   if (error) {

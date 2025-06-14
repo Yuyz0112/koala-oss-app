@@ -33,6 +33,8 @@ assert(CF_API_TOKEN, "CF_API_TOKEN is required");
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY);
 const READER_API_BASE = "https://r.jina.ai";
+const JINA_API_KEY = Deno.env.get("JINA_API_KEY");
+assert(JINA_API_KEY, "JINA_API_KEY is required");
 
 // Initialize S3 client
 const S3 = new S3Client({
@@ -292,9 +294,11 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
       case "collect-from-link": {
         const { link, customTitle, customContent } =
           CollectFromLinkSchema.parse(args);
-        const text = await fetch(`${READER_API_BASE}/${link}`).then((res) =>
-          res.text()
-        );
+        const text = await fetch(`${READER_API_BASE}/${link}`, {
+          headers: {
+            Authorization: `Bearer ${JINA_API_KEY}`,
+          },
+        }).then((res) => res.text());
 
         // If customTitle or customContent is provided, use AI to generate only missing parts
         const samplingPrompt =
