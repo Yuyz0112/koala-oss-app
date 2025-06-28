@@ -76,6 +76,10 @@ export default function NewsList({ initData, grid }) {
                 <img
                   src={`https://r2.koala-oss.app/${item.image}`}
                   alt={item.title}
+                  style={{
+                    objectFit: "cover",
+                    objectPosition: "top",
+                  }}
                 />
                 <div class="title">{item.title}</div>
               </a>
