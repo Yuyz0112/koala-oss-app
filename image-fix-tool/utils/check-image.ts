@@ -1,11 +1,11 @@
 import { generateObject } from "npm:ai";
-import { openai } from "npm:@ai-sdk/openai";
+import { google } from "npm:@ai-sdk/google";
 import { z } from "npm:zod";
 
 export async function checkImage(image: string | Uint8Array) {
   try {
     const { object } = await generateObject({
-      model: openai("gpt-4o"),
+      model: google("gemini-2.0-flash-001"),
       messages: [
         {
           role: "user",

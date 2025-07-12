@@ -389,6 +389,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
               draft: true,
               tags: news.tags,
               image: imageName, // Add the image field
+              image_checked: false,
             },
           ])
           .select()

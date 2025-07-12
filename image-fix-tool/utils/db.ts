@@ -84,8 +84,9 @@ export async function listNotChecked() {
   const { data, error } = await supabase
     .from("news")
     .select("*")
-    .filter("image_checked", "is", null)
-    .order("created_at", { ascending: false });
+    .filter("image_checked", "eq", false)
+    .filter("draft", "eq", false)
+    .order("created_at", { ascending: true });
 
   if (error) {
     throw new Error(`Failed to fetch not checked images: ${error.message}`);
