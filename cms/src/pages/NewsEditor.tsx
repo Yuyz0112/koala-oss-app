@@ -75,7 +75,11 @@ export default function NewsEditor({ id }: { id: number }) {
         }
 
         // 更新新闻记录
-        const updatedValue = { ...value, image: newImageName };
+        const updatedValue = {
+          ...value,
+          image: newImageName,
+          image_checked: true,
+        };
         const result = await db.updateNews(updatedValue);
         toast.success("修改成功!", {
           duration: 1500,
