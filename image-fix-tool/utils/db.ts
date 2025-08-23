@@ -46,7 +46,10 @@ export async function markImageCheckResult(
 ) {
   await supabase
     .from("news")
-    .update({ image_checked: sufficient, image: imageName })
+    .update({
+      image_checked: sufficient,
+      image: imageName + `?t=${Date.now()}`,
+    })
     .eq("id", id);
 }
 

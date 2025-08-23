@@ -18,7 +18,7 @@ export async function captureScreenshot(
         {
           content: `.header-wrapper,
           #repository-container-header,
-          react-partial[partial-name="repos-overview"] div[data-target="react-partial.reactRoot"] div.Box-sc-g0xbh4-0.iNSVHo,
+          react-partial[partial-name="repos-overview"] div[data-target="react-partial.reactRoot"] div.OverviewContent-module__Box_1--RhaEy,
           table[aria-labelledby="folders-and-files"] { display: none; }
 
           .repository-content .container-xl {
@@ -26,7 +26,7 @@ export async function captureScreenshot(
             padding-right: 0 !important;
           }
 
-          .Box-sc-g0xbh4-0.iVEunk {
+          .OverviewContent-module__Box--uNd1J {
             margin-top: 0;
           }
           .vIPPs {
