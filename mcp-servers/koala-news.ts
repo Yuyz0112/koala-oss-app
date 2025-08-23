@@ -33,8 +33,8 @@ assert(CF_API_TOKEN, "CF_API_TOKEN is required");
 
 const supabase = createClient(SUPABASE_URL, SUPABASE_SERVICE_KEY);
 const READER_API_BASE = "https://r.jina.ai";
-const JINA_API_KEY = Deno.env.get("JINA_API_KEY");
-assert(JINA_API_KEY, "JINA_API_KEY is required");
+// const JINA_API_KEY = Deno.env.get("JINA_API_KEY");
+// assert(JINA_API_KEY, "JINA_API_KEY is required");
 
 // Initialize S3 client
 const S3 = new S3Client({
@@ -295,9 +295,9 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
         const { link, customTitle, customContent } =
           CollectFromLinkSchema.parse(args);
         const text = await fetch(`${READER_API_BASE}/${link}`, {
-          headers: {
-            Authorization: `Bearer ${JINA_API_KEY}`,
-          },
+          // headers: {
+          //   Authorization: `Bearer ${JINA_API_KEY}`,
+          // },
         }).then((res) => res.text());
 
         // If customTitle or customContent is provided, use AI to generate only missing parts
@@ -357,7 +357,7 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 {
   "url": "https://www.dask.org/",
   "title": "Dask | Python 并行计算库",
-  "content": "Dask 是一个并行计算库，能够轻松扩展你熟悉的 Python 工具，比如 Pandas、NumPy 和 Scikit-learn。它允许你在单机或分布式集群上处理大规模数据，而无需改变现有的代码逻辑。Dask 的核心优势在于它的易用性和灵活性，你可以像使用普通 Python 库一样使用它，同时享受分布式计算带来的性能提升。点评：Dask 特别适合处理超出内存限制的大型数据集，它通过延迟计算和任务调度优化资源使用。无论是数据科学、机器学习还是科学计算，Dask 都能帮助你高效完成任务。与 Python 生态系统的集成也让它更受欢迎。",
+  "content": "...",
   "tags": ["DATA", "TOOL"]
 }
 </example>
