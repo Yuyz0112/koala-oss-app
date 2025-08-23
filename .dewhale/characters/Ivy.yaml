@@ -20,4 +20,5 @@ mcp:
       env:
         SUPABASE_URL: ${{ env_SUPABASE_URL }}
         SUPABASE_SERVICE_KEY: ${{ env_SUPABASE_SERVICE_KEY }}
+        OPENAI_BASE_URL: https://openrouter.ai/api/v1
 
