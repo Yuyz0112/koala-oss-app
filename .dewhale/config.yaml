@@ -1,6 +1,6 @@
 llm:
   provider: openai
-  model: moonshotai/kimi-k2
+  model: stepfun/step-3.5-flash:free
   maxTokens: 8192
   maxSteps: 3
   maxRetries: 5
