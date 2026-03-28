@@ -81,23 +81,11 @@ export default function NewsList() {
     });
   };
 
-  const toggleSelectAll = () => {
-    if (!newsData) return;
-    const allOnPage = newsData.every((item) => selected.has(item.id));
-    setSelected((prev) => {
-      const next = new Map(prev);
-      if (allOnPage) {
-        newsData.forEach((item) => next.delete(item.id));
-      } else {
-        newsData.forEach((item) => next.set(item.id, item));
-      }
-      return next;
-    });
-  };
-
   const handleBatchCopy = async () => {
     const items = [...selected.values()];
-    const text = items.map((it) => it.content).join("\n\n");
+    const text = items
+      .map((it) => [it.url, `> ${it.title}\n`, it.content].join("\n"))
+      .join("\n---\n");
     await navigator.clipboard.writeText(text);
     toast.success(`已复制 ${items.length} 条文案`);
   };
@@ -179,17 +167,7 @@ export default function NewsList() {
           <Table className="w-full table-fixed flex-grow">
             <TableHeader>
               <TableRow>
-                <TableHead className="w-[40px]">
-                  <input
-                    type="checkbox"
-                    checked={
-                      newsData.length > 0 &&
-                      newsData.every((item) => selected.has(item.id))
-                    }
-                    onChange={toggleSelectAll}
-                    className="cursor-pointer"
-                  />
-                </TableHead>
+                <TableHead className="w-[40px]">#</TableHead>
                 <TableHead className="w-[10%]">ID</TableHead>
                 <TableHead>Title</TableHead>
                 <TableHead className="w-[30%]">URL</TableHead>
@@ -202,12 +180,21 @@ export default function NewsList() {
                 return (
                   <TableRow key={item.id}>
                     <TableCell>
-                      <input
-                        type="checkbox"
-                        checked={selected.has(item.id)}
-                        onChange={() => toggleSelect(item)}
-                        className="cursor-pointer"
-                      />
+                      {(() => {
+                        const order = [...selected.keys()].indexOf(item.id);
+                        return (
+                          <button
+                            onClick={() => toggleSelect(item)}
+                            className={`w-6 h-6 rounded-full text-xs font-medium flex items-center justify-center cursor-pointer border ${
+                              order >= 0
+                                ? "bg-blue-500 text-white border-blue-500"
+                                : "border-gray-300 text-gray-400 hover:border-gray-400"
+                            }`}
+                          >
+                            {order >= 0 ? order + 1 : ""}
+                          </button>
+                        );
+                      })()}
                     </TableCell>
                     <TableCell>{item.id}</TableCell>
                     <TableCell>{item.title}</TableCell>
