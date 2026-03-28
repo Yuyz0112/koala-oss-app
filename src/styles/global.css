@@ -345,6 +345,79 @@ section.data-grid {
   padding: var(--padding-vert) var(--padding-horz);
 }
 
+.news-card--selected {
+  outline: 3px solid #0070f3;
+  outline-offset: -3px;
+  opacity: 0.85;
+}
+
+.news-card-check {
+  position: absolute;
+  top: 0.4rem;
+  right: 0.4rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: #0070f3;
+  color: #fff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.85rem;
+  z-index: 2;
+  line-height: 1;
+}
+
+.batch-bar {
+  position: fixed;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #000;
+  color: #fff;
+  border-radius: var(--radius);
+  padding: 0.6rem 1.2rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  z-index: 100;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+  font-size: 0.9rem;
+}
+
+.batch-bar-count {
+  white-space: nowrap;
+}
+
+.batch-bar-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.batch-bar-btn {
+  padding: 0.3rem 0.8rem;
+  border-radius: 1rem;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  font-size: 0.85rem;
+  white-space: nowrap;
+}
+
+.batch-bar-btn:hover {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
+}
+
+.batch-bar-btn--primary {
+  background: #0070f3;
+  border-color: #0070f3;
+}
+
+.batch-bar-btn--primary:hover {
+  background: #005bc4;
+  color: #fff;
+}
+
 .membership-banner {
   margin: 1rem 0;
   padding: 0 1rem;
