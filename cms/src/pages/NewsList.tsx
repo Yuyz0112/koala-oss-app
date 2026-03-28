@@ -1,5 +1,5 @@
 import { useMutation, useQuery } from "@tanstack/react-query";
-import { db } from "@/lib/db";
+import { db, type News } from "@/lib/db";
 import {
   Table,
   TableBody,
@@ -22,6 +22,7 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { Toaster } from "@/components/ui/sonner";
+import { toast } from "sonner";
 import NewsEditor from "./NewsEditor";
 import { Switch } from "@/components/ui/switch";
 import { Label } from "@/components/ui/label";
@@ -31,6 +32,7 @@ const SIZE_PER_PAGE = 30;
 
 export default function NewsList() {
   const [page, setPage] = useState(0);
+  const [selected, setSelected] = useState<Map<number, News>>(new Map());
 
   const [filter, setFilter] = useState({
     draft: true,
@@ -69,6 +71,36 @@ export default function NewsList() {
   });
 
   const [editId, setEditId] = useState(0);
+
+  const toggleSelect = (item: News) => {
+    setSelected((prev) => {
+      const next = new Map(prev);
+      if (next.has(item.id)) next.delete(item.id);
+      else next.set(item.id, item);
+      return next;
+    });
+  };
+
+  const toggleSelectAll = () => {
+    if (!newsData) return;
+    const allOnPage = newsData.every((item) => selected.has(item.id));
+    setSelected((prev) => {
+      const next = new Map(prev);
+      if (allOnPage) {
+        newsData.forEach((item) => next.delete(item.id));
+      } else {
+        newsData.forEach((item) => next.set(item.id, item));
+      }
+      return next;
+    });
+  };
+
+  const handleBatchCopy = async () => {
+    const items = [...selected.values()];
+    const text = items.map((it) => it.content).join("\n\n");
+    await navigator.clipboard.writeText(text);
+    toast.success(`已复制 ${items.length} 条文案`);
+  };
 
   if (error) {
     return <p>{"An error has occurred: " + error.message}</p>;
@@ -111,6 +143,23 @@ export default function NewsList() {
             />
             <Label htmlFor="draft">Draft</Label>
           </div>
+          {selected.size > 0 && (
+            <div className="flex items-center space-x-2">
+              <span className="text-sm text-muted-foreground">
+                已选 {selected.size} 项
+              </span>
+              <Button variant="outline" size="sm" onClick={handleBatchCopy}>
+                复制文案
+              </Button>
+              <Button
+                variant="ghost"
+                size="sm"
+                onClick={() => setSelected(new Map())}
+              >
+                取消
+              </Button>
+            </div>
+          )}
           <div className="flex-1 text-right">
             <Button
               variant="outline"
@@ -130,6 +179,17 @@ export default function NewsList() {
           <Table className="w-full table-fixed flex-grow">
             <TableHeader>
               <TableRow>
+                <TableHead className="w-[40px]">
+                  <input
+                    type="checkbox"
+                    checked={
+                      newsData.length > 0 &&
+                      newsData.every((item) => selected.has(item.id))
+                    }
+                    onChange={toggleSelectAll}
+                    className="cursor-pointer"
+                  />
+                </TableHead>
                 <TableHead className="w-[10%]">ID</TableHead>
                 <TableHead>Title</TableHead>
                 <TableHead className="w-[30%]">URL</TableHead>
@@ -141,6 +201,14 @@ export default function NewsList() {
               {newsData.map((item) => {
                 return (
                   <TableRow key={item.id}>
+                    <TableCell>
+                      <input
+                        type="checkbox"
+                        checked={selected.has(item.id)}
+                        onChange={() => toggleSelect(item)}
+                        className="cursor-pointer"
+                      />
+                    </TableCell>
                     <TableCell>{item.id}</TableCell>
                     <TableCell>{item.title}</TableCell>
                     <TableCell className="w-[30%] overflow-hidden text-clip">
