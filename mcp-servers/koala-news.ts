@@ -193,7 +193,7 @@ async function extractPdfText(data: Uint8Array) {
 }
 
 function parseMessageToJson(input: string) {
-  // Regular expression to match JSON code blocks
+  // Regular expression to match JSON code blocks (with or without closing fence)
   const jsonCodeBlockRegex = /```json\n([\s\S]*?)\n```/g;
 
   // Find all matches for JSON code blocks
@@ -208,6 +208,9 @@ function parseMessageToJson(input: string) {
   if (matches.length === 1) {
     // Extract JSON content from the code block, trimming whitespace
     jsonString = matches[0][1].trim();
+  } else if (input.trimStart().startsWith("```json")) {
+    // Handle truncated code fence (opening ``` but no closing ```)
+    jsonString = input.trimStart().replace(/^```json\s*\n?/, "").replace(/\n?```\s*$/, "").trim();
   } else {
     // No JSON code block found, use the entire input
     jsonString = input.trim();
@@ -326,15 +329,18 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
           ],
           systemPrompt: `<requirements>
   <requirement>
-  我是一个科技周报的编辑，以下是我的周报示例，请你学习我的写作风格。 
-  之后我会给你发一些新闻，请以我的写作风格续写，输出中文。
+  我是一个科技周报的编辑。周报以视频形式呈现，内容应口语化、易读，适合口播。
+  不要使用 markdown list、code block 等无法口播的结构。
   </requirement>
   <requirement>
-  注意，我的周报是以视频的方式呈现，所以编写的内容应该易读和口语化，不要使用无法口播的 markdown list 结构、code 结构等。 
-  保持简洁，每个项目的介绍字数不超过 200 字。
+  content 分两段，用换行符分隔：
+  - 介绍段：说清楚项目是什么、解决什么问题、核心亮点，口语化。用具体细节支撑：技术选型、知名用户、量化数据等，避免空泛描述
+  - 点评段：以「点评：」开头，站在科技编辑视角给出分析——放到行业背景中评价意义、与同类方案对比、适用场景、潜在局限等。点评要有立场，可以指出局限性，不要只说好话
+  - title 格式为「项目名 | 功能定位短语」，定位短语不超过 10 字，是名词短语而非句子
+  - 不要用"大家好"、"给大家介绍"等开头套话，直接进入主题
   </requirement>
   <requirement>
-  以 JSON 形式返回 URL、title、content、tags 字段。
+  直接以纯 JSON 形式返回 URL、title、content、tags 字段，不要使用 markdown 代码块包裹。
   tags 是 enum array 格式，enum item 和含义如下：
     "AI": 人工智能
     "HARDWARE": 硬件相关科技
@@ -355,14 +361,22 @@ server.setRequestHandler(CallToolRequestSchema, async (request) => {
 
 <example>
 {
-  "url": "https://www.dask.org/",
-  "title": "Dask | Python 并行计算库",
-  "content": "...",
-  "tags": ["DATA", "TOOL"]
+  "url": "https://github.com/dlvhdr/diffnav",
+  "title": "Diffnav | 树形 Diff 阅读器",
+  "content": "Diffnav 给 git diff 加上 GitHub 风格的侧边文件树。基于 Delta 做语法高亮，用 Bubble Tea 做终端界面，支持文件跳转和搜索。解决的是命令行里看大量文件变更时迷失方向的问题。\n点评：小而精的工具，作者 Dlvhdr 之前做过 gh-dash，对开发者工作流理解很深。目前在 AI 高速生成代码的阶段，怎么 review 代码，是否 review 代码，都在激烈的讨论中，任何有生产力提升的工具都可能获得用户。",
+  "tags": ["TOOL", "FRONTEND"]
+}
+</example>
+<example>
+{
+  "url": "https://www.promptfoo.dev/",
+  "title": "Promptfoo | LLM 的测试驱动开发",
+  "content": "Promptfoo 是一个开源的 LLM 测试框架，支持用 YAML 定义测试用例，自动对比多个模型输出，还能检查 Prompt 注入等安全风险。它强调测试驱动的 LLM 开发，而不是反复试错。支持接入 CI/CD，也提供合规报告映射到 OWASP、NIST 等标准。\n点评：LLM 应用进入生产环境后，可观测性和测试覆盖是两大痛点。Promptfoo 把传统软件测试的方法论引入 AI 领域，这种思路比单纯依赖人工评估更可持续。前段时间 Anthropic 发布的博客中，提到他们内部也在使用这个工具做 Agent 质量评估，也是让 Promptfoo 获得了更多的关注。",
+  "tags": ["AI", "SECURITY", "TOOL"]
 }
 </example>
 `,
-          maxTokens: 700,
+          maxTokens: 1500,
         });
 
         // for validate
