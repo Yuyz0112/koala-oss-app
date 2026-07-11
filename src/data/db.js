@@ -11,11 +11,3 @@ export const createNewsBuilder = () => {
     .select("id, title, image")
     .filter("draft", "eq", false);
 }
-
-export const createCourseBuilder = () => {
-  return client
-    .from("course")
-    .select("*")
-    .filter("draft", "eq", false)
-    .order("created_at", { ascending: false });
-}
