@@ -11,6 +11,8 @@ import "@fontsource/fusion-pixel-12px-proportional-sc";
 const W = 1280;
 const H = 720;
 const PIXEL_FONT = '"Fusion Pixel 12px Proportional SC", monospace';
+const TEXT_FONT =
+  '"PingFang SC", "Hiragino Sans GB", "Noto Sans SC", "Microsoft YaHei", sans-serif';
 const ISSUE_KEY = "cover:lastIssue";
 /** 像素字体只有 400 字重，用同色偏移阴影模拟粗体 */
 const bold = (px: number) => ({ textShadow: `${px}px 0 0 currentColor` });
@@ -73,7 +75,8 @@ function Cover({
         background: "#FF7A45",
         position: "relative",
         overflow: "hidden",
-        fontFamily: PIXEL_FONT,
+        fontFamily: TEXT_FONT,
+        fontWeight: 900,
         color: "#111",
       }}
     >
@@ -85,7 +88,6 @@ function Cover({
             fontSize: 68,
             lineHeight: 1,
             letterSpacing: 2,
-            ...bold(3),
           }}
         >
           科技周报
@@ -97,6 +99,8 @@ function Cover({
             lineHeight: 1,
             marginTop: 14,
             letterSpacing: 4,
+            fontFamily: PIXEL_FONT,
+            fontWeight: 400,
             ...bold(2),
           }}
         >
@@ -106,7 +110,7 @@ function Cover({
 
       {/* 左中：主标题 */}
       <div style={{ position: "absolute", left: 76, top: 300 }}>
-        <div style={{ fontSize: 84, lineHeight: 1, letterSpacing: 2, ...bold(4) }}>
+        <div style={{ fontSize: 84, lineHeight: 1, letterSpacing: 2 }}>
           一周速报
         </div>
         <div
@@ -116,7 +120,6 @@ function Cover({
             marginTop: 22,
             marginLeft: 82,
             letterSpacing: 2,
-            ...bold(4),
           }}
         >
           科技前沿资讯
@@ -182,7 +185,6 @@ function Cover({
                 overflow: "hidden",
                 boxShadow: "8px 8px 0 #6B5A1E",
                 letterSpacing: 1,
-                ...bold(1.5),
               }}
             >
               {text}
