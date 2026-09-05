@@ -22,8 +22,8 @@ import { Skeleton } from "@/components/ui/skeleton";
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { Toaster } from "@/components/ui/sonner";
-import { toast } from "sonner";
 import NewsEditor from "./NewsEditor";
+import SelectionPanel from "./SelectionPanel";
 import { Switch } from "@/components/ui/switch";
 import { Label } from "@/components/ui/label";
 import { Input } from "@/components/ui/input";
@@ -81,15 +81,6 @@ export default function NewsList() {
     });
   };
 
-  const handleBatchCopy = async () => {
-    const items = [...selected.values()];
-    const text = items
-      .map((it) => [it.url, `> ${it.title}\n`, it.content].join("\n"))
-      .join("\n---\n");
-    await navigator.clipboard.writeText(text);
-    toast.success(`已复制 ${items.length} 条文案`);
-  };
-
   if (error) {
     return <p>{"An error has occurred: " + error.message}</p>;
   }
@@ -136,9 +127,6 @@ export default function NewsList() {
               <span className="text-sm text-muted-foreground">
                 已选 {selected.size} 项
               </span>
-              <Button variant="outline" size="sm" onClick={handleBatchCopy}>
-                复制文案
-              </Button>
               <Button
                 variant="ghost"
                 size="sm"
@@ -158,6 +146,8 @@ export default function NewsList() {
             </Button>
           </div>
         </div>
+        <div className="flex-1 flex min-h-0">
+          <div className="flex-1 min-w-0 flex flex-col overflow-auto">
         {isPending ? (
           <div className="space-y-2">
             <Skeleton className="h-4 w-[250px]" />
@@ -272,6 +262,13 @@ export default function NewsList() {
             </PaginationItem>
           </PaginationContent>
         </Pagination>
+          </div>
+          {selected.size > 0 && (
+            <div className="w-1/2 shrink-0 border-l overflow-auto">
+              <SelectionPanel items={[...selected.values()]} />
+            </div>
+          )}
+        </div>
       </div>
 
       <Toaster />
